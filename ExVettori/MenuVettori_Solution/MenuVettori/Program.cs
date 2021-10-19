@@ -43,72 +43,80 @@ namespace MenuVettori
                 {
                     case 'A':
                     case 'a':
-                        cercaMax();
-
+                        Console.WriteLine("\n\nIl valore massimo vale " + cercaMax().ToString());
+                        attesaTasto();
                         break;
 
                     case 'B':
                     case 'b':
                         copiaVett();
-
+                        attesaTasto();
                         break;
 
                     case 'C':
                     case 'c':
                         copiaInvVett();
-
+                        attesaTasto();
                         break;
 
                     case 'D':
                     case 'd':
                         invertiVett();
-
+                        attesaTasto();
                         break;
 
                     case 'E':
                     case 'e':
                         prodottoScalare();
+                        attesaTasto();
                         break;
 
                     case 'F':
                     case 'f':
                         prodottoVettoriale();
+                        attesaTasto();
                         break;
 
                     case 'G':
                     case 'g':
-                        ordinamentoVett();
+                        Console.WriteLine(ordinamentoVett() ? "\nIl vettore è ordinato" : "\nIl vettore non è ordinato");
+                        attesaTasto();
                         break;
 
                     case 'H':
                     case 'h':
-                        contaOccorrenze();
+                        Console.WriteLine("\nIl numero di occorrenze sono: " + contaOccorrenze().ToString());
+                        attesaTasto();
                         break;
 
                     case 'I':
                     case 'i':
                         sommaDispPar();
+                        attesaTasto();
                         break;
 
                     case 'L':
                     case 'l':
                         elementiUguali();
+                        attesaTasto();
                         break;
 
                     case 'M':
                     case 'm':
                         Console.WriteLine("\n\nIl prodotto scalare vale " + prodottoScalareFunzione().ToString());
-                        Console.ReadKey();
+                        attesaTasto();
                         break;
 
                     case 'N':
                     case 'n':
                         medieVettori();
+                        attesaTasto();
                         break;
 
                     case 'O':
                     case 'o':
                         specularitaVettore();
+                        attesaTasto();
                         break;
 
                     case 'X':
@@ -126,26 +134,14 @@ namespace MenuVettori
 
             } while (scelta.ToString().ToUpper() != "X");
         }
-        static void caricaVett(int[] v, int n)
+        private static void attesaTasto()
         {
-            for (int i = 0; i < n; i++)
-            {
-                v[i] = rnd.Next(1, 11);
-            }
+            Console.WriteLine("\n\n(premi un tasto per continuare)");
+            Console.ReadKey();
         }
-        static void stampaVett(int[] v, int n, string name)
+        private static int inputDimensione()
         {
-            Console.WriteLine("\n" + name + ":");
-            for (int i = 0; i < n; i++)
-            {
-                Console.Write(v[i].ToString().PadRight(6));
-            }
-        }
-        private static void cercaMax()
-        {
-            Console.Clear();
-            int[] a;
-            int n, massimo = int.MinValue;
+            int n;
 
             do
             {
@@ -157,10 +153,33 @@ namespace MenuVettori
                 }
             } while (n <= 0);
 
+            return n;
+        }
+        static void caricaVett(int[] v)
+        {
+            for (int i = 0; i < v.Length; i++)
+            {
+                v[i] = rnd.Next(1, 11);
+            }
+        }
+        static void stampaVett(int[] v, string name)
+        {
+            Console.WriteLine("\n" + name + ":");
+            for (int i = 0; i < v.Length; i++)
+            {
+                Console.Write(v[i].ToString().PadRight(6));
+            }
+        }
+        private static int cercaMax()
+        {
+            Console.Clear();
+            int[] a;
+            int n = inputDimensione, massimo = int.MinValue;
+
             a = new int[n];
 
-            caricaVett(a, n);
-            stampaVett(a, n, "Stampa vettore a");
+            caricaVett(a);
+            stampaVett(a, "Stampa vettore a");
 
             for (int i = 0; i < n; i++)
             {
@@ -169,93 +188,56 @@ namespace MenuVettori
                     massimo = a[i];
                 }
             }
-
-            Console.WriteLine("\nIl massimo è " + massimo);
-            Console.WriteLine("(premi un tasto per continuare)");
-            Console.ReadKey();
+            return massimo;
         }
         static void copiaVett()
         {
             Console.Clear();
             int[] a, b;
-            int n;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione;
 
             a = new int[n];
             b = new int[n];
 
-            caricaVett(a, n);
-            stampaVett(a, n, "Stampa vettore a");
+            caricaVett(a);
+            stampaVett(a, "Stampa vettore a");
 
             for (int i = 0; i < n; i++)
             {
                 b[i] = a[i];
             }
 
-            stampaVett(b, n, "Stampa vettore b");
-            Console.WriteLine("\n\n(premi un tasto per continuare)");
-            Console.ReadKey();
+            stampaVett(b, "Stampa vettore b");
         }
         private static void copiaInvVett()
         {
             Console.Clear();
             int[] a, b;
-            int n, aus;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione, aus;
 
             a = new int[n];
             b = new int[n];
 
-            caricaVett(a, n);
-            stampaVett(a, n, "Stampa vettore a");
+            caricaVett(a);
+            stampaVett(a, "Stampa vettore a");
 
             for (int i = n-1; i >= 0; i--)
             {
                 b[i] = a[n - i - 1];
             }
 
-            stampaVett(b, n, "Stampa vettore b");
-            Console.WriteLine("\n\n(premi un tasto per continuare)");
-            Console.ReadKey();
+            stampaVett(b, "Stampa vettore b");
         }
         private static void invertiVett()
         {
             Console.Clear();
             int[] a;
-            int n, aus;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione, aus;
 
             a = new int[n];
 
-            caricaVett(a, n);
-            stampaVett(a, n, "Stampa vettore a");
+            caricaVett(a);
+            stampaVett(a, "Stampa vettore a");
 
             for (int i = 0, j = n - 1; i <= j; i++, j--)
             {
@@ -264,99 +246,61 @@ namespace MenuVettori
                 a[i] = aus;
             }
 
-            stampaVett(a, n, "Stampa vettore a invertito");
-            Console.WriteLine("\n\n(premi un tasto per continuare)");
-            Console.ReadKey();
+            stampaVett(a, "Stampa vettore a invertito");
         }
         private static void prodottoScalare()
         {
             Console.Clear();
             int[] a, b;
-            int n, ps = 0;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione, ps = 0;
 
             a = new int[n];
             b = new int[n];
 
-            caricaVett(a, n);
-            caricaVett(b, n);
-            stampaVett(a, n, "Stampa vettore a");
-            stampaVett(b, n, "Stampa vettore b");
+            caricaVett(a);
+            caricaVett(b);
+            stampaVett(a, "Stampa vettore a");
+            stampaVett(b, "Stampa vettore b");
 
             for (int i = 0; i < n; i++)
             {
                 ps += a[i] * b[i];
             }
 
-            Console.WriteLine("\n\n" +
-                "Il prodotto scalare è " + ps);
-
-            Console.WriteLine("\n\n(premi un tasto per continuare)");
-            Console.ReadKey();
+            Console.WriteLine("\n\n" + "Il prodotto scalare è " + ps);
         }
         private static void prodottoVettoriale()
         {
             Console.Clear();
             int[] a, b, c;
-            int n;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione;
 
             a = new int[n];
             b = new int[n];
             c = new int[n];
 
-            caricaVett(a, n);
-            caricaVett(b, n);
-            stampaVett(a, n, "Stampa vettore a");
-            stampaVett(b, n, "Stampa vettore b");
+            caricaVett(a);
+            caricaVett(b);
+            stampaVett(a, "Stampa vettore a");
+            stampaVett(b, "Stampa vettore b");
 
             for (int i = 0; i < n; i++)
             {
                 c[i] = a[i] * b[i];
             }
 
-            stampaVett(c, n, "Stampa vettore c");
-            Console.WriteLine("\n\n(premi un tasto per continuare)");
-            Console.ReadKey();
+            stampaVett(c, "Stampa vettore c");
         }
-        private static void ordinamentoVett()
+        private static bool ordinamentoVett()
         {
             Console.Clear();
             int[] a;
-            int n, i = 0;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione, i = 0;
 
             a = new int[n];
 
-            caricaVett(a, n);
-            stampaVett(a, n, "Stampa vettore a");
+            caricaVett(a);
+            stampaVett(a, "Stampa vettore a");
 
             int cont = 0;
 
@@ -368,36 +312,14 @@ namespace MenuVettori
                 }
 
                 i++;
-
             }
-           
-            if (cont == 0)
-            {
-                Console.WriteLine("\nIl vettore è ordinato");
-            }
-            else
-            {
-                Console.WriteLine("\nIl vettore non è ordinato");
-            }
-
-            Console.WriteLine("\n\n(premi un tasto per continuare)");
-            Console.ReadKey();
+            return cont == 0;
         }
-        private static void contaOccorrenze()
+        private static int contaOccorrenze()
         {
             Console.Clear();
             int[] a;
-            int n, x, cont = 0;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione, x, cont = 0;
 
             do
             {
@@ -411,8 +333,8 @@ namespace MenuVettori
 
             a = new int[n];
 
-            caricaVett(a, n);
-            stampaVett(a, n, "Stampa vettore a");
+            caricaVett(a);
+            stampaVett(a, "Stampa vettore a");
 
             for (int i = 0; i < n; i++)
             {
@@ -422,30 +344,18 @@ namespace MenuVettori
                 }
             }
 
-            Console.WriteLine("\n\nIl valore è apparso " + cont + " volte");
-            Console.WriteLine("\n\n(premi un tasto per continuare)");
-            Console.ReadKey();
+            return cont;
         }
         private static void sommaDispPar()
         {
             Console.Clear();
             int[] a;
-            int n, sommaPar = 0, sommaDisp = 0;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione, sommaPar = 0, sommaDisp = 0;
 
             a = new int[n];
 
-            caricaVett(a, n);
-            stampaVett(a, n, "Stampa vettore a");
+            caricaVett(a);
+            stampaVett(a, "Stampa vettore a");
 
             for (int i = 0; i < n; i++)
             {
@@ -467,22 +377,12 @@ namespace MenuVettori
         {
             Console.Clear();
             int[] a;
-            int n, aus = 0, i = 1;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione, aus = 0, i = 1;
 
             a = new int[n];
 
-            caricaVett(a, n);
-            stampaVett(a, n, "Stampa vettore a");
+            caricaVett(a);
+            stampaVett(a, "Stampa vettore a");
 
             do
             {
@@ -512,25 +412,15 @@ namespace MenuVettori
         {
             Console.Clear();
             int[] a, b;
-            int n, ps = 0;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione, ps = 0;
 
             a = new int[n];
             b = new int[n];
 
-            caricaVett(a, n);
-            caricaVett(b, n);
-            stampaVett(a, n, "Stampa vettore a");
-            stampaVett(b, n, "Stampa vettore b");
+            caricaVett(a);
+            caricaVett(b);
+            stampaVett(a, "Stampa vettore a");
+            stampaVett(b, "Stampa vettore b");
 
             for (int i = 0; i < n; i++)
             {
@@ -543,31 +433,24 @@ namespace MenuVettori
         {
             Console.Clear();
             int[] a, b;
-            int n, mediaA = 0, mediaB = 0;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione, mediaA = 0, mediaB = 0;
 
             a = new int[n];
             b = new int[n];
 
-            caricaVett(a, n);
-            stampaVett(a, n, "Stampa vettore a");
-            caricaVett(b, n);
-            stampaVett(b, n, "Stampa vettore b");
+            caricaVett(a);
+            stampaVett(a, "Stampa vettore a");
+            caricaVett(b);
+            stampaVett(b, "Stampa vettore b");
 
             for (int i = n - 1; i >= 0; i--)
             {
                 mediaA += a[i];
                 mediaB += b[i];
             }
+
+            mediaA = mediaA / n;
+            mediaB = mediaB / n;
 
             Console.WriteLine("\n\nLa media di a é " + mediaA + ", mentre la media di b é " + mediaB);
 
@@ -587,22 +470,12 @@ namespace MenuVettori
         {
             Console.Clear();
             int[] a;
-            int n, aus = 0, i = 0;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
+            int n = inputDimensione, aus = 0, i = 0;
 
             a = new int[n];
 
-            caricaVett(a, n);
-            stampaVett(a, n, "Stampa vettore a");
+            caricaVett(a);
+            stampaVett(a, "Stampa vettore a");
 
             do
             {
