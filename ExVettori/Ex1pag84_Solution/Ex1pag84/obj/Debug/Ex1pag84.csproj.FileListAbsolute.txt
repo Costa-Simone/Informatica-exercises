@@ -1,0 +1,6 @@
+D:\3° superiore\Informatica\ExVettori\Ex1pag84_Solution\Ex1pag84\obj\Debug\Ex1pag84.csprojAssemblyReference.cache
+D:\3° superiore\Informatica\ExVettori\Ex1pag84_Solution\Ex1pag84\bin\Debug\Ex1pag84.exe.config
+D:\3° superiore\Informatica\ExVettori\Ex1pag84_Solution\Ex1pag84\bin\Debug\Ex1pag84.exe
+D:\3° superiore\Informatica\ExVettori\Ex1pag84_Solution\Ex1pag84\bin\Debug\Ex1pag84.pdb
+D:\3° superiore\Informatica\ExVettori\Ex1pag84_Solution\Ex1pag84\obj\Debug\Ex1pag84.exe
+D:\3° superiore\Informatica\ExVettori\Ex1pag84_Solution\Ex1pag84\obj\Debug\Ex1pag84.pdb

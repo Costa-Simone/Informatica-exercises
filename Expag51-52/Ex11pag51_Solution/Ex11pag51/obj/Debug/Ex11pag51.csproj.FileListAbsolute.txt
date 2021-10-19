@@ -1,0 +1,13 @@
+D:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\bin\Debug\Ex11pag51.exe.config
+D:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\bin\Debug\Ex11pag51.exe
+D:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\bin\Debug\Ex11pag51.pdb
+D:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\obj\Debug\Ex11pag51.csprojAssemblyReference.cache
+D:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\obj\Debug\Ex11pag51.exe
+D:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\obj\Debug\Ex11pag51.pdb
+F:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\bin\Debug\Ex11pag51.exe.config
+F:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\bin\Debug\Ex11pag51.exe
+F:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\bin\Debug\Ex11pag51.pdb
+F:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\obj\Debug\Ex11pag51.csproj.AssemblyReference.cache
+F:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\obj\Debug\Ex11pag51.csproj.CoreCompileInputs.cache
+F:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\obj\Debug\Ex11pag51.exe
+F:\Costa Simone\3° superiore\Informatica\Ex11pag51_Solution\Ex11pag51\obj\Debug\Ex11pag51.pdb

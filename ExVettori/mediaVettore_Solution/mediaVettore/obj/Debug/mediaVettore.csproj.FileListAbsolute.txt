@@ -1,0 +1,6 @@
+D:\3° superiore\Informatica\ExVettori\mediaVettore_Solution\mediaVettore\bin\Debug\mediaVettore.exe.config
+D:\3° superiore\Informatica\ExVettori\mediaVettore_Solution\mediaVettore\bin\Debug\mediaVettore.exe
+D:\3° superiore\Informatica\ExVettori\mediaVettore_Solution\mediaVettore\bin\Debug\mediaVettore.pdb
+D:\3° superiore\Informatica\ExVettori\mediaVettore_Solution\mediaVettore\obj\Debug\mediaVettore.csprojAssemblyReference.cache
+D:\3° superiore\Informatica\ExVettori\mediaVettore_Solution\mediaVettore\obj\Debug\mediaVettore.exe
+D:\3° superiore\Informatica\ExVettori\mediaVettore_Solution\mediaVettore\obj\Debug\mediaVettore.pdb

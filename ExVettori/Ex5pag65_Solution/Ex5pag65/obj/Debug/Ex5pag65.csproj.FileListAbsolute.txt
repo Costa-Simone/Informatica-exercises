@@ -1,0 +1,13 @@
+F:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\bin\Debug\Ex5pag65.exe.config
+F:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\bin\Debug\Ex5pag65.exe
+F:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\bin\Debug\Ex5pag65.pdb
+F:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\obj\Debug\Ex5pag65.csproj.AssemblyReference.cache
+F:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\obj\Debug\Ex5pag65.csproj.CoreCompileInputs.cache
+F:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\obj\Debug\Ex5pag65.exe
+F:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\obj\Debug\Ex5pag65.pdb
+D:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\bin\Debug\Ex5pag65.exe.config
+D:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\bin\Debug\Ex5pag65.exe
+D:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\bin\Debug\Ex5pag65.pdb
+D:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\obj\Debug\Ex5pag65.csprojAssemblyReference.cache
+D:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\obj\Debug\Ex5pag65.exe
+D:\3° superiore\Informatica\Ex5pag65_Solution\Ex5pag65\obj\Debug\Ex5pag65.pdb

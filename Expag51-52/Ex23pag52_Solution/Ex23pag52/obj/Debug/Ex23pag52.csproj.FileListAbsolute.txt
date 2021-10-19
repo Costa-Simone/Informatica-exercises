@@ -1,0 +1,5 @@
+D:\Costa Simone\3° superiore\Informatica\Ex23pag52_Solution\Ex23pag52\bin\Debug\Ex23pag52.exe.config
+D:\Costa Simone\3° superiore\Informatica\Ex23pag52_Solution\Ex23pag52\bin\Debug\Ex23pag52.exe
+D:\Costa Simone\3° superiore\Informatica\Ex23pag52_Solution\Ex23pag52\bin\Debug\Ex23pag52.pdb
+D:\Costa Simone\3° superiore\Informatica\Ex23pag52_Solution\Ex23pag52\obj\Debug\Ex23pag52.exe
+D:\Costa Simone\3° superiore\Informatica\Ex23pag52_Solution\Ex23pag52\obj\Debug\Ex23pag52.pdb

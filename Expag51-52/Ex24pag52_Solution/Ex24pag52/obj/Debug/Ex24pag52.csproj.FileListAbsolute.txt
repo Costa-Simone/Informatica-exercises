@@ -1,0 +1,7 @@
+F:\Costa Simone\3° superiore\Informatica\Ex24pag52_Solution\Ex24pag52\bin\Debug\Ex24pag52.exe.config
+F:\Costa Simone\3° superiore\Informatica\Ex24pag52_Solution\Ex24pag52\bin\Debug\Ex24pag52.exe
+F:\Costa Simone\3° superiore\Informatica\Ex24pag52_Solution\Ex24pag52\bin\Debug\Ex24pag52.pdb
+F:\Costa Simone\3° superiore\Informatica\Ex24pag52_Solution\Ex24pag52\obj\Debug\Ex24pag52.csproj.AssemblyReference.cache
+F:\Costa Simone\3° superiore\Informatica\Ex24pag52_Solution\Ex24pag52\obj\Debug\Ex24pag52.csproj.CoreCompileInputs.cache
+F:\Costa Simone\3° superiore\Informatica\Ex24pag52_Solution\Ex24pag52\obj\Debug\Ex24pag52.exe
+F:\Costa Simone\3° superiore\Informatica\Ex24pag52_Solution\Ex24pag52\obj\Debug\Ex24pag52.pdb

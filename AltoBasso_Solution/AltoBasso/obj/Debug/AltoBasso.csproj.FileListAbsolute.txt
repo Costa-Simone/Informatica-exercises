@@ -1,0 +1,6 @@
+D:\3° superiore\Informatica\AltoBasso_Solution\AltoBasso\obj\Debug\AltoBasso.csprojAssemblyReference.cache
+D:\3° superiore\Informatica\AltoBasso_Solution\AltoBasso\bin\Debug\AltoBasso.exe.config
+D:\3° superiore\Informatica\AltoBasso_Solution\AltoBasso\bin\Debug\AltoBasso.exe
+D:\3° superiore\Informatica\AltoBasso_Solution\AltoBasso\bin\Debug\AltoBasso.pdb
+D:\3° superiore\Informatica\AltoBasso_Solution\AltoBasso\obj\Debug\AltoBasso.exe
+D:\3° superiore\Informatica\AltoBasso_Solution\AltoBasso\obj\Debug\AltoBasso.pdb

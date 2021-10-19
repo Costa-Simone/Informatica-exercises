@@ -1,0 +1,6 @@
+E:\3° superiore\Informatica\Ex32pag52_Solution\Ex32pag52\obj\Debug\Ex32pag52.csprojAssemblyReference.cache
+E:\3° superiore\Informatica\Ex32pag52_Solution\Ex32pag52\bin\Debug\Ex32pag52.exe.config
+E:\3° superiore\Informatica\Ex32pag52_Solution\Ex32pag52\bin\Debug\Ex32pag52.exe
+E:\3° superiore\Informatica\Ex32pag52_Solution\Ex32pag52\bin\Debug\Ex32pag52.pdb
+E:\3° superiore\Informatica\Ex32pag52_Solution\Ex32pag52\obj\Debug\Ex32pag52.exe
+E:\3° superiore\Informatica\Ex32pag52_Solution\Ex32pag52\obj\Debug\Ex32pag52.pdb

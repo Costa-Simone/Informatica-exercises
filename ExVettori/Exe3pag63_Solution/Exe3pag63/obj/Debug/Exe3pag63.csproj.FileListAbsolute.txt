@@ -1,0 +1,5 @@
+E:\3° superiore\Informatica\Exe3pag63_Solution\Exe3pag63\bin\Debug\Exe3pag63.exe.config
+E:\3° superiore\Informatica\Exe3pag63_Solution\Exe3pag63\bin\Debug\Exe3pag63.exe
+E:\3° superiore\Informatica\Exe3pag63_Solution\Exe3pag63\bin\Debug\Exe3pag63.pdb
+E:\3° superiore\Informatica\Exe3pag63_Solution\Exe3pag63\obj\Debug\Exe3pag63.exe
+E:\3° superiore\Informatica\Exe3pag63_Solution\Exe3pag63\obj\Debug\Exe3pag63.pdb

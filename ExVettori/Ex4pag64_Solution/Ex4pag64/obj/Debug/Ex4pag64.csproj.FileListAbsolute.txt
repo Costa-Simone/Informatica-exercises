@@ -1,0 +1,5 @@
+E:\3° superiore\Informatica\Ex4pag64_Solution\Ex4pag64\bin\Debug\Ex4pag64.exe.config
+E:\3° superiore\Informatica\Ex4pag64_Solution\Ex4pag64\bin\Debug\Ex4pag64.exe
+E:\3° superiore\Informatica\Ex4pag64_Solution\Ex4pag64\bin\Debug\Ex4pag64.pdb
+E:\3° superiore\Informatica\Ex4pag64_Solution\Ex4pag64\obj\Debug\Ex4pag64.exe
+E:\3° superiore\Informatica\Ex4pag64_Solution\Ex4pag64\obj\Debug\Ex4pag64.pdb

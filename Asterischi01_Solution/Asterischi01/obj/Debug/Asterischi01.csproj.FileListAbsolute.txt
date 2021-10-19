@@ -1,0 +1,6 @@
+D:\3° superiore\Informatica\Asterischi01_Solution\Asterischi01\bin\Debug\Asterischi01.exe.config
+D:\3° superiore\Informatica\Asterischi01_Solution\Asterischi01\bin\Debug\Asterischi01.exe
+D:\3° superiore\Informatica\Asterischi01_Solution\Asterischi01\bin\Debug\Asterischi01.pdb
+D:\3° superiore\Informatica\Asterischi01_Solution\Asterischi01\obj\Debug\Asterischi01.csprojAssemblyReference.cache
+D:\3° superiore\Informatica\Asterischi01_Solution\Asterischi01\obj\Debug\Asterischi01.exe
+D:\3° superiore\Informatica\Asterischi01_Solution\Asterischi01\obj\Debug\Asterischi01.pdb

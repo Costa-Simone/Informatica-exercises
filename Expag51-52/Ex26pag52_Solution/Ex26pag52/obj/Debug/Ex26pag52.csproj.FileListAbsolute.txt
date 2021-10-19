@@ -1,0 +1,11 @@
+F:\Costa Simone\3° superiore\Informatica\Ex26pag52_Solution\Ex26pag52\bin\Debug\Ex26pag52.exe.config
+F:\Costa Simone\3° superiore\Informatica\Ex26pag52_Solution\Ex26pag52\bin\Debug\Ex26pag52.exe
+F:\Costa Simone\3° superiore\Informatica\Ex26pag52_Solution\Ex26pag52\bin\Debug\Ex26pag52.pdb
+F:\Costa Simone\3° superiore\Informatica\Ex26pag52_Solution\Ex26pag52\obj\Debug\Ex26pag52.csproj.CoreCompileInputs.cache
+F:\Costa Simone\3° superiore\Informatica\Ex26pag52_Solution\Ex26pag52\obj\Debug\Ex26pag52.exe
+F:\Costa Simone\3° superiore\Informatica\Ex26pag52_Solution\Ex26pag52\obj\Debug\Ex26pag52.pdb
+E:\Costa Simone\3° superiore\Informatica\Ex26pag52_Solution\Ex26pag52\bin\Debug\Ex26pag52.exe.config
+E:\Costa Simone\3° superiore\Informatica\Ex26pag52_Solution\Ex26pag52\bin\Debug\Ex26pag52.exe
+E:\Costa Simone\3° superiore\Informatica\Ex26pag52_Solution\Ex26pag52\bin\Debug\Ex26pag52.pdb
+E:\Costa Simone\3° superiore\Informatica\Ex26pag52_Solution\Ex26pag52\obj\Debug\Ex26pag52.exe
+E:\Costa Simone\3° superiore\Informatica\Ex26pag52_Solution\Ex26pag52\obj\Debug\Ex26pag52.pdb

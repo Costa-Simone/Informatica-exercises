@@ -1,0 +1,6 @@
+C:\Users\s.costa.2235\source\repos\Ex35pag52_Solution\Ex35pag52\bin\Debug\Ex35pag52.exe.config
+C:\Users\s.costa.2235\source\repos\Ex35pag52_Solution\Ex35pag52\bin\Debug\Ex35pag52.exe
+C:\Users\s.costa.2235\source\repos\Ex35pag52_Solution\Ex35pag52\bin\Debug\Ex35pag52.pdb
+C:\Users\s.costa.2235\source\repos\Ex35pag52_Solution\Ex35pag52\obj\Debug\Ex35pag52.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\source\repos\Ex35pag52_Solution\Ex35pag52\obj\Debug\Ex35pag52.exe
+C:\Users\s.costa.2235\source\repos\Ex35pag52_Solution\Ex35pag52\obj\Debug\Ex35pag52.pdb

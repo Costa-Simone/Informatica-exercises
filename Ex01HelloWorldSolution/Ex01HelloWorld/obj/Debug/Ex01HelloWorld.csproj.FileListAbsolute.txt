@@ -1,0 +1,6 @@
+C:\Users\s.costa.2235\Desktop\Ex01HelloWorldSolution\Ex01HelloWorld\bin\Debug\Ex01HelloWorld.exe.config
+C:\Users\s.costa.2235\Desktop\Ex01HelloWorldSolution\Ex01HelloWorld\bin\Debug\Ex01HelloWorld.exe
+C:\Users\s.costa.2235\Desktop\Ex01HelloWorldSolution\Ex01HelloWorld\bin\Debug\Ex01HelloWorld.pdb
+C:\Users\s.costa.2235\Desktop\Ex01HelloWorldSolution\Ex01HelloWorld\obj\Debug\Ex01HelloWorld.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Desktop\Ex01HelloWorldSolution\Ex01HelloWorld\obj\Debug\Ex01HelloWorld.exe
+C:\Users\s.costa.2235\Desktop\Ex01HelloWorldSolution\Ex01HelloWorld\obj\Debug\Ex01HelloWorld.pdb

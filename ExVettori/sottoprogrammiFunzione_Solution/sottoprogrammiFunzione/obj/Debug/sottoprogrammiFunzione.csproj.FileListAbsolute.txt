@@ -1,0 +1,5 @@
+D:\3° superiore\Informatica\ExVettori\sottoprogrammiFunzione_Solution\sottoprogrammiFunzione\bin\Debug\sottoprogrammiFunzione.exe.config
+D:\3° superiore\Informatica\ExVettori\sottoprogrammiFunzione_Solution\sottoprogrammiFunzione\bin\Debug\sottoprogrammiFunzione.exe
+D:\3° superiore\Informatica\ExVettori\sottoprogrammiFunzione_Solution\sottoprogrammiFunzione\bin\Debug\sottoprogrammiFunzione.pdb
+D:\3° superiore\Informatica\ExVettori\sottoprogrammiFunzione_Solution\sottoprogrammiFunzione\obj\Debug\sottoprogrammiFunzione.exe
+D:\3° superiore\Informatica\ExVettori\sottoprogrammiFunzione_Solution\sottoprogrammiFunzione\obj\Debug\sottoprogrammiFunzione.pdb

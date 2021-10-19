@@ -1,0 +1,12 @@
+F:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\bin\Debug\Ex3pag84.exe.config
+F:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\bin\Debug\Ex3pag84.exe
+F:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\bin\Debug\Ex3pag84.pdb
+F:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\obj\Debug\Ex3pag84.csproj.AssemblyReference.cache
+F:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\obj\Debug\Ex3pag84.csproj.CoreCompileInputs.cache
+F:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\obj\Debug\Ex3pag84.exe
+F:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\obj\Debug\Ex3pag84.pdb
+D:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\bin\Debug\Ex3pag84.exe.config
+D:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\bin\Debug\Ex3pag84.exe
+D:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\bin\Debug\Ex3pag84.pdb
+D:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\obj\Debug\Ex3pag84.exe
+D:\3° superiore\Informatica\ExVettori\Ex3pag84_Solution\Ex3pag84\obj\Debug\Ex3pag84.pdb

@@ -1,0 +1,6 @@
+E:\Costa Simone\3° superiore\Informatica\Ex16pag51_Solution\Ex16pag51\bin\Debug\Ex16pag51.exe.config
+E:\Costa Simone\3° superiore\Informatica\Ex16pag51_Solution\Ex16pag51\bin\Debug\Ex16pag51.exe
+E:\Costa Simone\3° superiore\Informatica\Ex16pag51_Solution\Ex16pag51\bin\Debug\Ex16pag51.pdb
+E:\Costa Simone\3° superiore\Informatica\Ex16pag51_Solution\Ex16pag51\obj\Debug\Ex16pag51.csprojAssemblyReference.cache
+E:\Costa Simone\3° superiore\Informatica\Ex16pag51_Solution\Ex16pag51\obj\Debug\Ex16pag51.exe
+E:\Costa Simone\3° superiore\Informatica\Ex16pag51_Solution\Ex16pag51\obj\Debug\Ex16pag51.pdb

@@ -1,0 +1,6 @@
+E:\3° superiore\Informatica\GestioneBaseVettore_Solution\GestioneBaseVettore\bin\Debug\GestioneBaseVettore.exe.config
+E:\3° superiore\Informatica\GestioneBaseVettore_Solution\GestioneBaseVettore\bin\Debug\GestioneBaseVettore.exe
+E:\3° superiore\Informatica\GestioneBaseVettore_Solution\GestioneBaseVettore\bin\Debug\GestioneBaseVettore.pdb
+E:\3° superiore\Informatica\GestioneBaseVettore_Solution\GestioneBaseVettore\obj\Debug\GestioneBaseVettore.csprojAssemblyReference.cache
+E:\3° superiore\Informatica\GestioneBaseVettore_Solution\GestioneBaseVettore\obj\Debug\GestioneBaseVettore.exe
+E:\3° superiore\Informatica\GestioneBaseVettore_Solution\GestioneBaseVettore\obj\Debug\GestioneBaseVettore.pdb

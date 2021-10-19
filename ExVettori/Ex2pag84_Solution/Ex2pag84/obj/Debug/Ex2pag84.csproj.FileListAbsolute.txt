@@ -1,0 +1,5 @@
+D:\3° superiore\Informatica\ExVettori\Ex2pag84_Solution\Ex2pag84\bin\Debug\Ex2pag84.exe.config
+D:\3° superiore\Informatica\ExVettori\Ex2pag84_Solution\Ex2pag84\bin\Debug\Ex2pag84.exe
+D:\3° superiore\Informatica\ExVettori\Ex2pag84_Solution\Ex2pag84\bin\Debug\Ex2pag84.pdb
+D:\3° superiore\Informatica\ExVettori\Ex2pag84_Solution\Ex2pag84\obj\Debug\Ex2pag84.exe
+D:\3° superiore\Informatica\ExVettori\Ex2pag84_Solution\Ex2pag84\obj\Debug\Ex2pag84.pdb

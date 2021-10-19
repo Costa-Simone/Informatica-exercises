@@ -1,0 +1,12 @@
+F:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\bin\Debug\Ex21pag52.exe.config
+F:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\bin\Debug\Ex21pag52.exe
+F:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\bin\Debug\Ex21pag52.pdb
+F:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\obj\Debug\Ex21pag52.csproj.AssemblyReference.cache
+F:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\obj\Debug\Ex21pag52.csproj.CoreCompileInputs.cache
+F:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\obj\Debug\Ex21pag52.exe
+F:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\obj\Debug\Ex21pag52.pdb
+D:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\bin\Debug\Ex21pag52.exe.config
+D:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\bin\Debug\Ex21pag52.exe
+D:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\bin\Debug\Ex21pag52.pdb
+D:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\obj\Debug\Ex21pag52.exe
+D:\Costa Simone\3° superiore\Informatica\Ex21pag52_Solution\Ex21pag52\obj\Debug\Ex21pag52.pdb
