@@ -1,0 +1,6 @@
+D:\3° superiore\Informatica\ExVettori\Scuola_Solution\Scuola\obj\Debug\Scuola.csprojAssemblyReference.cache
+D:\3° superiore\Informatica\ExVettori\Scuola_Solution\Scuola\bin\Debug\Scuola.exe.config
+D:\3° superiore\Informatica\ExVettori\Scuola_Solution\Scuola\bin\Debug\Scuola.exe
+D:\3° superiore\Informatica\ExVettori\Scuola_Solution\Scuola\bin\Debug\Scuola.pdb
+D:\3° superiore\Informatica\ExVettori\Scuola_Solution\Scuola\obj\Debug\Scuola.exe
+D:\3° superiore\Informatica\ExVettori\Scuola_Solution\Scuola\obj\Debug\Scuola.pdb

@@ -1,0 +1,6 @@
+E:\3° superiore\Informatica\ExVettori\Trasmissione_Parametri_Solution\Trasmissione_Parametri\bin\Debug\Trasmissione_Parametri.exe.config
+E:\3° superiore\Informatica\ExVettori\Trasmissione_Parametri_Solution\Trasmissione_Parametri\bin\Debug\Trasmissione_Parametri.exe
+E:\3° superiore\Informatica\ExVettori\Trasmissione_Parametri_Solution\Trasmissione_Parametri\bin\Debug\Trasmissione_Parametri.pdb
+E:\3° superiore\Informatica\ExVettori\Trasmissione_Parametri_Solution\Trasmissione_Parametri\obj\Debug\Trasmissione_Parametri.csprojAssemblyReference.cache
+E:\3° superiore\Informatica\ExVettori\Trasmissione_Parametri_Solution\Trasmissione_Parametri\obj\Debug\Trasmissione_Parametri.exe
+E:\3° superiore\Informatica\ExVettori\Trasmissione_Parametri_Solution\Trasmissione_Parametri\obj\Debug\Trasmissione_Parametri.pdb

@@ -1,0 +1,6 @@
+E:\3° superiore\Informatica\ExVettori\AlgoritmiDiFusione_Solution\AlgoritmiDiFusione\obj\Debug\AlgoritmiDiFusione.csprojAssemblyReference.cache
+E:\3° superiore\Informatica\ExVettori\AlgoritmiDiFusione_Solution\AlgoritmiDiFusione\bin\Debug\AlgoritmiDiFusione.exe.config
+E:\3° superiore\Informatica\ExVettori\AlgoritmiDiFusione_Solution\AlgoritmiDiFusione\bin\Debug\AlgoritmiDiFusione.exe
+E:\3° superiore\Informatica\ExVettori\AlgoritmiDiFusione_Solution\AlgoritmiDiFusione\bin\Debug\AlgoritmiDiFusione.pdb
+E:\3° superiore\Informatica\ExVettori\AlgoritmiDiFusione_Solution\AlgoritmiDiFusione\obj\Debug\AlgoritmiDiFusione.exe
+E:\3° superiore\Informatica\ExVettori\AlgoritmiDiFusione_Solution\AlgoritmiDiFusione\obj\Debug\AlgoritmiDiFusione.pdb

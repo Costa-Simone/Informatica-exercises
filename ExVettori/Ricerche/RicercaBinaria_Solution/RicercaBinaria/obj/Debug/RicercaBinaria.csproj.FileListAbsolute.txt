@@ -1,0 +1,13 @@
+D:\INFORMATICA\VisualStudio\Ricerche\RicercaBinaria_Solution\RicercaBinaria\obj\Debug\RicercaBinaria.csproj.AssemblyReference.cache
+D:\INFORMATICA\VisualStudio\Ricerche\RicercaBinaria_Solution\RicercaBinaria\obj\Debug\RicercaBinaria.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\VisualStudio\Ricerche\RicercaBinaria_Solution\RicercaBinaria\bin\Debug\RicercaBinaria.exe.config
+D:\INFORMATICA\VisualStudio\Ricerche\RicercaBinaria_Solution\RicercaBinaria\bin\Debug\RicercaBinaria.exe
+D:\INFORMATICA\VisualStudio\Ricerche\RicercaBinaria_Solution\RicercaBinaria\bin\Debug\RicercaBinaria.pdb
+D:\INFORMATICA\VisualStudio\Ricerche\RicercaBinaria_Solution\RicercaBinaria\obj\Debug\RicercaBinaria.exe
+D:\INFORMATICA\VisualStudio\Ricerche\RicercaBinaria_Solution\RicercaBinaria\obj\Debug\RicercaBinaria.pdb
+E:\3° superiore\Informatica\ExVettori\Ricerche\RicercaBinaria_Solution\RicercaBinaria\bin\Debug\RicercaBinaria.exe.config
+E:\3° superiore\Informatica\ExVettori\Ricerche\RicercaBinaria_Solution\RicercaBinaria\bin\Debug\RicercaBinaria.exe
+E:\3° superiore\Informatica\ExVettori\Ricerche\RicercaBinaria_Solution\RicercaBinaria\bin\Debug\RicercaBinaria.pdb
+E:\3° superiore\Informatica\ExVettori\Ricerche\RicercaBinaria_Solution\RicercaBinaria\obj\Debug\RicercaBinaria.csprojAssemblyReference.cache
+E:\3° superiore\Informatica\ExVettori\Ricerche\RicercaBinaria_Solution\RicercaBinaria\obj\Debug\RicercaBinaria.exe
+E:\3° superiore\Informatica\ExVettori\Ricerche\RicercaBinaria_Solution\RicercaBinaria\obj\Debug\RicercaBinaria.pdb

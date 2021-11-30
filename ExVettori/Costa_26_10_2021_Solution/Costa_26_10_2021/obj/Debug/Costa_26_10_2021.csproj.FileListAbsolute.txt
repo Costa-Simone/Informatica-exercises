@@ -1,0 +1,6 @@
+C:\Users\s.costa.2235\Desktop\Costa_26_10_2021_Solution\Costa_26_10_2021\obj\Debug\Costa_26_10_2021.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Desktop\Costa_26_10_2021_Solution\Costa_26_10_2021\bin\Debug\Costa_26_10_2021.exe.config
+C:\Users\s.costa.2235\Desktop\Costa_26_10_2021_Solution\Costa_26_10_2021\bin\Debug\Costa_26_10_2021.exe
+C:\Users\s.costa.2235\Desktop\Costa_26_10_2021_Solution\Costa_26_10_2021\bin\Debug\Costa_26_10_2021.pdb
+C:\Users\s.costa.2235\Desktop\Costa_26_10_2021_Solution\Costa_26_10_2021\obj\Debug\Costa_26_10_2021.exe
+C:\Users\s.costa.2235\Desktop\Costa_26_10_2021_Solution\Costa_26_10_2021\obj\Debug\Costa_26_10_2021.pdb

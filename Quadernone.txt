@@ -68,3 +68,59 @@ pausa programma
 System.Threading.Thread.Sleep(1000);
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+            Console.WriteLine("\n\n(premi un tasto per continuare)");
+            Console.ReadKey();
+        }
+        private static int inputDimensione()
+        {
+            int n;
+
+            do
+            {
+                Console.Write("\nInserire lunghezza del vettore: ");
+                if (!int.TryParse(Console.ReadLine(), out n))
+                {
+                    Console.WriteLine("Inserire numero intero: ");
+                    n = -1;
+                }
+            } while (n <= 0);
+
+            return n;
+        }
+        static void caricaVett(int[] v)
+        {
+            for (int i = 0; i < v.Length; i++)
+            {
+                v[i] = rnd.Next(1, 11);
+            }
+        }
+        static void stampaVett(int[] v, string name)
+        {
+            Console.WriteLine("\n" + name + ":");
+            for (int i = 0; i < v.Length; i++)
+            {
+                Console.Write(v[i].ToString().PadRight(6));
+            }
+        }
+        private static int cercaMax()
+        {
+            Console.Clear();
+            int[] a;
+            int n = inputDimensione(), massimo = int.MinValue;
+
+            a = new int[n];
+
+            caricaVett(a);
+            stampaVett(a, "Stampa vettore a");
+
+            for (int i = 0; i < n; i++)
+            {
+                if (a[i] > massimo)
+                {
+                    massimo = a[i];
+                }
+            }
+
+            return massimo;
+        }

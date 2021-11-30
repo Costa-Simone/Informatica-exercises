@@ -1,0 +1,12 @@
+C:\Users\oscar.cambieri\Desktop\n5-5_pag116_Solution\n5-5_pag116\bin\Debug\n5-5_pag116.exe.config
+C:\Users\oscar.cambieri\Desktop\n5-5_pag116_Solution\n5-5_pag116\bin\Debug\n5-5_pag116.exe
+C:\Users\oscar.cambieri\Desktop\n5-5_pag116_Solution\n5-5_pag116\bin\Debug\n5-5_pag116.pdb
+C:\Users\oscar.cambieri\Desktop\n5-5_pag116_Solution\n5-5_pag116\obj\Debug\n5-5_pag116.csprojAssemblyReference.cache
+C:\Users\oscar.cambieri\Desktop\n5-5_pag116_Solution\n5-5_pag116\obj\Debug\n5-5_pag116.exe
+C:\Users\oscar.cambieri\Desktop\n5-5_pag116_Solution\n5-5_pag116\obj\Debug\n5-5_pag116.pdb
+C:\Users\oscar.cambieri\Desktop\n5-6_pag116_Solution\n5-5_pag116\bin\Debug\n5-5_pag116.exe.config
+C:\Users\oscar.cambieri\Desktop\n5-6_pag116_Solution\n5-5_pag116\bin\Debug\n5-5_pag116.exe
+C:\Users\oscar.cambieri\Desktop\n5-6_pag116_Solution\n5-5_pag116\bin\Debug\n5-5_pag116.pdb
+C:\Users\oscar.cambieri\Desktop\n5-6_pag116_Solution\n5-5_pag116\obj\Debug\n5-5_pag116.csprojAssemblyReference.cache
+C:\Users\oscar.cambieri\Desktop\n5-6_pag116_Solution\n5-5_pag116\obj\Debug\n5-5_pag116.exe
+C:\Users\oscar.cambieri\Desktop\n5-6_pag116_Solution\n5-5_pag116\obj\Debug\n5-5_pag116.pdb

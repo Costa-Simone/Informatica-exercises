@@ -1,0 +1,6 @@
+E:\3° superiore\Informatica\ExVettori\Ex7pag115_Solution\Ex7pag115\bin\Debug\Ex7pag115.exe.config
+E:\3° superiore\Informatica\ExVettori\Ex7pag115_Solution\Ex7pag115\bin\Debug\Ex7pag115.exe
+E:\3° superiore\Informatica\ExVettori\Ex7pag115_Solution\Ex7pag115\bin\Debug\Ex7pag115.pdb
+E:\3° superiore\Informatica\ExVettori\Ex7pag115_Solution\Ex7pag115\obj\Debug\Ex7pag115.csprojAssemblyReference.cache
+E:\3° superiore\Informatica\ExVettori\Ex7pag115_Solution\Ex7pag115\obj\Debug\Ex7pag115.exe
+E:\3° superiore\Informatica\ExVettori\Ex7pag115_Solution\Ex7pag115\obj\Debug\Ex7pag115.pdb

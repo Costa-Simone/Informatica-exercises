@@ -1,0 +1,12 @@
+D:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\bin\Debug\SimulazioneRicerche.exe.config
+D:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\bin\Debug\SimulazioneRicerche.exe
+D:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\bin\Debug\SimulazioneRicerche.pdb
+D:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\obj\Debug\SimulazioneRicerche.csprojAssemblyReference.cache
+D:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\obj\Debug\SimulazioneRicerche.exe
+D:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\obj\Debug\SimulazioneRicerche.pdb
+E:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\bin\Debug\SimulazioneRicerche.exe.config
+E:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\bin\Debug\SimulazioneRicerche.exe
+E:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\bin\Debug\SimulazioneRicerche.pdb
+E:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\obj\Debug\SimulazioneRicerche.csprojAssemblyReference.cache
+E:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\obj\Debug\SimulazioneRicerche.exe
+E:\3° superiore\Informatica\ExVettori\SimulazioneRicerche_Solution\SimulazioneRicerche\obj\Debug\SimulazioneRicerche.pdb

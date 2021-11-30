@@ -1,0 +1,26 @@
+C:\Users\valbo\source\repos\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.exe.config
+C:\Users\valbo\source\repos\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.exe
+C:\Users\valbo\source\repos\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.pdb
+C:\Users\valbo\source\repos\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.csproj.AssemblyReference.cache
+C:\Users\valbo\source\repos\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.csproj.CoreCompileInputs.cache
+C:\Users\valbo\source\repos\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.exe
+C:\Users\valbo\source\repos\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.pdb
+F:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.csproj.AssemblyReference.cache
+F:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.csproj.CoreCompileInputs.cache
+F:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.exe
+F:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.pdb
+F:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.exe.config
+F:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.exe
+F:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.pdb
+D:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.exe.config
+D:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.exe
+D:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.pdb
+D:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.csprojAssemblyReference.cache
+D:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.exe
+D:\3° superiore\Informatica\ExVettori\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.pdb
+C:\Users\s.costa.2235\Desktop\Informatica-exercises\ExVettori\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.exe.config
+C:\Users\s.costa.2235\Desktop\Informatica-exercises\ExVettori\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.exe
+C:\Users\s.costa.2235\Desktop\Informatica-exercises\ExVettori\Ex5pag115_Solution\Ex5pag115\bin\Debug\Ex5pag115.pdb
+C:\Users\s.costa.2235\Desktop\Informatica-exercises\ExVettori\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Desktop\Informatica-exercises\ExVettori\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.exe
+C:\Users\s.costa.2235\Desktop\Informatica-exercises\ExVettori\Ex5pag115_Solution\Ex5pag115\obj\Debug\Ex5pag115.pdb

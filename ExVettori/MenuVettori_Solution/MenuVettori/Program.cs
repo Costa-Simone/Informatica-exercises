@@ -26,6 +26,14 @@ namespace MenuVettori
             Console.WriteLine("\nM) => Prodotto Scalare Funzione ");
             Console.WriteLine("\nN) => Medie due Vettori uguali ");
             Console.WriteLine("\nO) => Vettore speculare ");
+            Console.WriteLine("\nP) =>  ");
+            Console.WriteLine("\nQ) => Vettore diverso ");
+            Console.WriteLine("\nS) => Caricare vettore manualmente ordinato ");
+            Console.WriteLine("\nT) => Caricare vettore casualmente ordinato ");
+            Console.WriteLine("\nU) => Caricare vettore casualmente ordinato disgiunto ");
+            Console.WriteLine("\nV) => Sposta vettore di una posizione a destra ");
+            Console.WriteLine("\nW) => Vettore fibonacci ");
+            Console.WriteLine("\nY) => Eliminazione della posizione X di un Vettore ");
             Console.WriteLine("\nX) => Esci ");
             Console.WriteLine("-------------------------------------------------------");
         }
@@ -44,79 +52,127 @@ namespace MenuVettori
                     case 'A':
                     case 'a':
                         Console.WriteLine("\n\nIl valore massimo vale " + cercaMax().ToString());
-                        attesaTasto();
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'B':
                     case 'b':
                         copiaVett();
-                        attesaTasto();
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'C':
                     case 'c':
                         copiaInvVett();
-                        attesaTasto();
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'D':
                     case 'd':
                         invertiVett();
-                        attesaTasto();
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'E':
                     case 'e':
                         prodottoScalare();
-                        attesaTasto();
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'F':
                     case 'f':
                         prodottoVettoriale();
-                        attesaTasto();
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'G':
                     case 'g':
                         Console.WriteLine(ordinamentoVett() ? "\nIl vettore è ordinato" : "\nIl vettore non è ordinato");
-                        attesaTasto();
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'H':
                     case 'h':
-                        Console.WriteLine("\nIl numero di occorrenze sono: " + contaOccorrenze().ToString());
-                        attesaTasto();
+                        Console.WriteLine("\n\nIl numero di occorrenze sono: " + contaOccorrenze().ToString());
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'I':
                     case 'i':
                         sommaDispPar();
-                        attesaTasto();
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'L':
                     case 'l':
-                        elementiUguali();
-                        attesaTasto();
+                        Console.WriteLine("\n\nGli elementi del vettore sono " + (elementiUguali() == true ? "uguali" : "diversi"));
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'M':
                     case 'm':
                         Console.WriteLine("\n\nIl prodotto scalare vale " + prodottoScalareFunzione().ToString());
-                        attesaTasto();
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'N':
                     case 'n':
-                        medieVettori();
-                        attesaTasto();
+                        Console.WriteLine("\n\nI due vettori hanno le medie " + (medieVettori() ? "uguali" : "diverse"));
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'O':
                     case 'o':
                         specularitaVettore();
-                        attesaTasto();
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'P':
+                    case 'p':
+                        Console.WriteLine("\n\nLa media del vettore vale " + calcolaMedia().ToString());
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'Q':
+                    case 'q':
+                        vettoreDiverso();
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'S':
+                    case 's':
+                        ClsVettori.caricaVettOrdinato();
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'T':
+                    case 't':
+                        ClsVettori.caricaVettRandomOrdinato();
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'U':
+                    case 'u':
+                        ClsVettori.caricaVettRandomOrdinatoDisgiunto();
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'V':
+                    case 'v':
+                        spostaVettDestra();
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'W':
+                    case 'w':
+                        vettFibonacci();
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'Y':
+                    case 'y':
+                        eliminazioneX();
+                        ClsUtils.attesaTasto();
                         break;
 
                     case 'X':
@@ -134,52 +190,15 @@ namespace MenuVettori
 
             } while (scelta.ToString().ToUpper() != "X");
         }
-        private static void attesaTasto()
-        {
-            Console.WriteLine("\n\n(premi un tasto per continuare)");
-            Console.ReadKey();
-        }
-        private static int inputDimensione()
-        {
-            int n;
-
-            do
-            {
-                Console.Write("\nInserire lunghezza del vettore: ");
-                if (!int.TryParse(Console.ReadLine(), out n))
-                {
-                    Console.WriteLine("Inserire numero intero: ");
-                    n = -1;
-                }
-            } while (n <= 0);
-
-            return n;
-        }
-        static void caricaVett(int[] v)
-        {
-            for (int i = 0; i < v.Length; i++)
-            {
-                v[i] = rnd.Next(1, 11);
-            }
-        }
-        static void stampaVett(int[] v, string name)
-        {
-            Console.WriteLine("\n" + name + ":");
-            for (int i = 0; i < v.Length; i++)
-            {
-                Console.Write(v[i].ToString().PadRight(6));
-            }
-        }
         private static int cercaMax()
         {
             Console.Clear();
             int[] a;
-            int n = inputDimensione, massimo = int.MinValue;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), massimo = int.MinValue;
 
             a = new int[n];
-
-            caricaVett(a);
-            stampaVett(a, "Stampa vettore a");
+            ClsVettori.caricaVett(a, 1, 15);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
 
             for (int i = 0; i < n; i++)
             {
@@ -188,56 +207,57 @@ namespace MenuVettori
                     massimo = a[i];
                 }
             }
+
             return massimo;
         }
         static void copiaVett()
         {
             Console.Clear();
             int[] a, b;
-            int n = inputDimensione;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: ");
 
             a = new int[n];
             b = new int[n];
 
-            caricaVett(a);
-            stampaVett(a, "Stampa vettore a");
+            ClsVettori.caricaVett(a);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
 
             for (int i = 0; i < n; i++)
             {
                 b[i] = a[i];
             }
 
-            stampaVett(b, "Stampa vettore b");
+            ClsVettori.stampaVett(b, "Stampa vettore b");
         }
         private static void copiaInvVett()
         {
             Console.Clear();
             int[] a, b;
-            int n = inputDimensione, aus;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: ");
 
             a = new int[n];
             b = new int[n];
 
-            caricaVett(a);
-            stampaVett(a, "Stampa vettore a");
+            ClsVettori.caricaVett(a);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
 
             for (int i = n-1; i >= 0; i--)
             {
                 b[i] = a[n - i - 1];
             }
 
-            stampaVett(b, "Stampa vettore b");
+            ClsVettori.stampaVett(b, "Stampa vettore b");
         }
         private static void invertiVett()
         {
             Console.Clear();
             int[] a;
-            int n = inputDimensione, aus;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), aus;
 
             a = new int[n];
 
-            caricaVett(a);
-            stampaVett(a, "Stampa vettore a");
+            ClsVettori.caricaVett(a);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
 
             for (int i = 0, j = n - 1; i <= j; i++, j--)
             {
@@ -246,21 +266,21 @@ namespace MenuVettori
                 a[i] = aus;
             }
 
-            stampaVett(a, "Stampa vettore a invertito");
+            ClsVettori.stampaVett(a, "Stampa vettore a invertito");
         }
         private static void prodottoScalare()
         {
             Console.Clear();
             int[] a, b;
-            int n = inputDimensione, ps = 0;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), ps = 0;
 
             a = new int[n];
             b = new int[n];
 
-            caricaVett(a);
-            caricaVett(b);
-            stampaVett(a, "Stampa vettore a");
-            stampaVett(b, "Stampa vettore b");
+            ClsVettori.caricaVett(a);
+            ClsVettori.caricaVett(b);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
+            ClsVettori.stampaVett(b, "Stampa vettore b");
 
             for (int i = 0; i < n; i++)
             {
@@ -273,34 +293,34 @@ namespace MenuVettori
         {
             Console.Clear();
             int[] a, b, c;
-            int n = inputDimensione;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: ");
 
             a = new int[n];
             b = new int[n];
             c = new int[n];
 
-            caricaVett(a);
-            caricaVett(b);
-            stampaVett(a, "Stampa vettore a");
-            stampaVett(b, "Stampa vettore b");
+            ClsVettori.caricaVett(a);
+            ClsVettori.caricaVett(b);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
+            ClsVettori.stampaVett(b, "Stampa vettore b");
 
             for (int i = 0; i < n; i++)
             {
                 c[i] = a[i] * b[i];
             }
 
-            stampaVett(c, "Stampa vettore c");
+            ClsVettori.stampaVett(c, "Stampa vettore c");
         }
         private static bool ordinamentoVett()
         {
             Console.Clear();
             int[] a;
-            int n = inputDimensione, i = 0;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), i = 0;
 
             a = new int[n];
 
-            caricaVett(a);
-            stampaVett(a, "Stampa vettore a");
+            ClsVettori.caricaVett(a);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
 
             int cont = 0;
 
@@ -319,7 +339,7 @@ namespace MenuVettori
         {
             Console.Clear();
             int[] a;
-            int n = inputDimensione, x, cont = 0;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), x, cont = 0;
 
             do
             {
@@ -333,8 +353,8 @@ namespace MenuVettori
 
             a = new int[n];
 
-            caricaVett(a);
-            stampaVett(a, "Stampa vettore a");
+            ClsVettori.caricaVett(a);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
 
             for (int i = 0; i < n; i++)
             {
@@ -350,12 +370,12 @@ namespace MenuVettori
         {
             Console.Clear();
             int[] a;
-            int n = inputDimensione, sommaPar = 0, sommaDisp = 0;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), sommaPar = 0, sommaDisp = 0;
 
             a = new int[n];
 
-            caricaVett(a);
-            stampaVett(a, "Stampa vettore a");
+            ClsVettori.caricaVett(a);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
 
             for (int i = 0; i < n; i++)
             {
@@ -373,54 +393,45 @@ namespace MenuVettori
             Console.WriteLine("\n\n(premi un tasto per continuare)");
             Console.ReadKey();
         }
-        private static void elementiUguali()
+        private static bool elementiUguali()
         {
             Console.Clear();
             int[] a;
-            int n = inputDimensione, aus = 0, i = 1;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), i = 1;
+            bool aus = true;
 
             a = new int[n];
 
-            caricaVett(a);
-            stampaVett(a, "Stampa vettore a");
+            ClsVettori.caricaVett(a);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
 
             do
             {
                 if (a[0] != a[i])
                 {
-                    aus = 1;
+                    aus = false;
                 }
                 else
                 {
                     i++;
                 }
-            } while (aus == 0 && i < n - 1);
-            
-            if (aus == 0)
-            {
-                Console.WriteLine("\nIl vettore è uguale");
-            }
-            else
-            {
-                Console.WriteLine("\nIl vettore non è uguale");
-            }
+            } while (aus == true && i < n - 1);
 
-            Console.WriteLine("\n\n(premi un tasto per continuare)");
-            Console.ReadKey();
+            return aus;
         }
         private static int prodottoScalareFunzione()
         {
             Console.Clear();
             int[] a, b;
-            int n = inputDimensione, ps = 0;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), ps = 0;
 
             a = new int[n];
             b = new int[n];
 
-            caricaVett(a);
-            caricaVett(b);
-            stampaVett(a, "Stampa vettore a");
-            stampaVett(b, "Stampa vettore b");
+            ClsVettori.caricaVett(a);
+            ClsVettori.caricaVett(b);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
+            ClsVettori.stampaVett(b, "Stampa vettore b");
 
             for (int i = 0; i < n; i++)
             {
@@ -429,53 +440,43 @@ namespace MenuVettori
             
             return ps;
         }
-        private static void medieVettori()
+        private static bool medieVettori()
         {
             Console.Clear();
             int[] a, b;
-            int n = inputDimensione, mediaA = 0, mediaB = 0;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: ");
 
             a = new int[n];
             b = new int[n];
 
-            caricaVett(a);
-            stampaVett(a, "Stampa vettore a");
-            caricaVett(b);
-            stampaVett(b, "Stampa vettore b");
+            ClsVettori.caricaVett(a);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
+            ClsVettori.caricaVett(b);
+            ClsVettori.stampaVett(b, "Stampa vettore b");
 
-            for (int i = n - 1; i >= 0; i--)
+            return mediaVett(a) == mediaVett(b);
+        }
+        private static double mediaVett(int[] a)
+        {
+            int som = 0;
+
+            for (int i = 0; i < a.Length; i++)
             {
-                mediaA += a[i];
-                mediaB += b[i];
+                som += a[i];
             }
 
-            mediaA = mediaA / n;
-            mediaB = mediaB / n;
-
-            Console.WriteLine("\n\nLa media di a é " + mediaA + ", mentre la media di b é " + mediaB);
-
-            if (mediaA == mediaB)
-            {
-                Console.WriteLine("\n\nLe due medie sono uguali");
-            }
-            else
-            {
-                Console.WriteLine("\n\nLe due medie non sono uguali");
-            }
-
-            Console.WriteLine("\n\n(premi un tasto per continuare)");
-            Console.ReadKey();
+            return (double)som / a.Length;
         }
         private static void specularitaVettore()
         {
             Console.Clear();
             int[] a;
-            int n = inputDimensione, aus = 0, i = 0;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), aus = 0, i = 0;
 
             a = new int[n];
 
-            caricaVett(a);
-            stampaVett(a, "Stampa vettore a");
+            ClsVettori.caricaVett(a);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
 
             do
             {
@@ -500,6 +501,122 @@ namespace MenuVettori
 
             Console.WriteLine("\n(premi un tasto per continuare)");
             Console.ReadKey();
+        }
+        private static double calcolaMedia()
+        {
+            Console.Clear();
+            int[] a;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: ");
+
+            a = new int[n];
+
+            ClsVettori.caricaVett(a);
+            ClsVettori.stampaVett(a, "Stampa vettore a");
+
+            return mediaVett(a);
+        }
+        private static void vettoreDiverso()
+        {
+            Console.Clear();
+            int[] a;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), aus, j;
+
+            a = new int[n];
+
+            a[0] = rnd.Next(1, 101);
+
+            for (int i = 1; i < a.Length; i++)
+            {
+                do
+                {
+                    j = 0;
+
+                    aus = rnd.Next(1, 101);
+
+                    while (aus != a[j] && j < i)
+                    {
+                        j++;
+                    }
+                } while (a[j] == aus);
+
+                a[i] = aus;
+            }
+
+            ClsVettori.stampaVett(a, "Stampa vettore a");
+        }
+        private static void spostaVettDestra()
+        {
+            Console.Clear();
+            int[] a;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), aus;
+
+            a = new int[n];
+
+            ClsVettori.caricaVett(a);
+
+            ClsVettori.stampaVett(a, "Stampa vettore a prima");
+
+            aus = a[n-1];
+            
+            for (int i = n-1; i >= 1; i--)
+            {
+                a[i] = a[i - 1];
+            }
+
+            a[0] = aus;
+
+            ClsVettori.stampaVett(a, "Stampa vettore a dopo");
+        }
+        private static void vettFibonacci()
+        {
+            Console.Clear();
+            
+            int[] a;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: ");
+
+            a = new int[n];
+
+            a[0] = 0;
+            a[1] = 1;
+
+            for (int i = 2; i < n; i++)
+            {
+                a[i] = a[i - 1] + a[i - 2];
+            }
+
+            ClsVettori.stampaVett(a, "Stampa vettore");
+        }
+        private static void eliminazioneX()
+        {
+            Console.Clear();
+            int[] a;
+            int n = ClsUtils.inputDimensione("Inserire lunghezza del vettore: "), x;
+
+            do
+            {
+                Console.Write("Inserire lunghezza del vettore: ");
+                if (!int.TryParse(Console.ReadLine(), out x))
+                {
+                    Console.WriteLine("Inserire numero intero: ");
+                    x = -1;
+                }
+            } while (x <= 0 && x >= n);
+
+            a = new int[n];
+
+            ClsVettori.caricaVett(a);
+            ClsVettori.stampaVett(a, "Stampa vettore prima");
+
+            for (int i = x - 1; i < n - 1; i++)
+            {
+                a[i] = a[i + 1];
+            }
+
+            Console.WriteLine("\nStampa vettore dopo:");
+            for (int i = 0; i < n - 1; i++)
+            {
+                Console.Write(a[i].ToString().PadRight(6));
+            }
         }
     }
 }

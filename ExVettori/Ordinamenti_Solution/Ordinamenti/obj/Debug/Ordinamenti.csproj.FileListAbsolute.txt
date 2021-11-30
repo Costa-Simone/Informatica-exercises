@@ -1,0 +1,6 @@
+E:\3° superiore\Informatica\ExVettori\Ordinamenti_Solution\Ordinamenti\bin\Debug\Ordinamenti.exe.config
+E:\3° superiore\Informatica\ExVettori\Ordinamenti_Solution\Ordinamenti\bin\Debug\Ordinamenti.exe
+E:\3° superiore\Informatica\ExVettori\Ordinamenti_Solution\Ordinamenti\bin\Debug\Ordinamenti.pdb
+E:\3° superiore\Informatica\ExVettori\Ordinamenti_Solution\Ordinamenti\obj\Debug\Ordinamenti.csprojAssemblyReference.cache
+E:\3° superiore\Informatica\ExVettori\Ordinamenti_Solution\Ordinamenti\obj\Debug\Ordinamenti.exe
+E:\3° superiore\Informatica\ExVettori\Ordinamenti_Solution\Ordinamenti\obj\Debug\Ordinamenti.pdb

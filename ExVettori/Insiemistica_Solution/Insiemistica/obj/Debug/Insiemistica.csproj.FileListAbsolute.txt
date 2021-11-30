@@ -1,0 +1,12 @@
+E:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\bin\Debug\Insiemistica.exe.config
+E:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\bin\Debug\Insiemistica.exe
+E:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\bin\Debug\Insiemistica.pdb
+E:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\obj\Debug\Insiemistica.csprojAssemblyReference.cache
+E:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\obj\Debug\Insiemistica.exe
+E:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\obj\Debug\Insiemistica.pdb
+D:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\bin\Debug\Insiemistica.exe.config
+D:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\bin\Debug\Insiemistica.exe
+D:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\bin\Debug\Insiemistica.pdb
+D:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\obj\Debug\Insiemistica.csprojAssemblyReference.cache
+D:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\obj\Debug\Insiemistica.exe
+D:\3° superiore\Informatica\ExVettori\Insiemistica_Solution\Insiemistica\obj\Debug\Insiemistica.pdb
