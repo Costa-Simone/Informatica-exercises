@@ -1,0 +1,13 @@
+D:\INFORMATICA\VisualStudio\Vettori paralleli\n9pag115_Solution\n9pag115\obj\Debug\n9pag115.csproj.AssemblyReference.cache
+D:\INFORMATICA\VisualStudio\Vettori paralleli\n9pag115_Solution\n9pag115\obj\Debug\n9pag115.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\VisualStudio\Vettori paralleli\n9pag115_Solution\n9pag115\bin\Debug\n9pag115.exe.config
+D:\INFORMATICA\VisualStudio\Vettori paralleli\n9pag115_Solution\n9pag115\bin\Debug\n9pag115.exe
+D:\INFORMATICA\VisualStudio\Vettori paralleli\n9pag115_Solution\n9pag115\bin\Debug\n9pag115.pdb
+D:\INFORMATICA\VisualStudio\Vettori paralleli\n9pag115_Solution\n9pag115\obj\Debug\n9pag115.exe
+D:\INFORMATICA\VisualStudio\Vettori paralleli\n9pag115_Solution\n9pag115\obj\Debug\n9pag115.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag115_Solution\n9pag115\bin\Debug\n9pag115.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag115_Solution\n9pag115\bin\Debug\n9pag115.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag115_Solution\n9pag115\bin\Debug\n9pag115.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag115_Solution\n9pag115\obj\Debug\n9pag115.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag115_Solution\n9pag115\obj\Debug\n9pag115.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag115_Solution\n9pag115\obj\Debug\n9pag115.pdb
