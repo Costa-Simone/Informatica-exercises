@@ -8,12 +8,13 @@ namespace n9pag115
 {
     class ClsVettori
     {
-        public static void ordinamentoCitta(string[] citta, string[] nominativo)
+        public static void ordinamentoCitta(string[] citta, string[] nominativo, int[] eta)
         {
             int i = -1;
             bool scambio;
             string city;
             string name;
+            int etaStude;
 
             do
             {
@@ -25,11 +26,13 @@ namespace n9pag115
                     {
                         city = citta[j];
                         name = nominativo[j];
+                        etaStude = eta[j];
                         citta[j] = citta[j + 1];
                         nominativo[j] = nominativo[j + 1];
+                        eta[j] = eta[j + 1];
                         citta[j + 1] = city;
                         nominativo[j + 1] = name;
-                        scambio = true;
+                        eta[j + 1] = etaStude;
                     }
                 }
 
