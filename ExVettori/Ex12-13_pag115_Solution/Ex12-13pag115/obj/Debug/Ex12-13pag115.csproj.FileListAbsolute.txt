@@ -1,0 +1,7 @@
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex12-13_pag115_Solution\Ex12-13pag115\obj\Debug\Ex12-13pag115.csproj.AssemblyReference.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex12-13_pag115_Solution\Ex12-13pag115\obj\Debug\Ex12-13pag115.csproj.CoreCompileInputs.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex12-13_pag115_Solution\Ex12-13pag115\bin\Debug\Ex12-13pag115.exe.config
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex12-13_pag115_Solution\Ex12-13pag115\bin\Debug\Ex12-13pag115.exe
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex12-13_pag115_Solution\Ex12-13pag115\bin\Debug\Ex12-13pag115.pdb
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex12-13_pag115_Solution\Ex12-13pag115\obj\Debug\Ex12-13pag115.exe
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex12-13_pag115_Solution\Ex12-13pag115\obj\Debug\Ex12-13pag115.pdb
