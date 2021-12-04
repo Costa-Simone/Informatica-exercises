@@ -5,3 +5,9 @@ C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex12-13
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex12-13_pag115_Solution\Ex12-13pag115\bin\Debug\Ex12-13pag115.pdb
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex12-13_pag115_Solution\Ex12-13pag115\obj\Debug\Ex12-13pag115.exe
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex12-13_pag115_Solution\Ex12-13pag115\obj\Debug\Ex12-13pag115.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex12-13_pag115_Solution\Ex12-13pag115\bin\Debug\Ex12-13pag115.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex12-13_pag115_Solution\Ex12-13pag115\bin\Debug\Ex12-13pag115.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex12-13_pag115_Solution\Ex12-13pag115\bin\Debug\Ex12-13pag115.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex12-13_pag115_Solution\Ex12-13pag115\obj\Debug\Ex12-13pag115.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex12-13_pag115_Solution\Ex12-13pag115\obj\Debug\Ex12-13pag115.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex12-13_pag115_Solution\Ex12-13pag115\obj\Debug\Ex12-13pag115.pdb

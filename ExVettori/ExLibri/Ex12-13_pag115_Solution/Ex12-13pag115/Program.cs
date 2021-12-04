@@ -16,14 +16,37 @@ namespace Ex12_13pag115
 
             stampaTab(caseEditrici, nomiLibri, generi);
 
-            ricercaLibri(caseEditrici, nomiLibri, generi);
+            Console.WriteLine("\nIl numero di libri e': " + ricercaLibri(caseEditrici, nomiLibri, generi).ToString() + "\n");
 
             ordinaSelezione(caseEditrici, nomiLibri, generi);
             stampaTab(caseEditrici, nomiLibri, generi);
 
-            ricercaLibri2(caseEditrici, nomiLibri, generi);
+            Console.WriteLine("\nIl numero di libri e': " + ricercaLibri2(caseEditrici, nomiLibri, generi).ToString());
+
+            // per ogni editore contare il numero di libri
+            contaLibriPerEditore(caseEditrici);
 
             attesaTasto();
+        }
+        private static void contaLibriPerEditore(string[] caseEditrici)
+        {
+            Array.Resize(ref caseEditrici, caseEditrici.Length + 1);
+            caseEditrici[caseEditrici.Length - 1] = "ZZ";
+
+            int cont = 1;
+
+            for (int i = 0; i < caseEditrici.Length - 1; i++)
+            {
+                if (caseEditrici[i] == caseEditrici[i + 1])
+                {
+                    cont++;
+                }
+                else
+                {
+                    Console.WriteLine("\n" + caseEditrici[i] + "\t" + cont.ToString());
+                    cont = 1;
+                }
+            }
         }
         private static void stampaTab(string[] caseEditrici, string[] nomiLibri, string[] generi)
         {
@@ -37,7 +60,7 @@ namespace Ex12_13pag115
             Console.WriteLine("\n(premi un tasto per continuare)");
             Console.ReadKey();
         }
-        public static void ricercaLibri(string[] caseEditrici, string[] nomiLibri, string[] generi)
+        public static int ricercaLibri(string[] caseEditrici, string[] nomiLibri, string[] generi)
         {
             Console.WriteLine("\nInserisci la casa editrice: ");
             string editrice = Console.ReadLine();
@@ -54,7 +77,7 @@ namespace Ex12_13pag115
                 }
             }
 
-            Console.WriteLine("\nIl numero di libri e': " + cont.ToString());
+            return cont;
         }
         internal static void ordinaSelezione(string[] caseEditrici, string[] nomiLibri, string[] generi)
         {
@@ -87,7 +110,7 @@ namespace Ex12_13pag115
                 }
             }
         }
-        public static void ricercaLibri2(string[] caseEditrici, string[] nomiLibri, string[] generi)
+        public static int ricercaLibri2(string[] caseEditrici, string[] nomiLibri, string[] generi)
         {
             Console.WriteLine("\nInserisci la casa editrice: ");
             string editrice = Console.ReadLine();
@@ -97,12 +120,12 @@ namespace Ex12_13pag115
             int i = 0, cont = 0;
             bool superato = false;
 
-            while (!superato && i <= caseEditrici.Length)
+            while (!superato && i <= caseEditrici.Length - 1)
             {
                 if (caseEditrici[i] == editrice && generi[i] == genere)
                 {
                     cont++;
-                    i += 1;
+                    i++;
                 }
                 else
                 {
@@ -112,12 +135,12 @@ namespace Ex12_13pag115
                     }
                     else
                     {
-                        i += 1;
+                        i++;
                     }
                 }
             }
 
-            Console.WriteLine("\nIl numero di libri e': " + cont.ToString());
+            return cont;
         }
     }
 }
