@@ -1,7 +1,0 @@
-C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex22-23pag116_Solution\Ex22-23pag116\bin\Debug\Ex22-23pag116.exe.config
-C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex22-23pag116_Solution\Ex22-23pag116\bin\Debug\Ex22-23pag116.exe
-C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex22-23pag116_Solution\Ex22-23pag116\bin\Debug\Ex22-23pag116.pdb
-C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex22-23pag116_Solution\Ex22-23pag116\obj\Debug\Ex22-23pag116.csproj.AssemblyReference.cache
-C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex22-23pag116_Solution\Ex22-23pag116\obj\Debug\Ex22-23pag116.csproj.CoreCompileInputs.cache
-C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex22-23pag116_Solution\Ex22-23pag116\obj\Debug\Ex22-23pag116.exe
-C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\Ex22-23pag116_Solution\Ex22-23pag116\obj\Debug\Ex22-23pag116.pdb

@@ -1,0 +1,7 @@
+C:\Users\Windows\Desktop\Costa_07-12-21_Solution\Costa_07-12-21\bin\Debug\Costa_07-12-21.exe.config
+C:\Users\Windows\Desktop\Costa_07-12-21_Solution\Costa_07-12-21\bin\Debug\Costa_07-12-21.exe
+C:\Users\Windows\Desktop\Costa_07-12-21_Solution\Costa_07-12-21\bin\Debug\Costa_07-12-21.pdb
+C:\Users\Windows\Desktop\Costa_07-12-21_Solution\Costa_07-12-21\obj\Debug\Costa_07-12-21.csproj.AssemblyReference.cache
+C:\Users\Windows\Desktop\Costa_07-12-21_Solution\Costa_07-12-21\obj\Debug\Costa_07-12-21.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Desktop\Costa_07-12-21_Solution\Costa_07-12-21\obj\Debug\Costa_07-12-21.exe
+C:\Users\Windows\Desktop\Costa_07-12-21_Solution\Costa_07-12-21\obj\Debug\Costa_07-12-21.pdb
