@@ -1,0 +1,6 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex24pag116_Solution\Ex24pag116\bin\Debug\Ex24pag116.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex24pag116_Solution\Ex24pag116\bin\Debug\Ex24pag116.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex24pag116_Solution\Ex24pag116\bin\Debug\Ex24pag116.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex24pag116_Solution\Ex24pag116\obj\Debug\Ex24pag116.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex24pag116_Solution\Ex24pag116\obj\Debug\Ex24pag116.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex24pag116_Solution\Ex24pag116\obj\Debug\Ex24pag116.pdb
