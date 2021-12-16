@@ -5,3 +5,9 @@ C:\Users\Windows\Desktop\Costa_07-12-21_Solution\Costa_07-12-21\obj\Debug\Costa_
 C:\Users\Windows\Desktop\Costa_07-12-21_Solution\Costa_07-12-21\obj\Debug\Costa_07-12-21.csproj.CoreCompileInputs.cache
 C:\Users\Windows\Desktop\Costa_07-12-21_Solution\Costa_07-12-21\obj\Debug\Costa_07-12-21.exe
 C:\Users\Windows\Desktop\Costa_07-12-21_Solution\Costa_07-12-21\obj\Debug\Costa_07-12-21.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\Verifica_Solution\Costa_07-12-21\bin\Debug\Costa_07-12-21.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\Verifica_Solution\Costa_07-12-21\bin\Debug\Costa_07-12-21.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\Verifica_Solution\Costa_07-12-21\bin\Debug\Costa_07-12-21.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\Verifica_Solution\Costa_07-12-21\obj\Debug\Costa_07-12-21.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\Verifica_Solution\Costa_07-12-21\obj\Debug\Costa_07-12-21.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\Verifica_Solution\Costa_07-12-21\obj\Debug\Costa_07-12-21.pdb

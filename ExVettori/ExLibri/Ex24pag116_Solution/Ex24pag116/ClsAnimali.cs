@@ -41,6 +41,68 @@ namespace Ex24pag116
                 }
             } while (i != animali.Length - 2 && scambio);
         }
+        internal static int contaSpecie(string[] specie, string s)
+        {
+            int i = 0, cont = 0;
+            bool superato = false;
+
+            while (!superato && i < specie.Length)
+            {
+                if (specie[i] == s)
+                {
+                    cont++;
+                    i += 1;
+                }
+                else
+                {
+                    if (string.Compare(specie[i], s) > 0)
+                        superato = true;
+                    else
+                        i += 1;
+                }
+            }
+
+            return cont;
+        }
+        internal static void animaleSpecie(string[] animali, string[] specie, string s, string a)
+        {
+            int i = 0;
+            bool superato = false;
+
+            while (!superato && i < specie.Length)
+            {
+                if (specie[i] == s)
+                {
+                    if (animali[i] != a)
+                    {
+                        Console.WriteLine(animali[i]);
+                    }
+                    i += 1;
+                }
+                else
+                {
+                    if (string.Compare(specie[i], s) > 0)
+                        superato = true;
+                    else
+                        i += 1;
+                }
+            }
+        }
+        internal static int ricercaSeqAnimale(string[] animali, string a)
+        {
+            int i = 0;
+
+            while (string.Compare(animali[i], a) < 0 && i != animali.Length - 1)
+                i++;
+            if (animali[i] == a)
+            {
+                return i;
+            }
+            else
+            {
+                return -1;
+            }
+        }
         internal static void cercaSpeciePiu(string[] specie)
         {
             Array.Resize(ref specie, specie.Length + 1);

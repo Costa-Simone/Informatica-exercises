@@ -26,6 +26,31 @@ namespace Ex24pag116
 
             ClsAnimali.cercaSpeciePiu(specie);
 
+            Console.Write("\nInserisci la specie: ");
+            string s = Console.ReadLine();
+
+            int cont = ClsAnimali.contaSpecie(specie, s);
+            if (cont == 0)
+            {
+                Console.WriteLine("\nNon ci sono animali di quella specie");
+            }
+            else
+            {
+                Console.WriteLine("\nCi sono " + cont.ToString() + " animali");
+            }
+
+            Console.Write("\nInserisci l'animale: ");
+            a = Console.ReadLine();
+
+            if ((s = specie[ClsAnimali.ricercaSeqAnimale(animali, a)]) == "-1")
+            {
+                Console.WriteLine("\nAnimale non trovato");
+            }
+            else
+            {
+                ClsAnimali.animaleSpecie(animali, specie, s, a);
+            }
+
             ClsAnimali.attesaTasto();
         }
     }
