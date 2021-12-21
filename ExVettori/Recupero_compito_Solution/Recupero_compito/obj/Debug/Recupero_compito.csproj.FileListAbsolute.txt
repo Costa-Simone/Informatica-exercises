@@ -1,0 +1,7 @@
+D:\PROGRAMMI\VISUAL STUDIO\PROGETTI VISUAL STUDIO\SCUOLA\VETTORI\Recupero_compito_Solution\Recupero_compito\bin\Debug\Recupero_compito.exe.config
+D:\PROGRAMMI\VISUAL STUDIO\PROGETTI VISUAL STUDIO\SCUOLA\VETTORI\Recupero_compito_Solution\Recupero_compito\bin\Debug\Recupero_compito.exe
+D:\PROGRAMMI\VISUAL STUDIO\PROGETTI VISUAL STUDIO\SCUOLA\VETTORI\Recupero_compito_Solution\Recupero_compito\bin\Debug\Recupero_compito.pdb
+D:\PROGRAMMI\VISUAL STUDIO\PROGETTI VISUAL STUDIO\SCUOLA\VETTORI\Recupero_compito_Solution\Recupero_compito\obj\Debug\Recupero_compito.csproj.AssemblyReference.cache
+D:\PROGRAMMI\VISUAL STUDIO\PROGETTI VISUAL STUDIO\SCUOLA\VETTORI\Recupero_compito_Solution\Recupero_compito\obj\Debug\Recupero_compito.csproj.CoreCompileInputs.cache
+D:\PROGRAMMI\VISUAL STUDIO\PROGETTI VISUAL STUDIO\SCUOLA\VETTORI\Recupero_compito_Solution\Recupero_compito\obj\Debug\Recupero_compito.exe
+D:\PROGRAMMI\VISUAL STUDIO\PROGETTI VISUAL STUDIO\SCUOLA\VETTORI\Recupero_compito_Solution\Recupero_compito\obj\Debug\Recupero_compito.pdb

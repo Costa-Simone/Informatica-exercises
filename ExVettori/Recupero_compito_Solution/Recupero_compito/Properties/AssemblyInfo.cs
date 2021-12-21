@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("Verifica2")]
+[assembly: AssemblyTitle("Recupero_compito")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Verifica2")]
+[assembly: AssemblyProduct("Recupero_compito")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il GUID seguente verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("9bf25da3-ecd4-4422-afed-44d67043efc7")]
+[assembly: Guid("6dd20154-0267-40bd-8262-abf46955c09f")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai seguenti quattro valori:
 //
