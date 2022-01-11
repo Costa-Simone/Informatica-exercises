@@ -11,11 +11,15 @@ namespace Ex8pag150
         static Random rnd = new Random();
         static void Main(string[] args)
         {
-            int[] numeri = new int[100];
+            int n;
+
+            Console.Write("Inserisci il valore di n: ");
+            n = Convert.ToInt32(Console.ReadLine());
+
+            int[] numeri = new int[n];
             int[] aus = new int[100];
 
             caricaVett(numeri);
-            azzeraVett(aus);
             contaValori(numeri, aus);
             stampaNumeri(aus);
 
@@ -25,19 +29,12 @@ namespace Ex8pag150
         {
             for (int i = 0; i < a.Length; i++)
             {
-                a[i] = rnd.Next(1, 100);
-            }
-        }
-        internal static void azzeraVett(int[] aus)
-        {
-            for (int i = 0; i < aus.Length; i++)
-            {
-                aus[i] = 0;
+                a[i] = rnd.Next(0, 100);
             }
         }
         internal static void contaValori(int[] numeri, int[] aus)
         {
-            for (int i = 1; i < numeri.Length; i++)
+            for (int i = 0; i < numeri.Length; i++)
             {
                 aus[numeri[i]]++;
             }

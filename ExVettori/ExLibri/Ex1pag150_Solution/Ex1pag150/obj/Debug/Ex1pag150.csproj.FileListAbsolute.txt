@@ -5,3 +5,9 @@ C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\ExLibri
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex1pag150_Solution\Ex1pag150\obj\Debug\Ex1pag150.csproj.CoreCompileInputs.cache
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex1pag150_Solution\Ex1pag150\obj\Debug\Ex1pag150.exe
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex1pag150_Solution\Ex1pag150\obj\Debug\Ex1pag150.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex1pag150_Solution\Ex1pag150\bin\Debug\Ex1pag150.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex1pag150_Solution\Ex1pag150\bin\Debug\Ex1pag150.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex1pag150_Solution\Ex1pag150\bin\Debug\Ex1pag150.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex1pag150_Solution\Ex1pag150\obj\Debug\Ex1pag150.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex1pag150_Solution\Ex1pag150\obj\Debug\Ex1pag150.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex1pag150_Solution\Ex1pag150\obj\Debug\Ex1pag150.pdb

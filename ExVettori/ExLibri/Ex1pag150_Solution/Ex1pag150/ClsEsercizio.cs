@@ -18,30 +18,55 @@ namespace Ex1pag150
                 x = Convert.ToInt32(Console.ReadLine());
             } while (x < 3 || x > 5);
 
-            int cont = 1;
+            //for (int i = 1; i <= cognomi.Length; i++)
+            //{
+            //    int r;
+            //    do
+            //    {
+            //        r = rnd.Next(0, cognomi.Length);
+            //    } while (cognomi[r] == "ZZ");
 
-            for (int i = 0; i <= (cognomi.Length / x); i++)
+            //    Console.Write(cognomi[r] + " ");
+            //    cognomi[r] = "ZZ";
+
+            //    if (i % x == 0)
+            //    {
+            //        Console.WriteLine();
+            //    }
+            //}
+            RandomVett(cognomi);
+
+            int turno = 1, cont = -1;
+
+            Console.WriteLine("1^ turno");
+
+            for (int i = 0; i < cognomi.Length; i++)
             {
-                Console.WriteLine("\nIl " + cont.ToString() + "^ gruppo é:\n");
+                cont++;
 
-                for (int j = 0; j < x; j++)
+                if (cont == x)
                 {
-                    int random, aus = 1;
+                    turno++;
+                    cont = 0;
 
-                    do
-                    {
-                        aus++;
-                        random = rnd.Next(0, cognomi.Length);
-                    } while (cognomi[random] == "ZZ" && aus != cognomi.Length);
-
-                    if (cognomi[random] != "ZZ")
-                    {
-                        Console.Write(cognomi[random] + "\t");
-                        cognomi[random] = "ZZ";
-                    }
+                    Console.WriteLine("\n" + turno + "^ turno");
                 }
 
-                cont++;
+                Console.Write(cognomi[i] + "\t");
+            }
+        }
+
+        private static void RandomVett(string[] cognomi)
+        {
+            for (int i = 0; i < cognomi.Length; i++)
+            {
+                int k;
+                string aus;
+
+                k = rnd.Next(0, cognomi.Length);
+                aus = cognomi[i];
+                cognomi[i] = cognomi[k];
+                cognomi[k] = aus;
             }
         }
     }
