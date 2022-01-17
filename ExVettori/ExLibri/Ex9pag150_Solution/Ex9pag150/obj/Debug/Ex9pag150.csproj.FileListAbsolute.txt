@@ -1,0 +1,7 @@
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag150_Solution\Ex9pag150\bin\Debug\Ex9pag150.exe.config
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag150_Solution\Ex9pag150\bin\Debug\Ex9pag150.exe
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag150_Solution\Ex9pag150\bin\Debug\Ex9pag150.pdb
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag150_Solution\Ex9pag150\obj\Debug\Ex9pag150.csproj.AssemblyReference.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag150_Solution\Ex9pag150\obj\Debug\Ex9pag150.csproj.CoreCompileInputs.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag150_Solution\Ex9pag150\obj\Debug\Ex9pag150.exe
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\ExVettori\ExLibri\Ex9pag150_Solution\Ex9pag150\obj\Debug\Ex9pag150.pdb

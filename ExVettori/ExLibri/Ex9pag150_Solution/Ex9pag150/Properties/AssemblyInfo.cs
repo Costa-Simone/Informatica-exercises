@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("n9pag150")]
+[assembly: AssemblyTitle("Ex9pag150")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("n9pag150")]
+[assembly: AssemblyProduct("Ex9pag150")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il GUID seguente verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("fd458208-0e60-4a8a-a864-cc2da2865d54")]
+[assembly: Guid("3478a5ef-b0d6-4bba-b89f-8939d0de2533")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai seguenti quattro valori:
 //

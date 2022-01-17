@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FD458208-0E60-4A8A-A864-CC2DA2865D54}</ProjectGuid>
+    <ProjectGuid>{3478A5EF-B0D6-4BBA-B89F-8939D0DE2533}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>n9pag150</RootNamespace>
-    <AssemblyName>n9pag150</AssemblyName>
+    <RootNamespace>Ex9pag150</RootNamespace>
+    <AssemblyName>Ex9pag150</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClsSquadre.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
