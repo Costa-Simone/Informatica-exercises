@@ -1,0 +1,6 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\MenuMatrici_Solution\MenuMatrici\bin\Debug\MenuMatrici.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\MenuMatrici_Solution\MenuMatrici\bin\Debug\MenuMatrici.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\MenuMatrici_Solution\MenuMatrici\bin\Debug\MenuMatrici.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\MenuMatrici_Solution\MenuMatrici\obj\Debug\MenuMatrici.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\MenuMatrici_Solution\MenuMatrici\obj\Debug\MenuMatrici.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\MenuMatrici_Solution\MenuMatrici\obj\Debug\MenuMatrici.pdb
