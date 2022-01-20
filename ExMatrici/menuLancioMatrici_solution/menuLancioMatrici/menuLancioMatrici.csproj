@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{164ABEE1-600E-42F0-8233-1C770CFC0874}</ProjectGuid>
+    <ProjectGuid>{1698524A-E46E-4180-9C2F-0345242F8B3A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MenuMatrici</RootNamespace>
-    <AssemblyName>MenuMatrici</AssemblyName>
+    <RootNamespace>menuLancioMatrici</RootNamespace>
+    <AssemblyName>menuLancioMatrici</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

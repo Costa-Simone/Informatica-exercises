@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("MenuMatrici")]
+[assembly: AssemblyTitle("menuLancioMatrici")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MenuMatrici")]
+[assembly: AssemblyProduct("menuLancioMatrici")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il GUID seguente verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("164abee1-600e-42f0-8233-1c770cfc0874")]
+[assembly: Guid("1698524a-e46e-4180-9c2f-0345242f8b3a")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai seguenti quattro valori:
 //
