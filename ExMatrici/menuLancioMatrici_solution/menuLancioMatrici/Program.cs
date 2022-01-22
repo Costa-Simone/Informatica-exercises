@@ -8,7 +8,6 @@ namespace menuLancioMatrici
 {
     class Program
     {
-
         private static void scriviMenu()
         {
             Console.Clear();
@@ -24,22 +23,31 @@ namespace menuLancioMatrici
             Console.WriteLine("I => Verifica somma DP = a somma DS");
             Console.WriteLine("L => Verifica se tutti gli elementi sono uguali nella matrice");
             Console.WriteLine("M => Verifica se gli elementi sono ordinati in modo crescente");
+            Console.WriteLine("N => Verifica se la matrice quadrata è unitaria");
+            Console.WriteLine("O => Verifica se la matrice contiene una croce centrale di 1 e 0 in altre posizioni");
+            Console.WriteLine("P => Verifica se elementi di due matrici sono uguali");
             Console.WriteLine("\nX => ESCI \n");
         }
         static void Main(string[] args)
         {
-            int[,] a = new int[10, 10]; //dichiarazione matrice
+            int[,] a = new int[10, 10], b = new int[10, 10]; //dichiarazione matrice
             int r=5, c=5; //ordine matrice
             char scelta = ' ';
 
             ClsMatrici.caricaMat(a, r, c);
+            ClsMatrici.caricaMat(b, r, c);
            
             do
             { 
-
                 scriviMenu();
+                
+                Console.WriteLine("\nStampa matrice a");
                 ClsMatrici.stampaMat(a, r, c);
+                Console.WriteLine("\nStampa matrice b");
+                ClsMatrici.stampaMat(b, r, c);
+
                 scelta = Console.ReadKey(true).KeyChar;
+
                 switch (scelta)
                 {
                     case 'A':
@@ -146,6 +154,48 @@ namespace menuLancioMatrici
                         ClsUtils.attesaTasto();
                         break;
 
+                    case 'N':
+                    case 'n':
+                        if (ClsMatrici.unitariaMat(a, r, c))
+                        {
+                            Console.WriteLine("\nMatrice unitaria");
+                        }
+                        else
+                        {
+                            Console.WriteLine("\nMatrice non unitaria");
+                        }
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'O':
+                    case 'o':
+                        if (ClsMatrici.croceCentraleMat(a, r, c))
+                        {
+                            Console.WriteLine("\nHa la croce di 1");
+                        }
+                        else
+                        {
+                            Console.WriteLine("\nNon ha la croce di 1");
+                        }
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'P':
+                    case 'p':
+                        if (ClsMatrici.elementiUguali2Mat(a, b, r, c))
+                        {
+                            Console.WriteLine("\nLe matrici sono uguali");
+                        }
+                        else
+                        {
+                            Console.WriteLine("\nLe matrici non sono uguali");
+                        }
+
+                        ClsUtils.attesaTasto();
+                        break;
+
                     case 'X':
                     case 'x':
                         break;
@@ -158,7 +208,6 @@ namespace menuLancioMatrici
                         break;
                 }
             } while (scelta.ToString().ToUpper() != "X");
-
         }
     }
 }

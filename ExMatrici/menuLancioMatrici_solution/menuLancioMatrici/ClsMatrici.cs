@@ -211,5 +211,130 @@ namespace menuLancioMatrici
 
             return !esci;
         }
+        internal static bool unitariaMat(int[,] a, int r, int c)
+        {
+            int i = 0, j = 0;
+            bool esci = false;
+
+            while (!esci && i != r)
+            {
+                if (i == j)
+                {
+                    if (a[i, j] == 1)
+                    {
+                        if (j == r - 1)
+                        {
+                            i++;
+                            j = 0;
+                        }
+                        else
+                        {
+                            j++;
+                        }
+                    }
+                    else
+                    {
+                        esci = true;
+                    }
+                }
+                else
+                {
+                    if (a[i, j] == 0)
+                    {
+                        if (j == r - 1)
+                        {
+                            i++;
+                            j = 0;
+                        }
+                        else
+                        {
+                            j++;
+                        }
+                    }
+                    else
+                    {
+                        esci = true;
+                    }
+                }
+            }
+
+            return !esci;
+        }
+        internal static bool croceCentraleMat(int[,] a, int r, int c)
+        {
+            int i = 0, j = 0;
+            bool esci = false;
+
+            while (!esci && i != r)
+            {
+                if (i == r / 2 || j ==  r/ 2)
+                {
+                    if (a[i, j] == 1)
+                    {
+                        if (j == r - 1)
+                        {
+                            i++;
+                            j = 0;
+                        }
+                        else
+                        {
+                            j++;
+                        }
+                    }
+                    else
+                    {
+                        esci = true;
+                    }
+                }
+                else
+                {
+                    if (a[i, j] == 0)
+                    {
+                        if (j == r - 1)
+                        {
+                            i++;
+                            j = 0;
+                        }
+                        else
+                        {
+                            j++;
+                        }
+                    }
+                    else
+                    {
+                        esci = true;
+                    }
+                }
+            }
+
+            return !esci;
+        }
+        internal static bool elementiUguali2Mat(int[,] a, int[,] b, int r, int c)
+        {
+            bool esci = false;
+            int i = 0, j = 0;
+
+            while (!esci && i != r)
+            {
+                if (a[i, j] == b[i, j])
+                {
+                    if (j == c - 1)
+                    {
+                        i++;
+                        j = 0;
+                    }
+                    else
+                    {
+                        j++;
+                    }
+                }
+                else
+                {
+                    esci = true;
+                }
+            }
+
+            return !esci;
+        }
     }
 }
