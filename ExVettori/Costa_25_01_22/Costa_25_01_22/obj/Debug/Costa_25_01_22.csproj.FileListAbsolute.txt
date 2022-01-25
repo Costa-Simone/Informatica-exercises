@@ -1,0 +1,6 @@
+C:\Users\s.costa.2235\Desktop\Costa_25_01_22\Costa_25_01_22\bin\Debug\Costa_25_01_22.exe.config
+C:\Users\s.costa.2235\Desktop\Costa_25_01_22\Costa_25_01_22\bin\Debug\Costa_25_01_22.exe
+C:\Users\s.costa.2235\Desktop\Costa_25_01_22\Costa_25_01_22\bin\Debug\Costa_25_01_22.pdb
+C:\Users\s.costa.2235\Desktop\Costa_25_01_22\Costa_25_01_22\obj\Debug\Costa_25_01_22.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Desktop\Costa_25_01_22\Costa_25_01_22\obj\Debug\Costa_25_01_22.exe
+C:\Users\s.costa.2235\Desktop\Costa_25_01_22\Costa_25_01_22\obj\Debug\Costa_25_01_22.pdb
