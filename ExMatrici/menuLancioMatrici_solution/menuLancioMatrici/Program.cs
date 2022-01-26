@@ -26,7 +26,8 @@ namespace menuLancioMatrici
             Console.WriteLine("N => Verifica se la matrice quadrata è unitaria");
             Console.WriteLine("O => Verifica se la matrice contiene una croce centrale di 1 e 0 in altre posizioni");
             Console.WriteLine("P => Verifica se elementi di due matrici sono uguali");
-            Console.WriteLine("\nX => ESCI \n");
+            Console.WriteLine("Q => Contare quanti elementi hanno uguali in sequenza due matrici (rxc)");
+            Console.WriteLine("X => ESCI");
         }
         static void Main(string[] args)
         {
@@ -50,55 +51,55 @@ namespace menuLancioMatrici
 
                 switch (scelta)
                 {
-                    case 'A':
+                    case 'A':  //Cerca MAX
                     case 'a':
                         Console.WriteLine("\nIl numero massimo vale " + ClsMatrici.cercaMaxMat(a,r,c));
 
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'B':
+                    case 'B':  //Media valori diagonale pincipale
                     case 'b':
                         Console.WriteLine("\nLa media della DP è " + ClsMatrici.mediaDPMat(a, r));
 
                         ClsUtils.attesaTasto();
                         break;
-                    case 'C':
+                    case 'C':  // Media valori diagonale secondaria
                     case 'c':
                         Console.WriteLine("\nLa media della DS è " + ClsMatrici.mediaDSMat(a, r));
 
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'D':
+                    case 'D':  //Media valori cornice
                     case 'd':
                         Console.WriteLine("\nLa media della cornice è " + ClsMatrici.mediaCornMat(a, r,c));
 
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'E':
+                    case 'E':  //Somma riga i-esima
                     case 'e':
                         Console.WriteLine("\nLa somma della riga i-esima è " + ClsMatrici.sommaRigaIesimaMat(a, c));
 
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'F':
+                    case 'F':  //Somma colonna j-esima
                     case 'f':
                         Console.WriteLine("\nLa somma della colonna j-esima è " + ClsMatrici.sommaColJesimaMat(a, r));
 
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'G':
+                    case 'G':  //Conta occorrenze X
                     case 'g':
                         Console.WriteLine("\nIl valore X compare " + ClsMatrici.ContaXMat(a, r, c)+" volte ");
 
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'H':
+                    case 'H':  //Verifica somma riga I e colonne J UGUALI
                     case 'h':
                         if(ClsMatrici.sommaRigaIesimaMat(a,c)== ClsMatrici.sommaColJesimaMat(a, r))
                         {
@@ -112,7 +113,7 @@ namespace menuLancioMatrici
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'I':
+                    case 'I':  // Verifica somma DP = a somma DS
                     case 'i':
                         if (ClsMatrici.sommaDPMat(a, c) == ClsMatrici.sommaDSMat(a, r))
                         {
@@ -126,7 +127,7 @@ namespace menuLancioMatrici
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'L':
+                    case 'L':  //Verifica se tutti gli elementi sono uguali nella matrice
                     case 'l':
                         if (ClsMatrici.elementiUguali(a, r, c))
                         {
@@ -140,7 +141,7 @@ namespace menuLancioMatrici
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'M':
+                    case 'M':  //Verifica se gli elementi sono ordinati in modo crescente
                     case 'm':
                         if (ClsMatrici.elementiOrdinati(a, r, c))
                         {
@@ -154,7 +155,7 @@ namespace menuLancioMatrici
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'N':
+                    case 'N':  //Verifica se la matrice quadrata è unitaria
                     case 'n':
                         if (ClsMatrici.unitariaMat(a, r, c))
                         {
@@ -168,7 +169,7 @@ namespace menuLancioMatrici
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'O':
+                    case 'O':  // Verifica se la matrice contiene una croce centrale di 1 e 0 in altre posizioni
                     case 'o':
                         if (ClsMatrici.croceCentraleMat(a, r, c))
                         {
@@ -182,7 +183,7 @@ namespace menuLancioMatrici
                         ClsUtils.attesaTasto();
                         break;
 
-                    case 'P':
+                    case 'P':  // Verifica se elementi di due matrici sono uguali
                     case 'p':
                         if (ClsMatrici.elementiUguali2Mat(a, b, r, c))
                         {
@@ -192,6 +193,14 @@ namespace menuLancioMatrici
                         {
                             Console.WriteLine("\nLe matrici non sono uguali");
                         }
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'Q':  //Contare quanti elementi hanno uguali in sequenza due matrici (rxc)
+                    case 'q':
+                        int cont = ClsMatrici.elementiUgualiCons(a, b, r, c);
+                        Console.WriteLine("\nLe matrici hanno " + cont.ToString() + " elementi uguali");
 
                         ClsUtils.attesaTasto();
                         break;

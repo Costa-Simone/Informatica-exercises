@@ -8,9 +8,9 @@ namespace menuLancioMatrici
 {
     class ClsMatrici
     {
+        static Random rnd = new Random();
         internal static void caricaMat(int[,] m, int r, int c)
         {
-            Random rnd = new Random();
             for (int i = 0; i < r; i++)
             {
                 for (int j = 0; j < c; j++)
@@ -335,6 +335,35 @@ namespace menuLancioMatrici
             }
 
             return !esci;
+        }
+        internal static int elementiUgualiCons(int[,] a, int[,] b, int r, int c)
+        {
+            int i = 0, j = 0, cont = 0;
+            bool esci = false;
+
+            while (!esci && i != r)
+            {
+                if (a[i, j] == b[i, j])
+                {
+                    if (j == c - 1)
+                    {
+                        i++;
+                        j = 0;
+                    }
+                    else
+                    {
+                        j++;
+                    }
+
+                    cont++;
+                }
+                else
+                {
+                    esci = true;
+                }
+            }
+
+            return cont;
         }
     }
 }
