@@ -14,7 +14,7 @@ namespace menuLancioMatrici
         public static void attesaTasto()
         {
             Console.WriteLine("");
-            Console.WriteLine("(premi un tasto per continuare)");
+            Console.WriteLine("\n(premi un tasto per continuare)");
             Console.ReadKey();
         }
         /// <summary>

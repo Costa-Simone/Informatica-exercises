@@ -27,6 +27,11 @@ namespace menuLancioMatrici
             Console.WriteLine("O => Verifica se la matrice contiene una croce centrale di 1 e 0 in altre posizioni");
             Console.WriteLine("P => Verifica se elementi di due matrici sono uguali");
             Console.WriteLine("Q => Contare quanti elementi hanno uguali in sequenza due matrici (rxc)");
+            Console.WriteLine("R => Somma righe di una matrice in un vettore");
+            Console.WriteLine("S => Somma colonne di una matrice in un vettore");
+            Console.WriteLine("T => Verifica se matrice e' fatta da 1,2,3,... in sequenza");
+            Console.WriteLine("U => Verifica se matrice e' fatta da tutti 1 prima riga, tutti 2 seconda riga,...");
+            Console.WriteLine("V => Somma in 2 vettori elementi righe, colonne e DP con 2 for");
             Console.WriteLine("X => ESCI");
         }
         static void Main(string[] args)
@@ -201,6 +206,55 @@ namespace menuLancioMatrici
                     case 'q':
                         int cont = ClsMatrici.elementiUgualiCons(a, b, r, c);
                         Console.WriteLine("\nLe matrici hanno " + cont.ToString() + " elementi uguali");
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'R':  //Somma righe di una matrice in un vettore
+                    case 'r':
+                        ClsMatrici.copiaSommaRigheVett(a, r, c);
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'S':  //Somma colonne di una matrice in un vettore
+                    case 's':
+                        ClsMatrici.copiaSommaColonneVett(a, r, c);
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'T':  //Verifica se matrice e' fatta da 1,2,3,... in sequenza
+                    case 't':
+                        if (ClsMatrici.elementiInSequenza(a, r, c))
+                        {
+                            Console.Write("\nElementi in sequenza");
+                        }
+                        else
+                        {
+                            Console.Write("\nElementi non in sequenza");
+                        }
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'U':  //Verifica se matrice e' fatta da tutti 1 prima riga, tutti 2 seconda riga,...
+                    case 'u':
+                        if (ClsMatrici.elementiRigaInSequenza(a, r, c))
+                        {
+                            Console.Write("\nRighe in sequenza");
+                        }
+                        else
+                        {
+                            Console.Write("\nRighe non in sequenza");
+                        }
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'V':  //Somma in 2 vettori elementi righe, colonne e DP con 2 for
+                    case 'v':
+                        ClsMatrici.sommaIn2VetRigheColonne2For(a, r, c);
 
                         ClsUtils.attesaTasto();
                         break;

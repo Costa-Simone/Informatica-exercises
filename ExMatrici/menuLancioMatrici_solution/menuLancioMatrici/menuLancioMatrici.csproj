@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ClsMatrici.cs" />
     <Compile Include="ClsUtils.cs" />
+    <Compile Include="ClsVettori.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

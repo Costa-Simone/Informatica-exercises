@@ -54,7 +54,7 @@ namespace menuLancioMatrici
             {
                 som += m[i, j--]; //nota bene
             }
-                
+
             return (float)som / r;
         }
         internal static void stampaMat(int[,] m, int r, int c)
@@ -65,7 +65,7 @@ namespace menuLancioMatrici
                 {
                     Console.Write(m[i, j].ToString() + "  ");
                 }
-                    
+
                 Console.WriteLine();
             }
         }
@@ -77,12 +77,12 @@ namespace menuLancioMatrici
                 som += m[i, 0] + m[i, c - 1]; //nota bene
             }
 
-            for (int j = 1; j < c-1; j++)
+            for (int j = 1; j < c - 1; j++)
             {
                 som += m[0, j] + m[r - 1, j]; //nota bene
             }
 
-            return (float)som / (r*2+ c*2 -4);
+            return (float)som / (r * 2 + c * 2 - 4);
         }
         internal static int sommaRigaIesimaMat(int[,] m, int c)
         {
@@ -95,7 +95,7 @@ namespace menuLancioMatrici
             {
                 som += m[i, j];
             }
-                
+
             return som;
         }
         internal static int sommaColJesimaMat(int[,] m, int r)
@@ -109,7 +109,7 @@ namespace menuLancioMatrici
             {
                 som += m[i, j];
             }
-                
+
             return som;
         }
         internal static int ContaXMat(int[,] m, int r, int c)
@@ -127,7 +127,7 @@ namespace menuLancioMatrici
                     {
                         cont++;
                     }
-                }  
+                }
             }
 
             return cont;
@@ -138,7 +138,7 @@ namespace menuLancioMatrici
 
             for (int i = 0; i < r; i++)
             {
-                somma+=m[i, i];
+                somma += m[i, i];
             }
 
             return somma;
@@ -267,7 +267,7 @@ namespace menuLancioMatrici
 
             while (!esci && i != r)
             {
-                if (i == r / 2 || j ==  r/ 2)
+                if (i == r / 2 || j == r / 2)
                 {
                     if (a[i, j] == 1)
                     {
@@ -335,6 +335,117 @@ namespace menuLancioMatrici
             }
 
             return !esci;
+        }
+        internal static void copiaSommaRigheVett(int[,] a, int r, int c)
+        {
+            int[] v = new int[r];
+
+            for (int i = 0; i < v.Length; i++)
+            {
+                for (int j = 0; j < c; j++)
+                {
+                    v[i] += a[i, j];
+                }
+            }
+
+            Console.WriteLine("\nStampa vettore somma:");
+            ClsVettori.stampaVet(v);
+        }
+        internal static void copiaSommaColonneVett(int[,] a, int r, int c)
+        {
+            int[] v = new int[c];
+
+            for (int i = 0; i < v.Length; i++)
+            {
+                for (int j = 0; j < c; j++)
+                {
+                    v[i] += a[j, i];
+                }
+            }
+
+            Console.WriteLine("\nStampa vettore somma:");
+            ClsVettori.stampaVet(v);
+        }
+        internal static bool elementiInSequenza(int[,] a, int r, int c)
+        {
+            bool esci = false;
+            int i = 0, j = 0, cont = 1;
+
+            while (!esci && i != j)
+            {
+                if (a[i, j] == cont)
+                {
+                    if (j == c - 1)
+                    {
+                        i++;
+                        j = 0;
+                    }
+                    else
+                    {
+                        j++;
+                    }
+
+                    cont++;
+                }
+                else
+                {
+                    esci = true;
+                }
+            }
+
+            return !esci;
+        }
+        internal static bool elementiRigaInSequenza(int[,] a, int r, int c)
+        {
+            bool esci = false;
+            int i = 0, j = 0;
+
+            while (!esci && i != j)
+            {
+                if (a[i, j] == i + 1)
+                {
+                    if (j == c - 1)
+                    {
+                        i++;
+                        j = 0;
+                    }
+                    else
+                    {
+                        j++;
+                    }
+                }
+                else
+                {
+                    esci = true;
+                }
+            }
+
+            return !esci;
+        }
+        internal static void sommaIn2VetRigheColonne2For(int[,] a, int r, int c)
+        {
+            int[] r = new int[r];
+            int[] c = new int[c];
+
+            for (int i = 0; i < r.Length; i++)
+            {
+                for (int j = 0; j < c; j++)
+                {
+                    r[i] += a\[i, j];
+                }
+            }
+}
+            
+            
+
+            for (int i = 0; i<v.Length; i++)
+            {
+                for (int j = 0; j<c; j++)
+                {
+                    v[i] += a[j, i];
+                }
+            }
+        
         }
         internal static int elementiUgualiCons(int[,] a, int[,] b, int r, int c)
         {
