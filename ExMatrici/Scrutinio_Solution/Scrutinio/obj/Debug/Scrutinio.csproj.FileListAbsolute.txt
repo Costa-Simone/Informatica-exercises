@@ -1,0 +1,7 @@
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\ExMatrici\Scrutinio_Solution\Scrutinio\bin\Debug\Scrutinio.exe.config
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\ExMatrici\Scrutinio_Solution\Scrutinio\bin\Debug\Scrutinio.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\ExMatrici\Scrutinio_Solution\Scrutinio\bin\Debug\Scrutinio.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\ExMatrici\Scrutinio_Solution\Scrutinio\obj\Debug\Scrutinio.csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\ExMatrici\Scrutinio_Solution\Scrutinio\obj\Debug\Scrutinio.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\ExMatrici\Scrutinio_Solution\Scrutinio\obj\Debug\Scrutinio.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\ExMatrici\Scrutinio_Solution\Scrutinio\obj\Debug\Scrutinio.pdb
