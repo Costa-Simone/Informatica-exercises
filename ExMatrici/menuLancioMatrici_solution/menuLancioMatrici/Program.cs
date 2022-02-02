@@ -32,6 +32,8 @@ namespace menuLancioMatrici
             Console.WriteLine("T => Verifica se matrice e' fatta da 1,2,3,... in sequenza");
             Console.WriteLine("U => Verifica se matrice e' fatta da tutti 1 prima riga, tutti 2 seconda riga,...");
             Console.WriteLine("V => Somma in 2 vettori elementi righe, colonne e DP con 2 for");
+            Console.WriteLine("W => Somma elementi sopra e sotto la DP");
+            Console.WriteLine("Z => Verifica se media dei triangoli DP sono uguali");
             Console.WriteLine("X => ESCI");
         }
         static void Main(string[] args)
@@ -255,6 +257,27 @@ namespace menuLancioMatrici
                     case 'V':  //Somma in 2 vettori elementi righe, colonne e DP con 2 for
                     case 'v':
                         ClsMatrici.sommaIn2VetRigheColonne2For(a, r, c);
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'W':  //Somma elementi sopra e sotto la DP
+                    case 'w':
+                        ClsMatrici.sommaSopraESottoDP(a, r, c);
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case 'Z':  //Verifica se media dei triangoli DP sono uguali
+                    case 'z':
+                        if (ClsMatrici.mediaSommaSopraESottoDP(a, r, c))
+                        {
+                            Console.WriteLine("\nLe medie sono uguali");
+                        }
+                        else
+                        {
+                            Console.WriteLine("\nLe medie sono diverse");
+                        }
 
                         ClsUtils.attesaTasto();
                         break;

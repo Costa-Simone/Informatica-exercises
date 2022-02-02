@@ -424,28 +424,72 @@ namespace menuLancioMatrici
         }
         internal static void sommaIn2VetRigheColonne2For(int[,] a, int r, int c)
         {
-            int[] r = new int[r];
-            int[] c = new int[c];
+            int[] vr = new int[r], vc = new int[r];
+            int dp = 0;
 
-            for (int i = 0; i < r.Length; i++)
+            for (int i = 0; i < r; i++)
+            {
+                dp += a[i, i];
+                for (int j = 0; j < c; j++)
+                {
+                    vr[i] = vr[i] + a[i, j];
+                    vc[j] = vc[j] + a[i, j];
+                }
+            }
+            Console.WriteLine("\nLa somma della DP e': " + dp);
+            ClsVettori.stampaVet(vr);
+            Console.WriteLine();
+            ClsVettori.stampaVet(vc);
+        }
+        internal static bool mediaSommaSopraESottoDP(int[,] a, int r, int c)
+        {
+            double somSopra = 0, somSotto = 0;
+            int cont = 0;
+            bool uguali = false;
+
+            for (int i = 0; i < r; i++)
             {
                 for (int j = 0; j < c; j++)
                 {
-                    r[i] += a\[i, j];
+                    if (i > j)
+                    {
+                        somSotto += a[i, j];
+                        cont++;
+                    }
+                    else if (i < j)
+                    {
+                        somSopra += a[i, j];
+                    }
                 }
             }
-}
-            
-            
 
-            for (int i = 0; i<v.Length; i++)
+            if ((somSotto / cont) == (somSopra / cont))
             {
-                for (int j = 0; j<c; j++)
+                uguali = true;
+            }
+
+            return uguali;
+        }
+        internal static void sommaSopraESottoDP(int[,] a, int r, int c)
+        {
+            int somSopra = 0, somSotto = 0;
+
+            for (int i = 0; i < r; i++)
+            {
+                for (int j = 0; j < c; j++)
                 {
-                    v[i] += a[j, i];
+                    if (i > j)
+                    {
+                        somSotto += a[i, j];
+                    }
+                    else if (i < j)
+                    {
+                        somSopra += a[i, j];
+                    }
                 }
             }
-        
+
+            Console.WriteLine("\nGli elementi sopra sono " + somSopra.ToString() + " mentre quelli sotto sono " + somSotto.ToString());
         }
         internal static int elementiUgualiCons(int[,] a, int[,] b, int r, int c)
         {
