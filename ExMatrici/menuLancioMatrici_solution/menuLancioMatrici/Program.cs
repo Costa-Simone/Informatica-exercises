@@ -34,6 +34,10 @@ namespace menuLancioMatrici
             Console.WriteLine("V => Somma in 2 vettori elementi righe, colonne e DP con 2 for");
             Console.WriteLine("W => Somma elementi sopra e sotto la DP");
             Console.WriteLine("Z => Verifica se media dei triangoli DP sono uguali");
+            Console.WriteLine("1 => Somma solo elementi sopra DP");
+            Console.WriteLine("2 => Somma solo elementi sotto DP");
+            Console.WriteLine("3 => Somma solo elementi sopra DS");
+            Console.WriteLine("4 => Somma solo elementi sotto DS");
             Console.WriteLine("X => ESCI");
         }
         static void Main(string[] args)
@@ -278,6 +282,30 @@ namespace menuLancioMatrici
                         {
                             Console.WriteLine("\nLe medie sono diverse");
                         }
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case '1':  //Somma solo elementi sopra DP
+                        Console.WriteLine("\nSomma elementi sopra DP: " + ClsMatrici.sommaSopraDP(a, r));
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case '2':  //Somma solo elementi sotto DP
+                        Console.WriteLine("\nSomma elementi sotto DP: " + ClsMatrici.sommaSottoDP(a, r));
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case '3':  //Somma solo elementi sopra DS
+                        Console.WriteLine("\nSomma elementi sopra DS: " + ClsMatrici.sommaSopraDS(a, r));
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case '4':  //Somma solo elementi sotto DS
+                        Console.WriteLine("\nSomma elementi sotto DS: " + ClsMatrici.sommaSottoDS(a, r));
 
                         ClsUtils.attesaTasto();
                         break;

@@ -470,6 +470,62 @@ namespace menuLancioMatrici
 
             return uguali;
         }
+        internal static int sommaSottoDP(int[,] a, int r)
+        {
+            int somma = 0;
+
+            for (int i = 0; i < r; i++)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    somma += a[i, j];
+                }
+            }
+
+            return somma;
+        }
+        internal static int sommaSopraDS(int[,] a, int r)
+        {
+            int somma = 0;
+
+            for (int i = 0; i <= r - 2; i++)
+            {
+                for (int j = 0; j <= r - 2 - i; j++)
+                {
+                    somma += a[i, j];
+                }
+            }
+
+            return somma;
+        }
+        internal static int sommaSottoDS(int[,] a, int r)
+        {
+            int somma = 0;
+
+            for (int i = 1; i < r; i++)
+            {
+                for (int j = r - i; j <= r - 1; j++)
+                {
+                    somma += a[i, j];
+                }
+            }
+
+            return somma;
+        }
+        internal static int sommaSopraDP(int[,] a, int r)
+        {
+            int somma = 0;
+
+            for (int i = 0; i <= r - 2; i++)
+            {
+                for (int j = i + 1; j <= r - 1; j++)
+                {
+                    somma += a[i, j];
+                }
+            }
+
+            return somma;
+        }
         internal static void sommaSopraESottoDP(int[,] a, int r, int c)
         {
             int somSopra = 0, somSotto = 0;
