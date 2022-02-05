@@ -38,6 +38,10 @@ namespace menuLancioMatrici
             Console.WriteLine("2 => Somma solo elementi sotto DP");
             Console.WriteLine("3 => Somma solo elementi sopra DS");
             Console.WriteLine("4 => Somma solo elementi sotto DS");
+            Console.WriteLine("5 => Cercare un X nel triangolo sopra DP (no duplicati)");
+            Console.WriteLine("6 => Cercare un X nel triangolo sotto DP (no duplicati)");
+            Console.WriteLine("7 => Cercare un X nel triangolo sopra DS (no duplicati)");
+            Console.WriteLine("8 => Cercare un X nel triangolo sotto DS (no duplicati)");
             Console.WriteLine("X => ESCI");
         }
         static void Main(string[] args)
@@ -306,6 +310,30 @@ namespace menuLancioMatrici
 
                     case '4':  //Somma solo elementi sotto DS
                         Console.WriteLine("\nSomma elementi sotto DS: " + ClsMatrici.sommaSottoDS(a, r));
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case '5':  //Cercare un X nel triangolo sopra DP (no duplicati)
+                        ClsMatrici.cercaXSopraDP(a, r);
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case '6':  //Cercare un X nel triangolo sotto DP (no duplicati)
+                        ClsMatrici.cercaXSottoDP(a, r);
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case '7':  //Cercare un X nel triangolo sopra DS (no duplicati)
+                        ClsMatrici.cercaXSopraDS(a, r);
+
+                        ClsUtils.attesaTasto();
+                        break;
+
+                    case '8':  //Cercare un X nel triangolo sotto DS (no duplicati)
+                        ClsMatrici.cercaXSottoDS(a, r);
 
                         ClsUtils.attesaTasto();
                         break;

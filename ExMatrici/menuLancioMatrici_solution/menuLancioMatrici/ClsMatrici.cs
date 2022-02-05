@@ -512,6 +512,154 @@ namespace menuLancioMatrici
 
             return somma;
         }
+        internal static void cercaXSopraDP(int[,] a, int r)
+        {
+            int i = 0, j = i + 1;
+            bool esci = false;
+
+            Console.Write("\nInserisci X: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            while (!esci && i <= r - 2)
+            {
+                if (a[i, j] != x)
+                {
+                    if (j == r - 1)
+                    {
+                        i++;
+                        j = i + 1;
+                    }
+                    else
+                    {
+                        j++;
+                    }
+                }
+                else
+                {
+                    esci = true;
+                }
+            }
+
+            if (esci)
+            {
+                Console.WriteLine("\nValore trovato in (" + i.ToString() + "," + j.ToString() + ")");
+            }
+            else
+            {
+                Console.WriteLine("\nValore non trovato");
+            }
+        }
+        internal static void cercaXSottoDS(int[,] a, int r)
+        {
+            int i = 1, j = r - i;
+            bool esci = false;
+
+            Console.Write("\nInserisci X: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            while (!esci && i <= r - 1)
+            {
+                if (a[i, j] != x)
+                {
+                    if (j == r - 1)
+                    {
+                        i++;
+                        j = r - i;
+                    }
+                    else
+                    {
+                        j++;
+                    }
+                }
+                else
+                {
+                    esci = true;
+                }
+            }
+
+            if (esci)
+            {
+                Console.WriteLine("\nValore trovato in (" + i.ToString() + "," + j.ToString() + ")");
+            }
+            else
+            {
+                Console.WriteLine("\nValore non trovato");
+            }
+        }
+        internal static void cercaXSopraDS(int[,] a, int r)
+        {
+            int i = 0, j = 0;
+            bool esci = false;
+
+            Console.Write("\nInserisci X: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            while (!esci && i <= r - 2)
+            {
+                if (a[i, j] != x)
+                {
+                    if (j == r - 2 - i)
+                    {
+                        i++;
+                        j = 0;
+                    }
+                    else
+                    {
+                        j++;
+                    }
+                }
+                else
+                {
+                    esci = true;
+                }
+            }
+
+            if (esci)
+            {
+                Console.WriteLine("\nValore trovato in (" + i.ToString() + "," + j.ToString() + ")");
+            }
+            else
+            {
+                Console.WriteLine("\nValore non trovato");
+            }
+        }
+        internal static void cercaXSottoDP(int[,] a, int r)
+        {
+            int i = 1, j = 0;
+            bool esci = false;
+
+            Console.Write("\nInserisci X: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            while (!esci && i <= r - 1)
+            {
+                if (a[i, j] != x)
+                {
+                    if (j == i - 1)
+                    {
+                        i++;
+                        j = 0;
+                    }
+                    else
+                    {
+                        j++;
+                    }
+                }
+                else
+                {
+                    esci = true;
+                }
+            }
+
+            if (esci)
+            {
+                Console.WriteLine("\nValore trovato in (" + i.ToString() + "," + j.ToString() + ")");
+            }
+            else
+            {
+                Console.WriteLine("\nValore non trovato");
+            }
+        }
         internal static int sommaSopraDP(int[,] a, int r)
         {
             int somma = 0;
