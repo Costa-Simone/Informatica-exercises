@@ -1,0 +1,6 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\QuadratoMagico_Solution\QuadratoMagico\bin\Debug\QuadratoMagico.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\QuadratoMagico_Solution\QuadratoMagico\bin\Debug\QuadratoMagico.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\QuadratoMagico_Solution\QuadratoMagico\bin\Debug\QuadratoMagico.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\QuadratoMagico_Solution\QuadratoMagico\obj\Debug\QuadratoMagico.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\QuadratoMagico_Solution\QuadratoMagico\obj\Debug\QuadratoMagico.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\QuadratoMagico_Solution\QuadratoMagico\obj\Debug\QuadratoMagico.pdb
