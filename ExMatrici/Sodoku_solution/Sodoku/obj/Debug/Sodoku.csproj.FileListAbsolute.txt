@@ -1,0 +1,8 @@
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C#\Sodoku_solution\Sodoku\bin\Debug\Sodoku.exe.config
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C#\Sodoku_solution\Sodoku\bin\Debug\Sodoku.exe
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C#\Sodoku_solution\Sodoku\bin\Debug\Sodoku.pdb
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C#\Sodoku_solution\Sodoku\obj\Debug\Sodoku.csproj.AssemblyReference.cache
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C#\Sodoku_solution\Sodoku\obj\Debug\Sodoku.csproj.SuggestedBindingRedirects.cache
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C#\Sodoku_solution\Sodoku\obj\Debug\Sodoku.csproj.CoreCompileInputs.cache
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C#\Sodoku_solution\Sodoku\obj\Debug\Sodoku.exe
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C#\Sodoku_solution\Sodoku\obj\Debug\Sodoku.pdb

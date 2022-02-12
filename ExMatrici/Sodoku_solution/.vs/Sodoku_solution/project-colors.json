@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "aebd294b-82c2-4a67-b594-03571369c0fb": {
+      "ProjectGuid": "aebd294b-82c2-4a67-b594-03571369c0fb",
+      "DisplayName": "Sodoku",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

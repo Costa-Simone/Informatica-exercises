@@ -1,0 +1,6 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\Ex12pag150_Solution\Ex12pag150\bin\Debug\Ex12pag150.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\Ex12pag150_Solution\Ex12pag150\bin\Debug\Ex12pag150.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\Ex12pag150_Solution\Ex12pag150\bin\Debug\Ex12pag150.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\Ex12pag150_Solution\Ex12pag150\obj\Debug\Ex12pag150.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\Ex12pag150_Solution\Ex12pag150\obj\Debug\Ex12pag150.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\Ex12pag150_Solution\Ex12pag150\obj\Debug\Ex12pag150.pdb

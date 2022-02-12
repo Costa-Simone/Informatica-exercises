@@ -1,0 +1,12 @@
+D:\INFORMATICA\VisualStudio\Matrici\n12pag150_Solution\n12pag150\bin\Debug\n12pag150.exe.config
+D:\INFORMATICA\VisualStudio\Matrici\n12pag150_Solution\n12pag150\bin\Debug\n12pag150.exe
+D:\INFORMATICA\VisualStudio\Matrici\n12pag150_Solution\n12pag150\bin\Debug\n12pag150.pdb
+D:\INFORMATICA\VisualStudio\Matrici\n12pag150_Solution\n12pag150\obj\Debug\n12pag150.csproj.AssemblyReference.cache
+D:\INFORMATICA\VisualStudio\Matrici\n12pag150_Solution\n12pag150\obj\Debug\n12pag150.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\VisualStudio\Matrici\n12pag150_Solution\n12pag150\obj\Debug\n12pag150.exe
+D:\INFORMATICA\VisualStudio\Matrici\n12pag150_Solution\n12pag150\obj\Debug\n12pag150.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\n12pag150_Solution\n12pag150\bin\Debug\n12pag150.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\n12pag150_Solution\n12pag150\bin\Debug\n12pag150.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\n12pag150_Solution\n12pag150\bin\Debug\n12pag150.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\n12pag150_Solution\n12pag150\obj\Debug\n12pag150.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\ExMatrici\n12pag150_Solution\n12pag150\obj\Debug\n12pag150.pdb
