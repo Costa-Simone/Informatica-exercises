@@ -16,7 +16,6 @@ namespace n5_5_pag116
                 Console.WriteLine(c[i] + "\t" + n[i] + "\t(" + s[i] + ")");
             }
         }
-
         // Overload del metodo
         public static void stampaTab(string[] cogn, string[] nomi, int n)
         {
@@ -25,7 +24,6 @@ namespace n5_5_pag116
                 Console.WriteLine(cogn[i] + "\t" + nomi[i]);
             }
         }
-
         public static void stampaTab(string[] sq, int[] cont, int n)
         {
             for (int i = 0; i < n; i++)
@@ -33,7 +31,6 @@ namespace n5_5_pag116
                 Console.WriteLine(sq[i] + "\t" + cont[i]);
             }
         }
-
         internal static int cercaSquadra(string[] cognomi, string[] nomi, string[] squadre, string[] cognomiCopia, string[] nomiCopia, string sq)
         {
             // Ricerca sequanziale sui insieme disordinato con duplicati
@@ -49,7 +46,6 @@ namespace n5_5_pag116
             }
             return j;
         }
-
         internal static void ordinaSquadra(string[] cognomiCopia, string[] nomiCopia, int n)
         {
             bool scambio;
@@ -73,11 +69,11 @@ namespace n5_5_pag116
                 }
             } while (i != n - 2 && scambio);
         }
-
         internal static int rotturaSuSquadra(string[] squadre, string[] squadreNonDuplicate, int[] numGiocatoriSquadra)
         {
             int contaSquadre = 0;
             int conta = 1;
+
             for (int i = 0; i < squadre.Length - 1; i++)
             {
                 if (squadre[i] == squadre[i + 1])
@@ -86,7 +82,6 @@ namespace n5_5_pag116
                 }
                 else
                 {
-
                     squadreNonDuplicate[contaSquadre] = squadre[i];
                     numGiocatoriSquadra[contaSquadre] = conta;
                     conta = 1;
@@ -96,9 +91,9 @@ namespace n5_5_pag116
             squadreNonDuplicate[contaSquadre] = squadre[squadre.Length - 1];
             numGiocatoriSquadra[contaSquadre] = conta;
             contaSquadre++;
+
             return contaSquadre;
         }
-
         internal static void ordinaSquadra(string[] sq)
         {
             for (int i = 0; i < sq.Length - 1; i++)
