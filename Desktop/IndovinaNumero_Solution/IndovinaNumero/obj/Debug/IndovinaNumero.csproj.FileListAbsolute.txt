@@ -1,0 +1,9 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\IndovinaNumero_Solution\IndovinaNumero\bin\Debug\IndovinaNumero.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\IndovinaNumero_Solution\IndovinaNumero\bin\Debug\IndovinaNumero.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\IndovinaNumero_Solution\IndovinaNumero\bin\Debug\IndovinaNumero.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\IndovinaNumero_Solution\IndovinaNumero\obj\Debug\IndovinaNumero.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\IndovinaNumero_Solution\IndovinaNumero\obj\Debug\IndovinaNumero.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\IndovinaNumero_Solution\IndovinaNumero\obj\Debug\IndovinaNumero.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\IndovinaNumero_Solution\IndovinaNumero\obj\Debug\IndovinaNumero.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\IndovinaNumero_Solution\IndovinaNumero\obj\Debug\IndovinaNumero.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\IndovinaNumero_Solution\IndovinaNumero\obj\Debug\IndovinaNumero.FrmIndovina.resources
