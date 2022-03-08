@@ -1,0 +1,10 @@
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Calcolatrice_Solution\Calcolatrice\bin\Debug\Calcolatrice.exe.config
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Calcolatrice_Solution\Calcolatrice\bin\Debug\Calcolatrice.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Calcolatrice_Solution\Calcolatrice\bin\Debug\Calcolatrice.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Calcolatrice_Solution\Calcolatrice\obj\Debug\Calcolatrice.csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Calcolatrice_Solution\Calcolatrice\obj\Debug\Calcolatrice.FrmCalcolatrice.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Calcolatrice_Solution\Calcolatrice\obj\Debug\Calcolatrice.Properties.Resources.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Calcolatrice_Solution\Calcolatrice\obj\Debug\Calcolatrice.csproj.GenerateResource.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Calcolatrice_Solution\Calcolatrice\obj\Debug\Calcolatrice.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Calcolatrice_Solution\Calcolatrice\obj\Debug\Calcolatrice.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Calcolatrice_Solution\Calcolatrice\obj\Debug\Calcolatrice.pdb
