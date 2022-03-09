@@ -1,9 +1,10 @@
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\bin\Debug\Tris.exe.config
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\bin\Debug\Tris.exe
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\bin\Debug\Tris.pdb
-C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.csprojAssemblyReference.cache
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.FrmTris.resources
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.Properties.Resources.resources
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.csproj.GenerateResource.cache
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.exe
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.csproj.AssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.csproj.CoreCompileInputs.cache
