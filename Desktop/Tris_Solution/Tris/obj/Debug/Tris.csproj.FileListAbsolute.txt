@@ -6,5 +6,4 @@ C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Soluti
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.csproj.GenerateResource.cache
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.exe
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.pdb
-C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.csproj.AssemblyReference.cache
-C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.csproj.CoreCompileInputs.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Tris_Solution\Tris\obj\Debug\Tris.csprojAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\VettoreConGriglia_Solution\VettoreConGriglia\bin\Debug\VettoreConGriglia.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\VettoreConGriglia_Solution\VettoreConGriglia\bin\Debug\VettoreConGriglia.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\VettoreConGriglia_Solution\VettoreConGriglia\bin\Debug\VettoreConGriglia.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\VettoreConGriglia_Solution\VettoreConGriglia\obj\Debug\VettoreConGriglia.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\VettoreConGriglia_Solution\VettoreConGriglia\obj\Debug\VettoreConGriglia.FrmVettoreConGriglia.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\VettoreConGriglia_Solution\VettoreConGriglia\obj\Debug\VettoreConGriglia.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\VettoreConGriglia_Solution\VettoreConGriglia\obj\Debug\VettoreConGriglia.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\VettoreConGriglia_Solution\VettoreConGriglia\obj\Debug\VettoreConGriglia.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\VettoreConGriglia_Solution\VettoreConGriglia\obj\Debug\VettoreConGriglia.pdb

@@ -40,6 +40,8 @@ namespace Tris
             turn = 1;
             contaMosse = 0;
 
+            azzeraMat(m);
+
             for (int i = 0; i < m.GetLength(0); i++)
             {
                 for (int j = 0; j < m.GetLength(1); j++)
@@ -78,6 +80,18 @@ namespace Tris
             btn8.BackColor = SystemColors.Control;
             btn9.BackColor = SystemColors.Control;
         }
+
+        private void azzeraMat(int[,] m)
+        {
+            for (int i = 0; i < m.GetLength(0); i++)
+            {
+                for (int j = 0; j < m.GetLength(1); j++)
+                {
+                    m[i, j] = 0;
+                }
+            }
+        }
+
         private void btn_Click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
@@ -90,99 +104,99 @@ namespace Tris
                 case 1:
                     if (turn == 1)
                     {
-                        m[0, 0] = 1;
+                        m[0, 0] = 3;
                     }
                     else
                     {
-                        m[0, 0] = 2;
+                        m[0, 0] = 5;
                     }
                     break;
 
                 case 2:
                     if (turn == 1)
                     {
-                        m[0, 1] = 1;
+                        m[0, 1] = 3;
                     }
                     else
                     {
-                        m[0, 1] = 2;
+                        m[0, 1] = 5;
                     }
                     break;
 
                 case 3:
                     if (turn == 1)
                     {
-                        m[0, 2] = 1;
+                        m[0, 2] = 3;
                     }
                     else
                     {
-                        m[0, 2] = 2;
+                        m[0, 2] = 5;
                     }
                     break;
 
                 case 4:
                     if (turn == 1)
                     {
-                        m[1, 0] = 1;
+                        m[1, 0] = 3;
                     }
                     else
                     {
-                        m[1, 0] = 2;
+                        m[1, 0] = 5;
                     }
                     break;
 
                 case 5:
                     if (turn == 1)
                     {
-                        m[1, 1] = 1;
+                        m[1, 1] = 3;
                     }
                     else
                     {
-                        m[1, 1] = 2;
+                        m[1, 1] = 5;
                     }
                     break;
 
                 case 6:
                     if (turn == 1)
                     {
-                        m[1, 2] = 1;
+                        m[1, 2] = 3;
                     }
                     else
                     {
-                        m[1, 2] = 2;
+                        m[1, 2] = 5;
                     }
                     break;
 
                 case 7:
                     if (turn == 1)
                     {
-                        m[2, 0] = 1;
+                        m[2, 0] = 3;
                     }
                     else
                     {
-                        m[2, 0] = 2;
+                        m[2, 0] = 5;
                     }
                     break;
 
                 case 8:
                     if (turn == 1)
                     {
-                        m[2, 1] = 1;
+                        m[2, 1] = 3;
                     }
                     else
                     {
-                        m[2, 1] = 2;
+                        m[2, 1] = 5;
                     }
                     break;
 
                 case 9:
                     if (turn == 1)
                     {
-                        m[2, 2] = 1;
+                        m[2, 2] = 3;
                     }
                     else
                     {
-                        m[2, 2] = 2;
+                        m[2, 2] = 5;
                     }
                     break;
             }
@@ -202,25 +216,43 @@ namespace Tris
                 turn = 1;
             }
 
-            if (controlla(m, turn))
+            controlla(m, turn);
+        }
+        private void controlla(int[,] m, int turn)
+        {
+            int[] v = new int[8];
+
+            v[0] = somma(m[0, 0], m[0, 1], m[0, 2]);
+            v[2] = somma(m[1, 0], m[1, 1], m[1, 2]);
+            v[1] = somma(m[2, 0], m[2, 1], m[2, 2]);
+            v[3] = somma(m[0, 0], m[1, 1], m[2, 2]);
+            v[4] = somma(m[0, 2], m[1, 1], m[2, 0]);
+            v[5] = somma(m[0, 0], m[1, 0], m[2, 0]);
+            v[6] = somma(m[0, 1], m[2, 1], m[2, 1]);
+            v[7] = somma(m[0, 2], m[1, 2], m[2, 2]);
+
+            int i = 0;
+
+            while (v[i] != 9 && v[i] != 15 && i != 7)
             {
-                if (turn == 1)
+                i++;
+            }
+
+            if (v[i] == 9 || v[i] == 15)
+            {
+                if (v[i] == 9)
                 {
-                    MessageBox.Show("Partita vinta da 0");
+                    MessageBox.Show("Ha vinto il O");
                 }
                 else
                 {
-                    MessageBox.Show("Partita vinta da X");
+                    MessageBox.Show("Ha vinto la X");
                 }
             }
-            else if(contaMosse == 9)
-            {
-                MessageBox.Show("Partita patta");
-            }
         }
-        private bool controlla(int[,] m, int turn)
+        private int somma(int x, int y, int z)
         {
-            throw new NotImplementedException();
+            return x + y + z;
         }
     }
 }
