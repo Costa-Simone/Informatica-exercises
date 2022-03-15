@@ -18,8 +18,7 @@ namespace ProdottoVettorialScalare
                 dgv.Rows[i].Cells[0].Value = a[i];
             }
         }
-
-        public void caricaVet(int[] a)
+        internal static void caricaVett(int[] a)
         {
             Random rnd = new Random();
             for (int i = 0; i < a.Length; i++)

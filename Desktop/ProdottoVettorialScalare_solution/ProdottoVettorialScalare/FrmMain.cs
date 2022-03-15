@@ -12,6 +12,8 @@ namespace ProdottoVettorialScalare
 {
     public partial class FrmMain : Form
     {
+        int[] a = new int[10];
+
         public FrmMain()
         {
             InitializeComponent();
@@ -22,7 +24,7 @@ namespace ProdottoVettorialScalare
             settaDgv(dgvA);
             settaDgv(dgvB);
             settaDgv(dgvC);
-            ClsVettore.caricaVet()
+            ClsVettore.caricaVett(a);
         }
 
         private void settaDgv(DataGridView dgv)

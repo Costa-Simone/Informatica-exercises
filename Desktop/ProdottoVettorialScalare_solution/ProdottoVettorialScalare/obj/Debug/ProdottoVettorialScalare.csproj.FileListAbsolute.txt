@@ -1,0 +1,11 @@
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\bin\Debug\ProdottoVettorialScalare.exe.config
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\bin\Debug\ProdottoVettorialScalare.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\bin\Debug\ProdottoVettorialScalare.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.FrmMain.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.Properties.Resources.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.csproj.GenerateResource.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.pdb
