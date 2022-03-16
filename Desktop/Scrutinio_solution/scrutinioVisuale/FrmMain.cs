@@ -112,5 +112,13 @@ namespace scrutinioVisuale
         {
 
         }
+        private void btnMediaMateria_Click(object sender, EventArgs e)
+        {
+            clsElabora.mediaMateria(voti, materie, cmbMediaMaterie.SelectedIndex);
+        }
+        private void btnMediaMaggiore_Click(object sender, EventArgs e)
+        {
+            clsElabora.mediaMaggiore(studenti, voti);
+        }
     }
 }

@@ -25,7 +25,7 @@ namespace Ex12_13pag115
 
             // per ogni editore contare il numero di libri
             contaLibriPerEditore(caseEditrici);
-
+            
             attesaTasto();
         }
         private static void contaLibriPerEditore(string[] caseEditrici)

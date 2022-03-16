@@ -37,6 +37,9 @@ namespace scrutinioVisuale
             this.btnMediaMateria = new System.Windows.Forms.Button();
             this.lblMediaMateria = new System.Windows.Forms.Label();
             this.cmbMediaMaterie = new System.Windows.Forms.ComboBox();
+            this.btnMediaMaggiore = new System.Windows.Forms.Button();
+            this.btnMediaMinore = new System.Windows.Forms.Button();
+            this.btnMaterieDaRecuperare = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMaterie)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVoti)).BeginInit();
@@ -104,10 +107,11 @@ namespace scrutinioVisuale
             this.btnMediaMateria.TabIndex = 5;
             this.btnMediaMateria.Text = "Media Materia";
             this.btnMediaMateria.UseVisualStyleBackColor = true;
+            this.btnMediaMateria.Click += new System.EventHandler(this.btnMediaMateria_Click);
             // 
             // lblMediaMateria
             // 
-            this.lblMediaMateria.Location = new System.Drawing.Point(224, 391);
+            this.lblMediaMateria.Location = new System.Drawing.Point(97, 391);
             this.lblMediaMateria.Name = "lblMediaMateria";
             this.lblMediaMateria.Size = new System.Drawing.Size(100, 21);
             this.lblMediaMateria.TabIndex = 6;
@@ -117,17 +121,48 @@ namespace scrutinioVisuale
             // 
             this.cmbMediaMaterie.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMediaMaterie.FormattingEnabled = true;
-            this.cmbMediaMaterie.Location = new System.Drawing.Point(97, 391);
+            this.cmbMediaMaterie.Location = new System.Drawing.Point(141, 388);
             this.cmbMediaMaterie.Name = "cmbMediaMaterie";
             this.cmbMediaMaterie.Size = new System.Drawing.Size(121, 21);
             this.cmbMediaMaterie.TabIndex = 7;
             this.cmbMediaMaterie.SelectedIndexChanged += new System.EventHandler(this.cmbMediaMaterie_SelectedIndexChanged);
             // 
+            // btnMediaMaggiore
+            // 
+            this.btnMediaMaggiore.Location = new System.Drawing.Point(246, 344);
+            this.btnMediaMaggiore.Name = "btnMediaMaggiore";
+            this.btnMediaMaggiore.Size = new System.Drawing.Size(170, 31);
+            this.btnMediaMaggiore.TabIndex = 8;
+            this.btnMediaMaggiore.Text = "Cerca studente media maggiore";
+            this.btnMediaMaggiore.UseVisualStyleBackColor = true;
+            this.btnMediaMaggiore.Click += new System.EventHandler(this.btnMediaMaggiore_Click);
+            // 
+            // btnMediaMinore
+            // 
+            this.btnMediaMinore.Location = new System.Drawing.Point(422, 344);
+            this.btnMediaMinore.Name = "btnMediaMinore";
+            this.btnMediaMinore.Size = new System.Drawing.Size(178, 31);
+            this.btnMediaMinore.TabIndex = 9;
+            this.btnMediaMinore.Text = "Cerca studente media minore";
+            this.btnMediaMinore.UseVisualStyleBackColor = true;
+            // 
+            // btnMaterieDaRecuperare
+            // 
+            this.btnMaterieDaRecuperare.Location = new System.Drawing.Point(606, 344);
+            this.btnMaterieDaRecuperare.Name = "btnMaterieDaRecuperare";
+            this.btnMaterieDaRecuperare.Size = new System.Drawing.Size(174, 31);
+            this.btnMaterieDaRecuperare.TabIndex = 10;
+            this.btnMaterieDaRecuperare.Text = "Visualizza materie da recuperare";
+            this.btnMaterieDaRecuperare.UseVisualStyleBackColor = true;
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(841, 444);
+            this.ClientSize = new System.Drawing.Size(877, 444);
+            this.Controls.Add(this.btnMaterieDaRecuperare);
+            this.Controls.Add(this.btnMediaMinore);
+            this.Controls.Add(this.btnMediaMaggiore);
             this.Controls.Add(this.cmbMediaMaterie);
             this.Controls.Add(this.lblMediaMateria);
             this.Controls.Add(this.btnMediaMateria);
@@ -159,6 +194,9 @@ namespace scrutinioVisuale
         private System.Windows.Forms.Button btnMediaMateria;
         private System.Windows.Forms.Label lblMediaMateria;
         private System.Windows.Forms.ComboBox cmbMediaMaterie;
+        private System.Windows.Forms.Button btnMediaMaggiore;
+        private System.Windows.Forms.Button btnMediaMinore;
+        private System.Windows.Forms.Button btnMaterieDaRecuperare;
     }
 }
 

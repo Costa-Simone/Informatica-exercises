@@ -100,6 +100,7 @@
             this.btnProdottoScalare.TabIndex = 6;
             this.btnProdottoScalare.Text = "PRODOTTO SCALARE";
             this.btnProdottoScalare.UseVisualStyleBackColor = true;
+            this.btnProdottoScalare.Click += new System.EventHandler(this.btnProdottoScalare_Click);
             // 
             // btnProdottoVettoriale
             // 
@@ -109,12 +110,13 @@
             this.btnProdottoVettoriale.TabIndex = 7;
             this.btnProdottoVettoriale.Text = "PRODOTTO VETTORIALE";
             this.btnProdottoVettoriale.UseVisualStyleBackColor = true;
+            this.btnProdottoVettoriale.Click += new System.EventHandler(this.btnProdottoVettoriale_Click);
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(651, 450);
             this.Controls.Add(this.btnProdottoVettoriale);
             this.Controls.Add(this.btnProdottoScalare);
             this.Controls.Add(this.label3);
@@ -124,7 +126,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvA);
             this.Name = "FrmMain";
-            this.Text = "Form1";
+            this.Text = "Prodotto scalare e vettoriale";
             this.Load += new System.EventHandler(this.FrmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvB)).EndInit();

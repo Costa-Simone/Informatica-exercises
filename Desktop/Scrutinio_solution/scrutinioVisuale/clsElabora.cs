@@ -83,5 +83,38 @@ namespace scrutinioVisuale
                 }
             }
         }
+        internal static void mediaMateria(int[,] voti, string[] materie, int pos)
+        {
+            float somma = 0;
+
+            for (int i = 0; i < voti.GetLength(0); i++)
+            {
+                somma += voti[i, pos];
+            }
+
+            MessageBox.Show("La media di " + materie[pos] + " è: " + somma / voti.GetLength(0));
+        }
+        internal static void mediaMaggiore(string[] studenti, int[,] voti)
+        {
+            int mediaMax = -1, somma = 0, contStud = -1;
+
+            for (int i = 0; i < voti.GetLength(0); i++)
+            {
+                for (int j = 0; j < voti.GetLength(1); j++)
+                {
+                    somma += voti[i, j];
+                }
+
+                if (somma > mediaMax)
+                {
+                    mediaMax = somma;
+                    contStud = i;
+                }
+            }
+
+            mediaMax = mediaMax / voti.GetLength(1);
+
+            MessageBox.Show("Lo studente con la media maggiore e' " + studenti[contStud] + " con: " + mediaMax);
+        }
     }
 }

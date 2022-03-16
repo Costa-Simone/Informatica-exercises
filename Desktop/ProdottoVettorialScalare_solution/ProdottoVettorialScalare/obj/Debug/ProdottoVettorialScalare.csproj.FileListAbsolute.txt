@@ -9,3 +9,12 @@ C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettoria
 C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.csproj.CoreCompileInputs.cache
 C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.exe
 C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\bin\Debug\ProdottoVettorialScalare.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\bin\Debug\ProdottoVettorialScalare.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\bin\Debug\ProdottoVettorialScalare.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.FrmMain.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ProdottoVettorialScalare_solution\ProdottoVettorialScalare\obj\Debug\ProdottoVettorialScalare.pdb
