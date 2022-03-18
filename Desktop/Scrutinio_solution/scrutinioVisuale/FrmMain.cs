@@ -29,7 +29,7 @@ namespace scrutinioVisuale
         {
             settaDgv(dgvStudenti, studenti.Length, 1);
             settaDgv(dgvMaterie, 1, materie.Length);
-            settaDgv(dgvVoti, studenti.Length, materie.Length);
+            settaDgv(dgvVoti, studenti.Length, materie.Length + 1);
             caricaDgvStud(studenti, dgvStudenti);
             caricaDgvMaterie(materie, dgvMaterie);
             caricaDgvVoti(voti, dgvVoti);
@@ -119,6 +119,14 @@ namespace scrutinioVisuale
         private void btnMediaMaggiore_Click(object sender, EventArgs e)
         {
             clsElabora.mediaMaggiore(studenti, voti);
+        }
+        private void btnMediaMinore_Click(object sender, EventArgs e)
+        {
+            clsElabora.mediaMinore(studenti, voti);
+        }
+        private void btnMaterieDaRecuperare_Click(object sender, EventArgs e)
+        {
+            clsElabora.MaterieDaRecuperare(voti, dgvVoti, materie);
         }
     }
 }

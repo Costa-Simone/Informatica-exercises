@@ -75,7 +75,7 @@ namespace scrutinioVisuale
             this.dgvVoti.Name = "dgvVoti";
             this.dgvVoti.RowHeadersWidth = 51;
             this.dgvVoti.RowTemplate.Height = 24;
-            this.dgvVoti.Size = new System.Drawing.Size(698, 241);
+            this.dgvVoti.Size = new System.Drawing.Size(903, 241);
             this.dgvVoti.TabIndex = 2;
             // 
             // btnMediaStudente
@@ -145,6 +145,7 @@ namespace scrutinioVisuale
             this.btnMediaMinore.TabIndex = 9;
             this.btnMediaMinore.Text = "Cerca studente media minore";
             this.btnMediaMinore.UseVisualStyleBackColor = true;
+            this.btnMediaMinore.Click += new System.EventHandler(this.btnMediaMinore_Click);
             // 
             // btnMaterieDaRecuperare
             // 
@@ -154,12 +155,13 @@ namespace scrutinioVisuale
             this.btnMaterieDaRecuperare.TabIndex = 10;
             this.btnMaterieDaRecuperare.Text = "Visualizza materie da recuperare";
             this.btnMaterieDaRecuperare.UseVisualStyleBackColor = true;
+            this.btnMaterieDaRecuperare.Click += new System.EventHandler(this.btnMaterieDaRecuperare_Click);
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(877, 444);
+            this.ClientSize = new System.Drawing.Size(1012, 444);
             this.Controls.Add(this.btnMaterieDaRecuperare);
             this.Controls.Add(this.btnMediaMinore);
             this.Controls.Add(this.btnMediaMaggiore);

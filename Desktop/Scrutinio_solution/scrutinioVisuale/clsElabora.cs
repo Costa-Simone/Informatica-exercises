@@ -116,5 +116,40 @@ namespace scrutinioVisuale
 
             MessageBox.Show("Lo studente con la media maggiore e' " + studenti[contStud] + " con: " + mediaMax);
         }
+        internal static void mediaMinore(string[] studenti, int[,] voti)
+        {
+            int mediaMin = 1000, somma = 0, contStud = -1;
+
+            for (int i = 0; i < voti.GetLength(0); i++)
+            {
+                for (int j = 0; j < voti.GetLength(1); j++)
+                {
+                    somma += voti[i, j];
+                }
+
+                if (somma < mediaMin)
+                {
+                    mediaMin = somma;
+                    contStud = i;
+                }
+            }
+
+            mediaMin = mediaMin / voti.GetLength(1);
+
+            MessageBox.Show("Lo studente con la media minore e' " + studenti[contStud] + " con: " + mediaMin);
+        }
+        internal static void MaterieDaRecuperare(int[,] voti, DataGridView dgv, string[] materie)
+        {
+            for (int i = 0; i < voti.GetLength(0); i++)
+            {
+                for (int j = 0; j < voti.GetLength(1); j++)
+                {
+                    if (voti[i, j] < 6)
+                    {
+                        dgv.Rows[i].Cells[voti.GetLength(1)].Value += materie[j] + ",";
+                    }
+                }
+            }
+        }
     }
 }

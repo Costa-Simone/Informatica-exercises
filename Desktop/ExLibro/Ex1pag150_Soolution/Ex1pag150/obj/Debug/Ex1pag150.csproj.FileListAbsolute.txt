@@ -1,0 +1,11 @@
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\bin\Debug\Ex1pag150.exe.config
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\bin\Debug\Ex1pag150.exe
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\bin\Debug\Ex1pag150.pdb
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.csproj.AssemblyReference.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.csproj.SuggestedBindingRedirects.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.FrmMain.resources
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.Properties.Resources.resources
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.csproj.GenerateResource.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.csproj.CoreCompileInputs.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.exe
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.pdb
