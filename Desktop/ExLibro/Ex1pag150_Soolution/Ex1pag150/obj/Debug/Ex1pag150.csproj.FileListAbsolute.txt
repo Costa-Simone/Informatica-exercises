@@ -9,3 +9,12 @@ C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\E
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.csproj.CoreCompileInputs.cache
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.exe
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\bin\Debug\Ex1pag150.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\bin\Debug\Ex1pag150.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\bin\Debug\Ex1pag150.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.FrmMain.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\ExLibro\Ex1pag150_Soolution\Ex1pag150\obj\Debug\Ex1pag150.pdb

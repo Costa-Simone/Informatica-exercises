@@ -12,7 +12,8 @@ namespace Ex1pag150
 {
     public partial class FrmMain : Form
     {
-        static string[] cognomi = { "c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8", "c9", "c10" };
+        static string[] cognomi = { "c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8", "c9", "c10", 
+            "c11", "c12", "c13", "c14", "c15", "c16", "c17", "c18", "c19", "c20", "c21" };
         public FrmMain()
         {
             InitializeComponent();
@@ -20,7 +21,7 @@ namespace Ex1pag150
         private void FrmMain_Load(object sender, EventArgs e)
         {
             settaDgv(cognomi, dgvStudenti, cognomi.Length);
-            settaDgv(cognomi, dgvTurni, 4);
+            settaDgv(cognomi, dgvTurni, 1);
             caricaDgv(cognomi, dgvStudenti);
         }
         private void caricaDgv(string[] dati, DataGridView dgv)
@@ -39,6 +40,7 @@ namespace Ex1pag150
             dgv.ScrollBars = ScrollBars.None;
             dgv.Height = length * 20;
             dgv.Width = 100;
+            dgv.Rows[0].Cells[0].Selected = false;
         }
         private void btnTurni_Click(object sender, EventArgs e)
         {

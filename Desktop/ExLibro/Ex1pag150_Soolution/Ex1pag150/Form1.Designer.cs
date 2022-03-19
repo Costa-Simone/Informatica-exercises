@@ -49,7 +49,7 @@
             // 
             // btnTurni
             // 
-            this.btnTurni.Location = new System.Drawing.Point(12, 278);
+            this.btnTurni.Location = new System.Drawing.Point(227, 48);
             this.btnTurni.Name = "btnTurni";
             this.btnTurni.Size = new System.Drawing.Size(75, 26);
             this.btnTurni.TabIndex = 1;
@@ -69,7 +69,7 @@
             // dgvTurni
             // 
             this.dgvTurni.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTurni.Location = new System.Drawing.Point(118, 48);
+            this.dgvTurni.Location = new System.Drawing.Point(121, 48);
             this.dgvTurni.Name = "dgvTurni";
             this.dgvTurni.RowTemplate.Height = 20;
             this.dgvTurni.Size = new System.Drawing.Size(100, 60);
@@ -88,7 +88,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(315, 474);
             this.Controls.Add(this.lblTurni);
             this.Controls.Add(this.dgvTurni);
             this.Controls.Add(this.lblCognomi);

@@ -1,0 +1,9 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Merge_Solution\Merge\bin\Debug\Merge.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Merge_Solution\Merge\bin\Debug\Merge.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Merge_Solution\Merge\bin\Debug\Merge.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Merge_Solution\Merge\obj\Debug\Merge.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Merge_Solution\Merge\obj\Debug\Merge.Form1.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Merge_Solution\Merge\obj\Debug\Merge.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Merge_Solution\Merge\obj\Debug\Merge.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Merge_Solution\Merge\obj\Debug\Merge.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Merge_Solution\Merge\obj\Debug\Merge.pdb
