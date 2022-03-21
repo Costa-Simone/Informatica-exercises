@@ -19,12 +19,20 @@ namespace Merge
         {
             InitializeComponent();
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             settadgv(dgvA);
             settadgv(dgvB);
             settadgv(dgvC);
+            visualizzaDgv(dgvA, a);
+            visualizzaDgv(dgvB, b);
+        }
+        private void visualizzaDgv(DataGridView dgv, string[] dati)
+        {
+            for (int i = 0; i < dati.Length; i++)
+            {
+                dgv.Rows.Add(dati[i]);
+            }
         }
         private void settadgv(DataGridView dgv)
         {
@@ -53,6 +61,8 @@ namespace Merge
                 {
                     c[k] = a[i++];
                 }
+
+                dgvC.Rows.Add(c[k]);
             }
         }
     }
