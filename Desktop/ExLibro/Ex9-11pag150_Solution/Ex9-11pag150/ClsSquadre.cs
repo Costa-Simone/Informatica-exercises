@@ -60,19 +60,20 @@ namespace Ex9_11pag150
                     {
                         string squad = squadCasa[i];
                         s = cercaSquadra(squadre, squad);
-                        punteggio[s] += 3;
+                        dgvPunti.Rows[i].Cells[0].Value = (Convert.ToInt32(dgvPunti.Rows[i].Cells[0].Value) + 3).ToString();
                     }
                     else if (risultato[i] == "2")
                     {
                         string squad = squadFuori[i];
                         s = cercaSquadra(squadre, squad);
-                        punteggio[s] += 3;
+                        dgvPunti.Rows[i].Cells[0].Value = (Convert.ToInt32(dgvPunti.Rows[i].Cells[0].Value) + 3).ToString();
                     }
                     else
                     {
                         string squad = squadCasa[i];
                         s = cercaSquadra(squadre, squad);
                         punteggio[s]++;
+                        dgvPunti.Rows[i].Cells[0].Value = (Convert.ToInt32(dgvPunti.Rows[i].Cells[0].Value) + 1).ToString();
                         squad = squadFuori[i];
                         s = cercaSquadra(squadre, squad);
                         punteggio[s]++;

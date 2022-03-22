@@ -1,0 +1,11 @@
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Forza4_Solution\Forza4\bin\Debug\Forza4.exe.config
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Forza4_Solution\Forza4\bin\Debug\Forza4.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Forza4_Solution\Forza4\bin\Debug\Forza4.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Forza4_Solution\Forza4\obj\Debug\Forza4.csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Forza4_Solution\Forza4\obj\Debug\Forza4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Forza4_Solution\Forza4\obj\Debug\Forza4.FrmMain.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Forza4_Solution\Forza4\obj\Debug\Forza4.Properties.Resources.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Forza4_Solution\Forza4\obj\Debug\Forza4.csproj.GenerateResource.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Forza4_Solution\Forza4\obj\Debug\Forza4.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Forza4_Solution\Forza4\obj\Debug\Forza4.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Forza4_Solution\Forza4\obj\Debug\Forza4.pdb
