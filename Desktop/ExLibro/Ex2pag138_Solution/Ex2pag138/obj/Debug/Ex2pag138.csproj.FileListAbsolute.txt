@@ -1,0 +1,9 @@
+D:\3° superiore\Informatica\Ex2pag138_Solution\Ex2pag138\bin\Debug\Ex2pag138.exe.config
+D:\3° superiore\Informatica\Ex2pag138_Solution\Ex2pag138\bin\Debug\Ex2pag138.exe
+D:\3° superiore\Informatica\Ex2pag138_Solution\Ex2pag138\bin\Debug\Ex2pag138.pdb
+D:\3° superiore\Informatica\Ex2pag138_Solution\Ex2pag138\obj\Debug\Ex2pag138.csprojAssemblyReference.cache
+D:\3° superiore\Informatica\Ex2pag138_Solution\Ex2pag138\obj\Debug\Ex2pag138.Form1.resources
+D:\3° superiore\Informatica\Ex2pag138_Solution\Ex2pag138\obj\Debug\Ex2pag138.Properties.Resources.resources
+D:\3° superiore\Informatica\Ex2pag138_Solution\Ex2pag138\obj\Debug\Ex2pag138.csproj.GenerateResource.cache
+D:\3° superiore\Informatica\Ex2pag138_Solution\Ex2pag138\obj\Debug\Ex2pag138.exe
+D:\3° superiore\Informatica\Ex2pag138_Solution\Ex2pag138\obj\Debug\Ex2pag138.pdb
