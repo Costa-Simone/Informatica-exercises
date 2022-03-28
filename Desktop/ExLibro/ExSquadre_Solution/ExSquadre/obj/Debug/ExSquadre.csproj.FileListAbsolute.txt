@@ -1,0 +1,11 @@
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\ExSquadre_Solution\ExSquadre\bin\Debug\ExSquadre.exe.config
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\ExSquadre_Solution\ExSquadre\bin\Debug\ExSquadre.exe
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\ExSquadre_Solution\ExSquadre\bin\Debug\ExSquadre.pdb
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\ExSquadre_Solution\ExSquadre\obj\Debug\ExSquadre.csproj.AssemblyReference.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\ExSquadre_Solution\ExSquadre\obj\Debug\ExSquadre.csproj.SuggestedBindingRedirects.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\ExSquadre_Solution\ExSquadre\obj\Debug\ExSquadre.FrmMain.resources
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\ExSquadre_Solution\ExSquadre\obj\Debug\ExSquadre.Properties.Resources.resources
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\ExSquadre_Solution\ExSquadre\obj\Debug\ExSquadre.csproj.GenerateResource.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\ExSquadre_Solution\ExSquadre\obj\Debug\ExSquadre.csproj.CoreCompileInputs.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\ExSquadre_Solution\ExSquadre\obj\Debug\ExSquadre.exe
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\ExLibro\ExSquadre_Solution\ExSquadre\obj\Debug\ExSquadre.pdb
