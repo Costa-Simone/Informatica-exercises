@@ -113,7 +113,15 @@ namespace ExSquadre
                     {
                         contMax = cont;
                         teamMax = team[i - 1];
-                        cont = 0;
+
+                        if (nazioni[i] == naz)
+                        {
+                            cont = 1;
+                        }
+                        else
+                        {
+                            cont = 0;
+                        }
                     }
                 }
             }
