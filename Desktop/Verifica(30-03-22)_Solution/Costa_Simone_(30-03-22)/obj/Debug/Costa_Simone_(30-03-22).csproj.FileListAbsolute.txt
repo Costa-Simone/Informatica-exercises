@@ -1,0 +1,11 @@
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Costa_Simone_(30-03-22)_Solution\Costa_Simone_(30-03-22)\bin\Debug\Costa_Simone_(30-03-22).exe.config
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Costa_Simone_(30-03-22)_Solution\Costa_Simone_(30-03-22)\bin\Debug\Costa_Simone_(30-03-22).exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Costa_Simone_(30-03-22)_Solution\Costa_Simone_(30-03-22)\bin\Debug\Costa_Simone_(30-03-22).pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Costa_Simone_(30-03-22)_Solution\Costa_Simone_(30-03-22)\obj\Debug\Costa_Simone_(30-03-22).csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Costa_Simone_(30-03-22)_Solution\Costa_Simone_(30-03-22)\obj\Debug\Costa_Simone_(30-03-22).csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Costa_Simone_(30-03-22)_Solution\Costa_Simone_(30-03-22)\obj\Debug\Costa_Simone__30_03_22_.FrmCosta.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Costa_Simone_(30-03-22)_Solution\Costa_Simone_(30-03-22)\obj\Debug\Costa_Simone__30_03_22_.Properties.Resources.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Costa_Simone_(30-03-22)_Solution\Costa_Simone_(30-03-22)\obj\Debug\Costa_Simone_(30-03-22).csproj.GenerateResource.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Costa_Simone_(30-03-22)_Solution\Costa_Simone_(30-03-22)\obj\Debug\Costa_Simone_(30-03-22).csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Costa_Simone_(30-03-22)_Solution\Costa_Simone_(30-03-22)\obj\Debug\Costa_Simone_(30-03-22).exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Costa_Simone_(30-03-22)_Solution\Costa_Simone_(30-03-22)\obj\Debug\Costa_Simone_(30-03-22).pdb

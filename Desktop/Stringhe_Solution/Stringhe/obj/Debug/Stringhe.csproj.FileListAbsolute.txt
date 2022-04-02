@@ -1,0 +1,11 @@
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Stringhe_Solution\Stringhe\obj\Debug\Stringhe.csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Stringhe_Solution\Stringhe\obj\Debug\Stringhe.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Stringhe_Solution\Stringhe\obj\Debug\Stringhe.FrmStringhe.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Stringhe_Solution\Stringhe\obj\Debug\Stringhe.Properties.Resources.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Stringhe_Solution\Stringhe\obj\Debug\Stringhe.csproj.GenerateResource.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Stringhe_Solution\Stringhe\obj\Debug\Stringhe.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Stringhe_Solution\Stringhe\bin\Debug\Stringhe.exe.config
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Stringhe_Solution\Stringhe\bin\Debug\Stringhe.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Stringhe_Solution\Stringhe\bin\Debug\Stringhe.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Stringhe_Solution\Stringhe\obj\Debug\Stringhe.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Stringhe_Solution\Stringhe\obj\Debug\Stringhe.pdb

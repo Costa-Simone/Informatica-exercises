@@ -1,0 +1,20 @@
+C:\Users\frank\OneDrive\Desktop\gestioneTabella_Solution\gestioneTabella\bin\Debug\gestioneTabella.exe.config
+C:\Users\frank\OneDrive\Desktop\gestioneTabella_Solution\gestioneTabella\bin\Debug\gestioneTabella.exe
+C:\Users\frank\OneDrive\Desktop\gestioneTabella_Solution\gestioneTabella\bin\Debug\gestioneTabella.pdb
+C:\Users\frank\OneDrive\Desktop\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.csproj.AssemblyReference.cache
+C:\Users\frank\OneDrive\Desktop\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.frmMain.resources
+C:\Users\frank\OneDrive\Desktop\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.Properties.Resources.resources
+C:\Users\frank\OneDrive\Desktop\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.csproj.GenerateResource.cache
+C:\Users\frank\OneDrive\Desktop\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.csproj.CoreCompileInputs.cache
+C:\Users\frank\OneDrive\Desktop\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.exe
+C:\Users\frank\OneDrive\Desktop\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.pdb
+D:\INFORMATICA\VisualStudio\Programmazione visuale\gestioneTabella_Solution\gestioneTabella\bin\Debug\gestioneTabella.exe.config
+D:\INFORMATICA\VisualStudio\Programmazione visuale\gestioneTabella_Solution\gestioneTabella\bin\Debug\gestioneTabella.exe
+D:\INFORMATICA\VisualStudio\Programmazione visuale\gestioneTabella_Solution\gestioneTabella\bin\Debug\gestioneTabella.pdb
+D:\INFORMATICA\VisualStudio\Programmazione visuale\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.csproj.AssemblyReference.cache
+D:\INFORMATICA\VisualStudio\Programmazione visuale\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.frmMain.resources
+D:\INFORMATICA\VisualStudio\Programmazione visuale\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.Properties.Resources.resources
+D:\INFORMATICA\VisualStudio\Programmazione visuale\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.csproj.GenerateResource.cache
+D:\INFORMATICA\VisualStudio\Programmazione visuale\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\VisualStudio\Programmazione visuale\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.exe
+D:\INFORMATICA\VisualStudio\Programmazione visuale\gestioneTabella_Solution\gestioneTabella\obj\Debug\gestioneTabella.pdb
