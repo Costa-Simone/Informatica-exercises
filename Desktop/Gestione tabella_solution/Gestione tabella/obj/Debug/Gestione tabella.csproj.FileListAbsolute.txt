@@ -1,0 +1,48 @@
+C:\Users\p.lazzarino.2259\Desktop\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe.config
+C:\Users\p.lazzarino.2259\Desktop\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe
+C:\Users\p.lazzarino.2259\Desktop\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.pdb
+C:\Users\p.lazzarino.2259\Desktop\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csprojAssemblyReference.cache
+C:\Users\p.lazzarino.2259\Desktop\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.formMain.resources
+C:\Users\p.lazzarino.2259\Desktop\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.Properties.Resources.resources
+C:\Users\p.lazzarino.2259\Desktop\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.GenerateResource.cache
+C:\Users\p.lazzarino.2259\Desktop\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.exe
+C:\Users\p.lazzarino.2259\Desktop\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.pdb
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe.config
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.pdb
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.AssemblyReference.cache
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.SuggestedBindingRedirects.cache
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.formMain.resources
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.Properties.Resources.resources
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.GenerateResource.cache
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.CoreCompileInputs.cache
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.exe
+D:\Paolo scuola\Superiori vallauri\3B INF\Informatica\Informatica-exercise\Progetti C# visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.pdb
+E:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe.config
+E:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe
+E:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.pdb
+E:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csprojAssemblyReference.cache
+E:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.formMain.resources
+E:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.Properties.Resources.resources
+E:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.GenerateResource.cache
+E:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.exe
+E:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.pdb
+D:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe.config
+D:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe
+D:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.pdb
+D:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.AssemblyReference.cache
+D:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.formMain.resources
+D:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.Properties.Resources.resources
+D:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.GenerateResource.cache
+D:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.exe
+D:\INFORMATICA\VisualStudio\Programmazione visuale\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.formMain.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.pdb
