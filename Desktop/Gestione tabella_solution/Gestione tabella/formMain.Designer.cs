@@ -62,6 +62,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnMateriaPiuInsuff = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).BeginInit();
             this.gbRicerche.SuspendLayout();
             this.gbOrdinamenti.SuspendLayout();
@@ -246,6 +247,7 @@
             // 
             // gbOrdinamenti
             // 
+            this.gbOrdinamenti.Controls.Add(this.btnMateriaPiuInsuff);
             this.gbOrdinamenti.Controls.Add(this.btnMediaMaggiore);
             this.gbOrdinamenti.Controls.Add(this.btnMediaVotiStudente);
             this.gbOrdinamenti.Controls.Add(this.btnOrdinaCognome);
@@ -427,6 +429,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "STUDENTI";
             // 
+            // btnMateriaPiuInsuff
+            // 
+            this.btnMateriaPiuInsuff.Location = new System.Drawing.Point(7, 148);
+            this.btnMateriaPiuInsuff.Name = "btnMateriaPiuInsuff";
+            this.btnMateriaPiuInsuff.Size = new System.Drawing.Size(245, 23);
+            this.btnMateriaPiuInsuff.TabIndex = 4;
+            this.btnMateriaPiuInsuff.Text = "MATERIE PIU INSUFFICIENZE";
+            this.btnMateriaPiuInsuff.UseVisualStyleBackColor = true;
+            this.btnMateriaPiuInsuff.Click += new System.EventHandler(this.btnMateriaPiuInsuff_Click);
+            // 
             // formMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -439,7 +451,6 @@
             this.Controls.Add(this.gbRicerche);
             this.Controls.Add(this.dgvStudenti);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.MaximizeBox = false;
             this.Name = "formMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -495,6 +506,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnMateriaPiuInsuff;
     }
 }
 

@@ -486,5 +486,62 @@ namespace Gestione_tabella
                 MessageBox.Show("lo studente con la media più alta è " + nominativo);
             }
         }
+        private void btnMateriaPiuInsuff_Click(object sender, EventArgs e)
+        {
+            string aus;
+
+            for (int i = 0; i <= numValutazioni - 2; i++)
+            {
+                int posmin = i;
+
+                for (int j = i + 1; j <= numValutazioni - 1; j++)
+                {
+                    if (string.Compare(valutazioni[posmin].materia, valutazioni[j].materia) > 0)
+                        posmin = j;
+                }
+                if (posmin != i)
+                {
+                    aus = valutazioni[i].materia;
+                    valutazioni[i].materia = valutazioni[posmin].materia;
+                    valutazioni[posmin].materia = aus;
+                }
+            }
+
+            double cont = 0;
+            double max = int.MinValue;
+            string ausi = valutazioni[0].materia, mat = "";
+
+            for (int i = 0; i < numValutazioni; i++)
+            {
+                if (ausi == valutazioni[i].materia)
+                {
+                    if (valutazioni[i].voto < 6)
+                    {
+                        cont++;
+                    }
+                }
+                else
+                {
+                    if (cont > max)
+                    {
+                        max = cont;
+                        mat = valutazioni[i - 1].materia;
+                    }
+
+                    if (valutazioni[i].voto < 6)
+                    {
+                        cont = 1;
+                    }
+                    else
+                    {
+                        cont = 0;
+                    }
+
+                    ausi = valutazioni[i].materia;
+                }
+            }
+
+            MessageBox.Show("La materia con maggior insufficienze e' " + mat);
+        }
     }
 }
