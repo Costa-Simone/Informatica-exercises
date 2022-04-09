@@ -488,7 +488,7 @@ namespace Gestione_tabella
         }
         private void btnMateriaPiuInsuff_Click(object sender, EventArgs e)
         {
-            string aus;
+            valutazione aus;
 
             for (int i = 0; i <= numValutazioni - 2; i++)
             {
@@ -501,9 +501,9 @@ namespace Gestione_tabella
                 }
                 if (posmin != i)
                 {
-                    aus = valutazioni[i].materia;
-                    valutazioni[i].materia = valutazioni[posmin].materia;
-                    valutazioni[posmin].materia = aus;
+                    aus = valutazioni[i];
+                    valutazioni[i] = valutazioni[posmin];
+                    valutazioni[posmin] = aus;
                 }
             }
 
@@ -542,6 +542,99 @@ namespace Gestione_tabella
             }
 
             MessageBox.Show("La materia con maggior insufficienze e' " + mat);
+        }
+        private void btnMediaClasse_Click(object sender, EventArgs e)
+        {
+            string classe = Interaction.InputBox("Inserisci la classe", "INPUT");
+
+            if (ricercaClasse(classe, cmbClasse))
+            {
+                ordinaStudentiClasse(studenti);
+                ordinaValutazioniMatricola(valutazioni);
+                calcolaMediaClasse(studenti, valutazioni, classe);
+            }
+            else
+            {
+                MessageBox.Show("Classe non trovata");
+            }
+        }
+        private void ordinaValutazioniMatricola(valutazione[] valutazioni)
+        {
+            for (int i = 0; i <= valutazioni.Length - 2; i++)
+            {
+                int posmin = i;
+
+                for (int j = i + 1; j <= valutazioni.Length - 1; j++)
+                {
+                    if (valutazioni[posmin].matricola > valutazioni[j].matricola)
+                        posmin = j;
+                }
+                if (posmin != i)
+                {
+                    valutazione aus = valutazioni[i];
+                    valutazioni[i] = valutazioni[posmin];
+                    valutazioni[posmin] = aus;
+                }
+            }
+        }
+        private void calcolaMediaClasse(studente[] studenti, valutazione[] valutazioni, string classe)
+        {
+            int i = 0;
+            bool superato = false;
+
+            while (!superato && i <= numStudenti - 1)
+            {
+                if (studenti[i].classe == classe)
+                {
+                    //prendo matricola e passo a tabella valutazioni facendo rottura chiave
+                }
+                else
+                {
+                    if (string.Compare(studenti[i].classe, classe) > 0)
+                    {
+                        superato = true;
+                    }
+                    else
+                    {
+                        i++;
+                    }
+                }
+            }
+
+            //MessageBox.Show()
+        }
+        private void ordinaStudentiClasse(studente[] studenti)
+        {
+            for (int i = 0; i <= studenti.Length - 2; i++)
+            {
+                int posmin = i;
+
+                for (int j = i + 1; j <= studenti.Length - 1; j++)
+                {
+                    if (string.Compare(studenti[posmin].classe, studenti[j].classe) > 0)
+                        posmin = j;
+                }
+                if (posmin != i)
+                {
+                    studente aus = studenti[i];
+                    studenti[i] = studenti[posmin];
+                    studenti[posmin] = aus;
+                }
+            }
+        }
+        private bool ricercaClasse(string classe, ComboBox cmb)
+        {
+            bool trovato = false;
+
+            foreach (var item in cmb.Items)
+            {
+                if(item.ToString() == classe)
+                {
+                    trovato = true;
+                }
+            }
+
+            return trovato;
         }
     }
 }

@@ -47,6 +47,7 @@
             this.txtCercaMatricola = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.gbOrdinamenti = new System.Windows.Forms.GroupBox();
+            this.btnMateriaPiuInsuff = new System.Windows.Forms.Button();
             this.btnMediaMaggiore = new System.Windows.Forms.Button();
             this.btnMediaVotiStudente = new System.Windows.Forms.Button();
             this.btnOrdinaCognome = new System.Windows.Forms.Button();
@@ -62,7 +63,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnMateriaPiuInsuff = new System.Windows.Forms.Button();
+            this.btnMediaClasse = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).BeginInit();
             this.gbRicerche.SuspendLayout();
             this.gbOrdinamenti.SuspendLayout();
@@ -247,6 +248,7 @@
             // 
             // gbOrdinamenti
             // 
+            this.gbOrdinamenti.Controls.Add(this.btnMediaClasse);
             this.gbOrdinamenti.Controls.Add(this.btnMateriaPiuInsuff);
             this.gbOrdinamenti.Controls.Add(this.btnMediaMaggiore);
             this.gbOrdinamenti.Controls.Add(this.btnMediaVotiStudente);
@@ -254,10 +256,20 @@
             this.gbOrdinamenti.Controls.Add(this.btnOrdinaMatricola);
             this.gbOrdinamenti.Location = new System.Drawing.Point(332, 222);
             this.gbOrdinamenti.Name = "gbOrdinamenti";
-            this.gbOrdinamenti.Size = new System.Drawing.Size(263, 189);
+            this.gbOrdinamenti.Size = new System.Drawing.Size(263, 217);
             this.gbOrdinamenti.TabIndex = 12;
             this.gbOrdinamenti.TabStop = false;
             this.gbOrdinamenti.Text = "ORDINA E QUERY";
+            // 
+            // btnMateriaPiuInsuff
+            // 
+            this.btnMateriaPiuInsuff.Location = new System.Drawing.Point(7, 148);
+            this.btnMateriaPiuInsuff.Name = "btnMateriaPiuInsuff";
+            this.btnMateriaPiuInsuff.Size = new System.Drawing.Size(245, 23);
+            this.btnMateriaPiuInsuff.TabIndex = 4;
+            this.btnMateriaPiuInsuff.Text = "MATERIE PIU INSUFFICIENZE";
+            this.btnMateriaPiuInsuff.UseVisualStyleBackColor = true;
+            this.btnMateriaPiuInsuff.Click += new System.EventHandler(this.btnMateriaPiuInsuff_Click);
             // 
             // btnMediaMaggiore
             // 
@@ -429,15 +441,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "STUDENTI";
             // 
-            // btnMateriaPiuInsuff
+            // btnMediaClasse
             // 
-            this.btnMateriaPiuInsuff.Location = new System.Drawing.Point(7, 148);
-            this.btnMateriaPiuInsuff.Name = "btnMateriaPiuInsuff";
-            this.btnMateriaPiuInsuff.Size = new System.Drawing.Size(245, 23);
-            this.btnMateriaPiuInsuff.TabIndex = 4;
-            this.btnMateriaPiuInsuff.Text = "MATERIE PIU INSUFFICIENZE";
-            this.btnMateriaPiuInsuff.UseVisualStyleBackColor = true;
-            this.btnMateriaPiuInsuff.Click += new System.EventHandler(this.btnMateriaPiuInsuff_Click);
+            this.btnMediaClasse.Location = new System.Drawing.Point(7, 177);
+            this.btnMediaClasse.Name = "btnMediaClasse";
+            this.btnMediaClasse.Size = new System.Drawing.Size(245, 23);
+            this.btnMediaClasse.TabIndex = 5;
+            this.btnMediaClasse.Text = "MEDIA VOTI CLASSE";
+            this.btnMediaClasse.UseVisualStyleBackColor = true;
+            this.btnMediaClasse.Click += new System.EventHandler(this.btnMediaClasse_Click);
             // 
             // formMain
             // 
@@ -507,6 +519,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnMateriaPiuInsuff;
+        private System.Windows.Forms.Button btnMediaClasse;
     }
 }
 

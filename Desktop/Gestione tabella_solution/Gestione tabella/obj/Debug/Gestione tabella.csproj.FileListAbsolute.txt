@@ -57,3 +57,14 @@ C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\Gestione 
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.CoreCompileInputs.cache
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.exe
 C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe.config
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\bin\Debug\Gestione tabella.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.formMain.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione_tabella.Properties.Resources.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.GenerateResource.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Gestione tabella_solution\Gestione tabella\obj\Debug\Gestione tabella.pdb
