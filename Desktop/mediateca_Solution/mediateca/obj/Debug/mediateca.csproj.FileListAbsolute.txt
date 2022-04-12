@@ -1,0 +1,11 @@
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\mediateca_Solution\mediateca\bin\Debug\mediateca.exe.config
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\mediateca_Solution\mediateca\bin\Debug\mediateca.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\mediateca_Solution\mediateca\bin\Debug\mediateca.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\mediateca_Solution\mediateca\obj\Debug\mediateca.csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\mediateca_Solution\mediateca\obj\Debug\mediateca.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\mediateca_Solution\mediateca\obj\Debug\mediateca.FrmMain.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\mediateca_Solution\mediateca\obj\Debug\mediateca.Properties.Resources.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\mediateca_Solution\mediateca\obj\Debug\mediateca.csproj.GenerateResource.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\mediateca_Solution\mediateca\obj\Debug\mediateca.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\mediateca_Solution\mediateca\obj\Debug\mediateca.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\mediateca_Solution\mediateca\obj\Debug\mediateca.pdb
