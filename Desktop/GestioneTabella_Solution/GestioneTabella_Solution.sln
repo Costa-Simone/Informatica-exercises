@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestioneTabella", "GestioneTabella\GestioneTabella.csproj", "{503F0701-50DC-4F27-8D2C-DE6EFF38B340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{503F0701-50DC-4F27-8D2C-DE6EFF38B340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503F0701-50DC-4F27-8D2C-DE6EFF38B340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503F0701-50DC-4F27-8D2C-DE6EFF38B340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503F0701-50DC-4F27-8D2C-DE6EFF38B340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC28FD49-EBC6-459E-9DA4-6760B134EE20}
+	EndGlobalSection
+EndGlobal
