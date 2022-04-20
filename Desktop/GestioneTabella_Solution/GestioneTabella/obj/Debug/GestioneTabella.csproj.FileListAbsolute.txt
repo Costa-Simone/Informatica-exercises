@@ -17,3 +17,13 @@ C:\Users\alberto.barbero\Desktop\GestioneTabella_Solution\GestioneTabella\obj\De
 C:\Users\alberto.barbero\Desktop\GestioneTabella_Solution\GestioneTabella\obj\Debug\GestioneTabella.csproj.GenerateResource.cache
 C:\Users\alberto.barbero\Desktop\GestioneTabella_Solution\GestioneTabella\obj\Debug\GestioneTabella.exe
 C:\Users\alberto.barbero\Desktop\GestioneTabella_Solution\GestioneTabella\obj\Debug\GestioneTabella.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\GestioneTabella_Solution\GestioneTabella\bin\Debug\GestioneTabella.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\GestioneTabella_Solution\GestioneTabella\bin\Debug\GestioneTabella.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\GestioneTabella_Solution\GestioneTabella\bin\Debug\GestioneTabella.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\GestioneTabella_Solution\GestioneTabella\obj\Debug\GestioneTabella.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\GestioneTabella_Solution\GestioneTabella\obj\Debug\GestioneTabella.FormMain.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\GestioneTabella_Solution\GestioneTabella\obj\Debug\GestioneTabella.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\GestioneTabella_Solution\GestioneTabella\obj\Debug\GestioneTabella.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\GestioneTabella_Solution\GestioneTabella\obj\Debug\GestioneTabella.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\GestioneTabella_Solution\GestioneTabella\obj\Debug\GestioneTabella.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\GestioneTabella_Solution\GestioneTabella\obj\Debug\GestioneTabella.FrmAus.resources

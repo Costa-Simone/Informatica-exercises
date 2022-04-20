@@ -59,11 +59,13 @@ namespace GestioneTabella
             this.numVoto = new System.Windows.Forms.NumericUpDown();
             this.cmbMateria = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnMediaVotiMateria = new System.Windows.Forms.Button();
             this.btnMediaVotiClasse = new System.Windows.Forms.Button();
             this.btnMateriaPiuInsuff = new System.Windows.Forms.Button();
             this.btnStudenteMediaMax = new System.Windows.Forms.Button();
             this.btnMediaVotiStudente = new System.Windows.Forms.Button();
-            this.btnMediaVotiMateria = new System.Windows.Forms.Button();
+            this.btnMateriaPiuVoti = new System.Windows.Forms.Button();
+            this.btnMediaStudenti = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).BeginInit();
             this.gbRicerche.SuspendLayout();
             this.gbOrdinamenti.SuspendLayout();
@@ -249,7 +251,7 @@ namespace GestioneTabella
             // 
             this.gbOrdinamenti.Controls.Add(this.btnOrdinaCognome);
             this.gbOrdinamenti.Controls.Add(this.btnOrdinaMatricola);
-            this.gbOrdinamenti.Location = new System.Drawing.Point(512, 344);
+            this.gbOrdinamenti.Location = new System.Drawing.Point(504, 382);
             this.gbOrdinamenti.Name = "gbOrdinamenti";
             this.gbOrdinamenti.Size = new System.Drawing.Size(247, 94);
             this.gbOrdinamenti.TabIndex = 8;
@@ -369,17 +371,29 @@ namespace GestioneTabella
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnMediaStudenti);
+            this.groupBox1.Controls.Add(this.btnMateriaPiuVoti);
             this.groupBox1.Controls.Add(this.btnMediaVotiMateria);
             this.groupBox1.Controls.Add(this.btnMediaVotiClasse);
             this.groupBox1.Controls.Add(this.btnMateriaPiuInsuff);
             this.groupBox1.Controls.Add(this.btnStudenteMediaMax);
             this.groupBox1.Controls.Add(this.btnMediaVotiStudente);
-            this.groupBox1.Location = new System.Drawing.Point(607, 176);
+            this.groupBox1.Location = new System.Drawing.Point(605, 157);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(181, 162);
+            this.groupBox1.Size = new System.Drawing.Size(181, 219);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "QUERY";
+            // 
+            // btnMediaVotiMateria
+            // 
+            this.btnMediaVotiMateria.Location = new System.Drawing.Point(6, 132);
+            this.btnMediaVotiMateria.Name = "btnMediaVotiMateria";
+            this.btnMediaVotiMateria.Size = new System.Drawing.Size(165, 23);
+            this.btnMediaVotiMateria.TabIndex = 4;
+            this.btnMediaVotiMateria.Text = "Media voti materia";
+            this.btnMediaVotiMateria.UseVisualStyleBackColor = true;
+            this.btnMediaVotiMateria.Click += new System.EventHandler(this.btnMediaVotiMateria_Click);
             // 
             // btnMediaVotiClasse
             // 
@@ -421,21 +435,31 @@ namespace GestioneTabella
             this.btnMediaVotiStudente.UseVisualStyleBackColor = true;
             this.btnMediaVotiStudente.Click += new System.EventHandler(this.btnMediaVotiStudente_Click);
             // 
-            // btnMediaVotiMateria
+            // btnMateriaPiuVoti
             // 
-            this.btnMediaVotiMateria.Location = new System.Drawing.Point(6, 132);
-            this.btnMediaVotiMateria.Name = "btnMediaVotiMateria";
-            this.btnMediaVotiMateria.Size = new System.Drawing.Size(165, 23);
-            this.btnMediaVotiMateria.TabIndex = 4;
-            this.btnMediaVotiMateria.Text = "Media voti materia";
-            this.btnMediaVotiMateria.UseVisualStyleBackColor = true;
-            this.btnMediaVotiMateria.Click += new System.EventHandler(this.btnMediaVotiMateria_Click);
+            this.btnMateriaPiuVoti.Location = new System.Drawing.Point(6, 158);
+            this.btnMateriaPiuVoti.Name = "btnMateriaPiuVoti";
+            this.btnMateriaPiuVoti.Size = new System.Drawing.Size(165, 23);
+            this.btnMateriaPiuVoti.TabIndex = 5;
+            this.btnMateriaPiuVoti.Text = "Materia piu voti";
+            this.btnMateriaPiuVoti.UseVisualStyleBackColor = true;
+            this.btnMateriaPiuVoti.Click += new System.EventHandler(this.btnMateriaPiuVoti_Click);
+            // 
+            // btnMediaStudenti
+            // 
+            this.btnMediaStudenti.Location = new System.Drawing.Point(6, 188);
+            this.btnMediaStudenti.Name = "btnMediaStudenti";
+            this.btnMediaStudenti.Size = new System.Drawing.Size(165, 23);
+            this.btnMediaStudenti.TabIndex = 6;
+            this.btnMediaStudenti.Text = "Media tutti studenti";
+            this.btnMediaStudenti.UseVisualStyleBackColor = true;
+            this.btnMediaStudenti.Click += new System.EventHandler(this.btnMediaStudenti_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 504);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.cmbMateria);
             this.Controls.Add(this.numVoto);
@@ -510,6 +534,8 @@ namespace GestioneTabella
         private System.Windows.Forms.Button btnMateriaPiuInsuff;
         private System.Windows.Forms.Button btnMediaVotiClasse;
         private System.Windows.Forms.Button btnMediaVotiMateria;
+        private System.Windows.Forms.Button btnMateriaPiuVoti;
+        private System.Windows.Forms.Button btnMediaStudenti;
     }
 }
 

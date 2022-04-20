@@ -736,5 +736,118 @@ namespace GestioneTabella
             }
             return trovato;
         }
+
+        private void btnMateriaPiuVoti_Click(object sender, EventArgs e)
+        {
+            ordinaValutazioniMaterie(valutazioni);
+
+            string matTop = "";
+            int cont = 1, contTop = -1;
+
+            for (int i = 0; i < numValutazioni - 1; i++)
+            {
+                if (valutazioni[i].Materia == valutazioni[i + 1].Materia)
+                {
+                    cont++;
+                }
+                else //se rompo la chiave
+                {
+                    if (cont > contTop)
+                    {
+                        contTop = cont;
+                        cont = 1;
+                        matTop = valutazioni[i].Materia;
+                    }
+                }
+            }
+
+            MessageBox.Show("La materia con piu' valutazione e' " + matTop + " con voti: " + contTop.ToString());
+        }
+
+        private void btnMediaStudenti_Click(object sender, EventArgs e)
+        {
+            ordinaValutazioniMatricola(valutazioni);
+            ordinaStudentiMatricola(studenti);
+
+            string messaggio = "";
+            double[] medie = new double[numStudenti];
+            int k = 0;
+
+            for (int i = 0; i < numStudenti; i++)
+            {
+                int j = 0;
+                bool esci = false;
+                double cont = 0;
+
+                while (!esci && j < numValutazioni)
+                {
+                    if (studenti[i].Matricola == valutazioni[j].Matricola)
+                    {
+                        medie[k] += valutazioni[j].Voto;
+                        cont++;
+                    }
+                    else if (studenti[i].Matricola < valutazioni[j].Matricola)
+                    {
+                        esci = true;
+                    }
+
+                    j++;
+                }
+
+                medie[k++] /= cont;
+            }
+
+            int posMin;
+
+            for (int i = 0; i <= numStudenti - 2; i++)
+            {
+                posMin = i;
+                for (int j = i + 1; j <= numStudenti - 1; j++)
+                {
+                    if (medie[posMin] > medie[j])
+                        posMin = j;
+                }
+                if (posMin != i)
+                {
+                    Studente aus = studenti[i];
+                    studenti[i] = studenti[posMin];
+                    studenti[posMin] = aus;
+
+                    double ausD = medie[i];
+                    medie[i] = medie[posMin];
+                    medie[posMin] = ausD;
+                }
+            }
+
+            for (int i = 0; i < numStudenti; i++)
+            {
+                messaggio += studenti[i].Cognome + " " + studenti[i].Nome + " --> " + medie[i].ToString() + "\n";
+            }
+
+            //MessageBox.Show(messaggio);
+            FrmAus form2 = new FrmAus();
+            form2.Show();
+        }
+
+        private void ordinaStudentiMatricola(Studente[] studenti)
+        {
+            int posMin;
+
+            for (int i = 0; i <= numStudenti - 2; i++)
+            {
+                posMin = i;
+                for (int j = i + 1; j <= numStudenti - 1; j++)
+                {
+                    if (studenti[posMin].Matricola > studenti[j].Matricola)
+                        posMin = j;
+                }
+                if (posMin != i)
+                {
+                    Studente aus = studenti[i];
+                    studenti[i] = studenti[posMin];
+                    studenti[posMin] = aus;
+                }
+            }
+        }
     }
 }
