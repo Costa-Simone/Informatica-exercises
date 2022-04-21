@@ -59,13 +59,13 @@ namespace GestioneTabella
             this.numVoto = new System.Windows.Forms.NumericUpDown();
             this.cmbMateria = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnMediaStudenti = new System.Windows.Forms.Button();
+            this.btnMateriaPiuVoti = new System.Windows.Forms.Button();
             this.btnMediaVotiMateria = new System.Windows.Forms.Button();
             this.btnMediaVotiClasse = new System.Windows.Forms.Button();
             this.btnMateriaPiuInsuff = new System.Windows.Forms.Button();
             this.btnStudenteMediaMax = new System.Windows.Forms.Button();
             this.btnMediaVotiStudente = new System.Windows.Forms.Button();
-            this.btnMateriaPiuVoti = new System.Windows.Forms.Button();
-            this.btnMediaStudenti = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).BeginInit();
             this.gbRicerche.SuspendLayout();
             this.gbOrdinamenti.SuspendLayout();
@@ -79,7 +79,7 @@ namespace GestioneTabella
             this.dgvStudenti.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvStudenti.Location = new System.Drawing.Point(11, 9);
             this.dgvStudenti.Name = "dgvStudenti";
-            this.dgvStudenti.Size = new System.Drawing.Size(283, 240);
+            this.dgvStudenti.Size = new System.Drawing.Size(277, 240);
             this.dgvStudenti.TabIndex = 0;
             // 
             // label1
@@ -283,7 +283,7 @@ namespace GestioneTabella
             this.dgvValutazioni.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvValutazioni.Location = new System.Drawing.Point(312, 9);
             this.dgvValutazioni.Name = "dgvValutazioni";
-            this.dgvValutazioni.Size = new System.Drawing.Size(273, 240);
+            this.dgvValutazioni.Size = new System.Drawing.Size(267, 240);
             this.dgvValutazioni.TabIndex = 12;
             // 
             // btnInserisciVoto
@@ -385,6 +385,26 @@ namespace GestioneTabella
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "QUERY";
             // 
+            // btnMediaStudenti
+            // 
+            this.btnMediaStudenti.Location = new System.Drawing.Point(6, 188);
+            this.btnMediaStudenti.Name = "btnMediaStudenti";
+            this.btnMediaStudenti.Size = new System.Drawing.Size(165, 23);
+            this.btnMediaStudenti.TabIndex = 6;
+            this.btnMediaStudenti.Text = "Media tutti studenti";
+            this.btnMediaStudenti.UseVisualStyleBackColor = true;
+            this.btnMediaStudenti.Click += new System.EventHandler(this.btnMediaStudenti_Click);
+            // 
+            // btnMateriaPiuVoti
+            // 
+            this.btnMateriaPiuVoti.Location = new System.Drawing.Point(6, 158);
+            this.btnMateriaPiuVoti.Name = "btnMateriaPiuVoti";
+            this.btnMateriaPiuVoti.Size = new System.Drawing.Size(165, 23);
+            this.btnMateriaPiuVoti.TabIndex = 5;
+            this.btnMateriaPiuVoti.Text = "Materia piu voti";
+            this.btnMateriaPiuVoti.UseVisualStyleBackColor = true;
+            this.btnMateriaPiuVoti.Click += new System.EventHandler(this.btnMateriaPiuVoti_Click);
+            // 
             // btnMediaVotiMateria
             // 
             this.btnMediaVotiMateria.Location = new System.Drawing.Point(6, 132);
@@ -434,26 +454,6 @@ namespace GestioneTabella
             this.btnMediaVotiStudente.Text = "Media voti studente";
             this.btnMediaVotiStudente.UseVisualStyleBackColor = true;
             this.btnMediaVotiStudente.Click += new System.EventHandler(this.btnMediaVotiStudente_Click);
-            // 
-            // btnMateriaPiuVoti
-            // 
-            this.btnMateriaPiuVoti.Location = new System.Drawing.Point(6, 158);
-            this.btnMateriaPiuVoti.Name = "btnMateriaPiuVoti";
-            this.btnMateriaPiuVoti.Size = new System.Drawing.Size(165, 23);
-            this.btnMateriaPiuVoti.TabIndex = 5;
-            this.btnMateriaPiuVoti.Text = "Materia piu voti";
-            this.btnMateriaPiuVoti.UseVisualStyleBackColor = true;
-            this.btnMateriaPiuVoti.Click += new System.EventHandler(this.btnMateriaPiuVoti_Click);
-            // 
-            // btnMediaStudenti
-            // 
-            this.btnMediaStudenti.Location = new System.Drawing.Point(6, 188);
-            this.btnMediaStudenti.Name = "btnMediaStudenti";
-            this.btnMediaStudenti.Size = new System.Drawing.Size(165, 23);
-            this.btnMediaStudenti.TabIndex = 6;
-            this.btnMediaStudenti.Text = "Media tutti studenti";
-            this.btnMediaStudenti.UseVisualStyleBackColor = true;
-            this.btnMediaStudenti.Click += new System.EventHandler(this.btnMediaStudenti_Click);
             // 
             // FormMain
             // 

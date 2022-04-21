@@ -44,8 +44,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(474, 312);
+            this.ClientSize = new System.Drawing.Size(242, 176);
             this.Controls.Add(this.dgvMedieStudenti);
+            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "FrmAus";
             this.Text = "Medie degli studenti";
             this.Load += new System.EventHandler(this.FrmAus_Load);

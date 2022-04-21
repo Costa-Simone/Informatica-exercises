@@ -20,6 +20,18 @@ namespace GestioneTabella
         private void FrmAus_Load(object sender, EventArgs e)
         {
             settaDgv(dgvMedieStudenti);
+            caricaDgv(dgvMedieStudenti, FormMain.medie, FormMain.numStudenti);
+        }
+
+        private void caricaDgv(DataGridView dgv, double[] medie, int numStudenti)
+        {
+            for (int i = 0; i < numStudenti; i++)
+            {
+                dgv.Rows.Add();
+                dgv.Rows[i].Cells[0].Value = FormMain.studenti[i].Cognome;
+                dgv.Rows[i].Cells[1].Value = FormMain.studenti[i].Nome;
+                dgv.Rows[i].Cells[2].Value = FormMain.medie[i];
+            }
         }
 
         private void settaDgv(DataGridView dgv)

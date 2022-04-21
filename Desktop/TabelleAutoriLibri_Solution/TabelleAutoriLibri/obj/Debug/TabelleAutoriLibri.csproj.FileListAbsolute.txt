@@ -1,0 +1,9 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\TabelleAutoriLibri_Solution\TabelleAutoriLibri\bin\Debug\TabelleAutoriLibri.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\TabelleAutoriLibri_Solution\TabelleAutoriLibri\bin\Debug\TabelleAutoriLibri.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\TabelleAutoriLibri_Solution\TabelleAutoriLibri\bin\Debug\TabelleAutoriLibri.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\TabelleAutoriLibri_Solution\TabelleAutoriLibri\obj\Debug\TabelleAutoriLibri.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\TabelleAutoriLibri_Solution\TabelleAutoriLibri\obj\Debug\TabelleAutoriLibri.FrmMain.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\TabelleAutoriLibri_Solution\TabelleAutoriLibri\obj\Debug\TabelleAutoriLibri.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\TabelleAutoriLibri_Solution\TabelleAutoriLibri\obj\Debug\TabelleAutoriLibri.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\TabelleAutoriLibri_Solution\TabelleAutoriLibri\obj\Debug\TabelleAutoriLibri.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\TabelleAutoriLibri_Solution\TabelleAutoriLibri\obj\Debug\TabelleAutoriLibri.pdb

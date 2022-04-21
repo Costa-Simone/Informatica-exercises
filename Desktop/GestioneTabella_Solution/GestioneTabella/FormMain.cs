@@ -59,10 +59,11 @@ namespace GestioneTabella
             "15;9;Sistemi;52"
         };
 
-        Studente[] studenti = new Studente[10];
-        Valutazione[] valutazioni = new Valutazione[20];
+        public static Studente[] studenti = new Studente[10];
+        public static Valutazione[] valutazioni = new Valutazione[20];
+        public static double[] medie = new double[10];
 
-        int numStudenti;
+        public static int numStudenti;
         int numValutazioni;
 
         public FormMain()
@@ -770,7 +771,7 @@ namespace GestioneTabella
             ordinaStudentiMatricola(studenti);
 
             string messaggio = "";
-            double[] medie = new double[numStudenti];
+            Array.Resize(ref medie, numStudenti);
             int k = 0;
 
             for (int i = 0; i < numStudenti; i++)
