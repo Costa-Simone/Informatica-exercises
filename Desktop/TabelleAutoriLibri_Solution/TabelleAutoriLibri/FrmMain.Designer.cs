@@ -34,8 +34,11 @@
             this.cmbAutori = new System.Windows.Forms.ComboBox();
             this.btnCercaLibriAutoreNazione = new System.Windows.Forms.Button();
             this.cmbNazione = new System.Windows.Forms.ComboBox();
+            this.btnContaLibriGeneri = new System.Windows.Forms.Button();
+            this.dgvGeneri = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibri)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAutori)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGeneri)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvLibri
@@ -49,7 +52,7 @@
             // dgvAutori
             // 
             this.dgvAutori.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAutori.Location = new System.Drawing.Point(309, 12);
+            this.dgvAutori.Location = new System.Drawing.Point(289, 12);
             this.dgvAutori.Name = "dgvAutori";
             this.dgvAutori.Size = new System.Drawing.Size(240, 150);
             this.dgvAutori.TabIndex = 1;
@@ -76,7 +79,7 @@
             // 
             this.btnCercaLibriAutoreNazione.Location = new System.Drawing.Point(168, 243);
             this.btnCercaLibriAutoreNazione.Name = "btnCercaLibriAutoreNazione";
-            this.btnCercaLibriAutoreNazione.Size = new System.Drawing.Size(163, 40);
+            this.btnCercaLibriAutoreNazione.Size = new System.Drawing.Size(163, 52);
             this.btnCercaLibriAutoreNazione.TabIndex = 4;
             this.btnCercaLibriAutoreNazione.Text = "Visualizzare i libri scritti da autori di una nazione in input via combo";
             this.btnCercaLibriAutoreNazione.UseVisualStyleBackColor = true;
@@ -85,16 +88,36 @@
             // cmbNazione
             // 
             this.cmbNazione.FormattingEnabled = true;
-            this.cmbNazione.Location = new System.Drawing.Point(25, 254);
+            this.cmbNazione.Location = new System.Drawing.Point(25, 260);
             this.cmbNazione.Name = "cmbNazione";
             this.cmbNazione.Size = new System.Drawing.Size(121, 21);
             this.cmbNazione.TabIndex = 5;
+            // 
+            // btnContaLibriGeneri
+            // 
+            this.btnContaLibriGeneri.Location = new System.Drawing.Point(168, 301);
+            this.btnContaLibriGeneri.Name = "btnContaLibriGeneri";
+            this.btnContaLibriGeneri.Size = new System.Drawing.Size(163, 58);
+            this.btnContaLibriGeneri.TabIndex = 6;
+            this.btnContaLibriGeneri.Text = "Contare per ogni genere il numero di libri stampando output in nuova dgv";
+            this.btnContaLibriGeneri.UseVisualStyleBackColor = true;
+            this.btnContaLibriGeneri.Click += new System.EventHandler(this.btnContaLibriGeneri_Click);
+            // 
+            // dgvGeneri
+            // 
+            this.dgvGeneri.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvGeneri.Location = new System.Drawing.Point(535, 12);
+            this.dgvGeneri.Name = "dgvGeneri";
+            this.dgvGeneri.Size = new System.Drawing.Size(138, 150);
+            this.dgvGeneri.TabIndex = 7;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 368);
+            this.ClientSize = new System.Drawing.Size(686, 371);
+            this.Controls.Add(this.dgvGeneri);
+            this.Controls.Add(this.btnContaLibriGeneri);
             this.Controls.Add(this.cmbNazione);
             this.Controls.Add(this.btnCercaLibriAutoreNazione);
             this.Controls.Add(this.cmbAutori);
@@ -102,10 +125,12 @@
             this.Controls.Add(this.dgvAutori);
             this.Controls.Add(this.dgvLibri);
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tabelle Autori/Libri";
             this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibri)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAutori)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGeneri)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -118,6 +143,8 @@
         private System.Windows.Forms.ComboBox cmbAutori;
         private System.Windows.Forms.Button btnCercaLibriAutoreNazione;
         private System.Windows.Forms.ComboBox cmbNazione;
+        private System.Windows.Forms.Button btnContaLibriGeneri;
+        private System.Windows.Forms.DataGridView dgvGeneri;
     }
 }
 

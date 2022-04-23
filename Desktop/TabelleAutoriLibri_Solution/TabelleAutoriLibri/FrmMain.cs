@@ -34,7 +34,6 @@ namespace TabelleAutoriLibri
         {
             InitializeComponent();
         }
-
         private void frmMain_Load(object sender, EventArgs e)
         {
             string[] datiAutori = new string[]
@@ -63,10 +62,20 @@ namespace TabelleAutoriLibri
             caricaTabellaLibri(libri, datiLibri);
             settaDgvAutori(autori, dgvAutori);
             settaDgvLibri(libri, dgvLibri);
+            settaDgvGeneri(dgvGeneri);
             visualAutori(autori, dgvAutori);
             visualLibri(libri, dgvLibri);
             caricaCmbAutori(autori, cmbAutori);
             caricaCmbNazioni(autori, cmbNazione);
+        }
+        private void settaDgvGeneri(DataGridView dgv)
+        {
+            dgv.ColumnCount = 2;
+            dgv.ScrollBars = ScrollBars.Vertical;
+            dgv.RowHeadersVisible = false;
+            dgv.Columns[0].HeaderText = "Genere";
+            dgv.Columns[1].HeaderText = "Numero";
+            dgv.AutoResizeColumns();
         }
         private void caricaCmbAutori(autore[] autori, ComboBox cmb)
         {
@@ -212,9 +221,16 @@ namespace TabelleAutoriLibri
         }
         private void btnCercaLibriAutoreNazione_Click(object sender, EventArgs e)
         {
-            string naz = cmbNazione.SelectedItem.ToString();
+            if (cmbNazione.SelectedIndex == -1)
+            {
+                MessageBox.Show("Selezionare una nazione!");
+            }
+            else
+            {
+                string naz = cmbNazione.SelectedItem.ToString();
 
-            ricercaLibroNazione(autori, libri, naz);
+                ricercaLibroNazione(autori, libri, naz);
+            }
         }
         private void ricercaLibroNazione(autore[] autori, libro[] libri, string naz)
         {
@@ -235,7 +251,7 @@ namespace TabelleAutoriLibri
                     {
                         if (libri[j].codAut == autori[i].codAut)
                         {
-                            output += libri[j].titolo + "\n";
+                            output += libri[j].titolo + " di " + autori[i].nominativo + "\n";
                             j++;
                         }
                         else
@@ -278,6 +294,56 @@ namespace TabelleAutoriLibri
                 if (autori[i].nazione != autori[i - 1].nazione)
                 {
                     cmb.Items.Add(autori[i].nazione);
+                }
+            }
+        }
+        private void btnContaLibriGeneri_Click(object sender, EventArgs e)
+        {
+            ordinaLibriGeneri(libri);
+
+            int cont = 0, k = 0;
+
+            dgvGeneri.Rows.Add();
+
+            for (int i = 1; i < nLibri; i++)
+            {
+                if (libri[i].genere == libri[i - 1].genere)
+                {
+                    cont++;
+                }
+                else
+                {
+                    dgvGeneri.Rows.Add();
+                    dgvGeneri.Rows[k].Cells[0].Value = libri[i - 1].genere;
+                    dgvGeneri.Rows[k++].Cells[1].Value = cont;
+                    cont = 1;
+                }
+            }
+
+            dgvGeneri.Rows[k].Cells[0].Value = libri[nLibri - 1].genere;
+            dgvGeneri.Rows[k].Cells[1].Value = cont;
+        }
+        private void ordinaLibriGeneri(libro[] libri)
+        {
+            int PosMin;
+
+            for (int i = 0; i <= nLibri - 2; i++)
+            {
+                PosMin = i;
+
+                for (int j = i + 1; j <= nLibri - 1; j++)
+                {
+                    if (string.Compare(libri[PosMin].genere, libri[j].genere) > 0)
+                    {
+                        PosMin = j;
+                    }
+                }
+
+                if (PosMin != i)
+                {
+                    libro aus = libri[i];
+                    libri[i] = libri[PosMin];
+                    libri[PosMin] = aus;
                 }
             }
         }
