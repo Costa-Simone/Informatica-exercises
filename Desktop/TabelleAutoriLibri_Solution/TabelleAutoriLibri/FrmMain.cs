@@ -28,9 +28,7 @@ namespace TabelleAutoriLibri
 
         libro[] libri = new libro[20];
         autore[] autori = new autore[10];
-        int nLibri;
-        int nAutori;
-        int nNazioni = 0;
+        int nLibri, nAutori;
 
         public frmMain()
         {
@@ -252,6 +250,8 @@ namespace TabelleAutoriLibri
                             }
                         }
                     }
+
+                    i++;
                 }
                 else
                 {
@@ -267,10 +267,6 @@ namespace TabelleAutoriLibri
             }
 
             MessageBox.Show(output);
-        }
-        private void ordinaLibriAutoriNazioni(libro[] libri, autore[] autori)
-        {
-            throw new NotImplementedException();
         }
         private void caricaCmbNazioni(autore[] autori, ComboBox cmb)
         {
