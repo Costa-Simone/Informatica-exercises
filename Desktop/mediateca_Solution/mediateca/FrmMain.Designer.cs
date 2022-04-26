@@ -32,6 +32,14 @@
             this.tpMedia = new System.Windows.Forms.TabPage();
             this.dgvMedia = new System.Windows.Forms.DataGridView();
             this.gbComandiMedia = new System.Windows.Forms.GroupBox();
+            this.btnAnnulla = new System.Windows.Forms.Button();
+            this.btnSalva = new System.Windows.Forms.Button();
+            this.btnModificaMedia = new System.Windows.Forms.Button();
+            this.btnCancellaMedia = new System.Windows.Forms.Button();
+            this.txtAutore = new System.Windows.Forms.TextBox();
+            this.txtTitolo = new System.Windows.Forms.TextBox();
+            this.cmbGenere = new System.Windows.Forms.ComboBox();
+            this.cmbTipo = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,21 +48,12 @@
             this.tpSoci = new System.Windows.Forms.TabPage();
             this.dgvSoci = new System.Windows.Forms.DataGridView();
             this.gbSoci = new System.Windows.Forms.GroupBox();
-            this.tpOperazioni = new System.Windows.Forms.TabPage();
-            this.dgvOperazioni = new System.Windows.Forms.DataGridView();
-            this.gbOperazioni = new System.Windows.Forms.GroupBox();
-            this.cmbTipo = new System.Windows.Forms.ComboBox();
-            this.cmbGenere = new System.Windows.Forms.ComboBox();
-            this.txtTitolo = new System.Windows.Forms.TextBox();
-            this.txtAutore = new System.Windows.Forms.TextBox();
-            this.btnCancellaMedia = new System.Windows.Forms.Button();
-            this.btnModificaMedia = new System.Windows.Forms.Button();
-            this.btnSalva = new System.Windows.Forms.Button();
-            this.btnAnnulla = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.btnAnnullaS = new System.Windows.Forms.Button();
+            this.btnSalvaS = new System.Windows.Forms.Button();
+            this.btnModificaSocio = new System.Windows.Forms.Button();
+            this.btnCancellaSocio = new System.Windows.Forms.Button();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtCognome = new System.Windows.Forms.TextBox();
             this.lblTelefono = new System.Windows.Forms.Label();
@@ -62,8 +61,9 @@
             this.lblNome = new System.Windows.Forms.Label();
             this.lblCognome = new System.Windows.Forms.Label();
             this.btnInserisciSocio = new System.Windows.Forms.Button();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.tpOperazioni = new System.Windows.Forms.TabPage();
+            this.dgvOperazioni = new System.Windows.Forms.DataGridView();
+            this.gbOperazioni = new System.Windows.Forms.GroupBox();
             this.tcMain.SuspendLayout();
             this.tpMedia.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMedia)).BeginInit();
@@ -136,6 +136,89 @@
             this.gbComandiMedia.TabStop = false;
             this.gbComandiMedia.Text = "Comandi";
             // 
+            // btnAnnulla
+            // 
+            this.btnAnnulla.Location = new System.Drawing.Point(116, 219);
+            this.btnAnnulla.Name = "btnAnnulla";
+            this.btnAnnulla.Size = new System.Drawing.Size(78, 23);
+            this.btnAnnulla.TabIndex = 15;
+            this.btnAnnulla.Text = "Annulla";
+            this.btnAnnulla.UseVisualStyleBackColor = true;
+            this.btnAnnulla.Visible = false;
+            this.btnAnnulla.Click += new System.EventHandler(this.btnAnnulla_Click);
+            // 
+            // btnSalva
+            // 
+            this.btnSalva.Location = new System.Drawing.Point(6, 219);
+            this.btnSalva.Name = "btnSalva";
+            this.btnSalva.Size = new System.Drawing.Size(78, 23);
+            this.btnSalva.TabIndex = 14;
+            this.btnSalva.Text = "Salva";
+            this.btnSalva.UseVisualStyleBackColor = true;
+            this.btnSalva.Visible = false;
+            this.btnSalva.Click += new System.EventHandler(this.btnSalva_Click);
+            // 
+            // btnModificaMedia
+            // 
+            this.btnModificaMedia.Location = new System.Drawing.Point(6, 190);
+            this.btnModificaMedia.Name = "btnModificaMedia";
+            this.btnModificaMedia.Size = new System.Drawing.Size(188, 23);
+            this.btnModificaMedia.TabIndex = 13;
+            this.btnModificaMedia.Text = "Modifica Media selezionato";
+            this.btnModificaMedia.UseVisualStyleBackColor = true;
+            this.btnModificaMedia.Click += new System.EventHandler(this.btnModificaMedia_Click);
+            // 
+            // btnCancellaMedia
+            // 
+            this.btnCancellaMedia.Location = new System.Drawing.Point(6, 161);
+            this.btnCancellaMedia.Name = "btnCancellaMedia";
+            this.btnCancellaMedia.Size = new System.Drawing.Size(188, 23);
+            this.btnCancellaMedia.TabIndex = 12;
+            this.btnCancellaMedia.Text = "Cancella Media selezionato";
+            this.btnCancellaMedia.UseVisualStyleBackColor = true;
+            this.btnCancellaMedia.Click += new System.EventHandler(this.btnCancellaMedia_Click);
+            // 
+            // txtAutore
+            // 
+            this.txtAutore.Location = new System.Drawing.Point(68, 48);
+            this.txtAutore.Name = "txtAutore";
+            this.txtAutore.Size = new System.Drawing.Size(126, 20);
+            this.txtAutore.TabIndex = 11;
+            // 
+            // txtTitolo
+            // 
+            this.txtTitolo.Location = new System.Drawing.Point(68, 25);
+            this.txtTitolo.Name = "txtTitolo";
+            this.txtTitolo.Size = new System.Drawing.Size(126, 20);
+            this.txtTitolo.TabIndex = 10;
+            // 
+            // cmbGenere
+            // 
+            this.cmbGenere.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbGenere.FormattingEnabled = true;
+            this.cmbGenere.Items.AddRange(new object[] {
+            "Narrativa",
+            "Saggio",
+            "Avventura",
+            "Gioco"});
+            this.cmbGenere.Location = new System.Drawing.Point(68, 94);
+            this.cmbGenere.Name = "cmbGenere";
+            this.cmbGenere.Size = new System.Drawing.Size(126, 21);
+            this.cmbGenere.TabIndex = 8;
+            // 
+            // cmbTipo
+            // 
+            this.cmbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbTipo.FormattingEnabled = true;
+            this.cmbTipo.Items.AddRange(new object[] {
+            "DVD",
+            "Libri",
+            "CD"});
+            this.cmbTipo.Location = new System.Drawing.Point(68, 71);
+            this.cmbTipo.Name = "cmbTipo";
+            this.cmbTipo.Size = new System.Drawing.Size(126, 21);
+            this.cmbTipo.TabIndex = 7;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -206,6 +289,7 @@
             this.dgvSoci.Location = new System.Drawing.Point(3, 3);
             this.dgvSoci.Name = "dgvSoci";
             this.dgvSoci.ReadOnly = true;
+            this.dgvSoci.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvSoci.Size = new System.Drawing.Size(586, 418);
             this.dgvSoci.TabIndex = 0;
             // 
@@ -213,10 +297,10 @@
             // 
             this.gbSoci.Controls.Add(this.txtTelefono);
             this.gbSoci.Controls.Add(this.txtEmail);
-            this.gbSoci.Controls.Add(this.button1);
-            this.gbSoci.Controls.Add(this.button2);
-            this.gbSoci.Controls.Add(this.button3);
-            this.gbSoci.Controls.Add(this.button4);
+            this.gbSoci.Controls.Add(this.btnAnnullaS);
+            this.gbSoci.Controls.Add(this.btnSalvaS);
+            this.gbSoci.Controls.Add(this.btnModificaSocio);
+            this.gbSoci.Controls.Add(this.btnCancellaSocio);
             this.gbSoci.Controls.Add(this.txtNome);
             this.gbSoci.Controls.Add(this.txtCognome);
             this.gbSoci.Controls.Add(this.lblTelefono);
@@ -232,163 +316,61 @@
             this.gbSoci.TabStop = false;
             this.gbSoci.Text = "Comandi";
             // 
-            // tpOperazioni
+            // txtTelefono
             // 
-            this.tpOperazioni.Controls.Add(this.dgvOperazioni);
-            this.tpOperazioni.Controls.Add(this.gbOperazioni);
-            this.tpOperazioni.Location = new System.Drawing.Point(4, 22);
-            this.tpOperazioni.Name = "tpOperazioni";
-            this.tpOperazioni.Padding = new System.Windows.Forms.Padding(3);
-            this.tpOperazioni.Size = new System.Drawing.Size(792, 424);
-            this.tpOperazioni.TabIndex = 2;
-            this.tpOperazioni.Text = "Operazioni";
-            this.tpOperazioni.UseVisualStyleBackColor = true;
+            this.txtTelefono.Location = new System.Drawing.Point(68, 95);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(126, 20);
+            this.txtTelefono.TabIndex = 30;
             // 
-            // dgvOperazioni
+            // txtEmail
             // 
-            this.dgvOperazioni.AllowUserToAddRows = false;
-            this.dgvOperazioni.AllowUserToDeleteRows = false;
-            this.dgvOperazioni.AllowUserToOrderColumns = true;
-            this.dgvOperazioni.AllowUserToResizeColumns = false;
-            this.dgvOperazioni.AllowUserToResizeRows = false;
-            this.dgvOperazioni.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvOperazioni.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvOperazioni.Location = new System.Drawing.Point(3, 3);
-            this.dgvOperazioni.Name = "dgvOperazioni";
-            this.dgvOperazioni.ReadOnly = true;
-            this.dgvOperazioni.Size = new System.Drawing.Size(586, 418);
-            this.dgvOperazioni.TabIndex = 0;
+            this.txtEmail.Location = new System.Drawing.Point(68, 72);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(126, 20);
+            this.txtEmail.TabIndex = 29;
             // 
-            // gbOperazioni
+            // btnAnnullaS
             // 
-            this.gbOperazioni.Dock = System.Windows.Forms.DockStyle.Right;
-            this.gbOperazioni.Location = new System.Drawing.Point(589, 3);
-            this.gbOperazioni.Name = "gbOperazioni";
-            this.gbOperazioni.Size = new System.Drawing.Size(200, 418);
-            this.gbOperazioni.TabIndex = 1;
-            this.gbOperazioni.TabStop = false;
-            this.gbOperazioni.Text = "Comandi";
+            this.btnAnnullaS.Location = new System.Drawing.Point(116, 220);
+            this.btnAnnullaS.Name = "btnAnnullaS";
+            this.btnAnnullaS.Size = new System.Drawing.Size(78, 23);
+            this.btnAnnullaS.TabIndex = 28;
+            this.btnAnnullaS.Text = "Annulla";
+            this.btnAnnullaS.UseVisualStyleBackColor = true;
+            this.btnAnnullaS.Visible = false;
+            this.btnAnnullaS.Click += new System.EventHandler(this.btnAnnullaS_Click);
             // 
-            // cmbTipo
+            // btnSalvaS
             // 
-            this.cmbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbTipo.FormattingEnabled = true;
-            this.cmbTipo.Items.AddRange(new object[] {
-            "DVD",
-            "Libri",
-            "CD"});
-            this.cmbTipo.Location = new System.Drawing.Point(68, 71);
-            this.cmbTipo.Name = "cmbTipo";
-            this.cmbTipo.Size = new System.Drawing.Size(126, 21);
-            this.cmbTipo.TabIndex = 7;
+            this.btnSalvaS.Location = new System.Drawing.Point(6, 220);
+            this.btnSalvaS.Name = "btnSalvaS";
+            this.btnSalvaS.Size = new System.Drawing.Size(78, 23);
+            this.btnSalvaS.TabIndex = 27;
+            this.btnSalvaS.Text = "Salva";
+            this.btnSalvaS.UseVisualStyleBackColor = true;
+            this.btnSalvaS.Visible = false;
+            this.btnSalvaS.Click += new System.EventHandler(this.btnSalvaS_Click);
             // 
-            // cmbGenere
+            // btnModificaSocio
             // 
-            this.cmbGenere.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbGenere.FormattingEnabled = true;
-            this.cmbGenere.Items.AddRange(new object[] {
-            "Narrativa",
-            "Saggio",
-            "Avventura",
-            "Gioco"});
-            this.cmbGenere.Location = new System.Drawing.Point(68, 94);
-            this.cmbGenere.Name = "cmbGenere";
-            this.cmbGenere.Size = new System.Drawing.Size(126, 21);
-            this.cmbGenere.TabIndex = 8;
+            this.btnModificaSocio.Location = new System.Drawing.Point(6, 191);
+            this.btnModificaSocio.Name = "btnModificaSocio";
+            this.btnModificaSocio.Size = new System.Drawing.Size(188, 23);
+            this.btnModificaSocio.TabIndex = 26;
+            this.btnModificaSocio.Text = "Modifica Socio selezionato";
+            this.btnModificaSocio.UseVisualStyleBackColor = true;
+            this.btnModificaSocio.Click += new System.EventHandler(this.btnModificaSocio_Click);
             // 
-            // txtTitolo
+            // btnCancellaSocio
             // 
-            this.txtTitolo.Location = new System.Drawing.Point(68, 25);
-            this.txtTitolo.Name = "txtTitolo";
-            this.txtTitolo.Size = new System.Drawing.Size(126, 20);
-            this.txtTitolo.TabIndex = 10;
-            // 
-            // txtAutore
-            // 
-            this.txtAutore.Location = new System.Drawing.Point(68, 48);
-            this.txtAutore.Name = "txtAutore";
-            this.txtAutore.Size = new System.Drawing.Size(126, 20);
-            this.txtAutore.TabIndex = 11;
-            // 
-            // btnCancellaMedia
-            // 
-            this.btnCancellaMedia.Location = new System.Drawing.Point(6, 161);
-            this.btnCancellaMedia.Name = "btnCancellaMedia";
-            this.btnCancellaMedia.Size = new System.Drawing.Size(188, 23);
-            this.btnCancellaMedia.TabIndex = 12;
-            this.btnCancellaMedia.Text = "Cancella Media selezionato";
-            this.btnCancellaMedia.UseVisualStyleBackColor = true;
-            this.btnCancellaMedia.Click += new System.EventHandler(this.btnCancellaMedia_Click);
-            // 
-            // btnModificaMedia
-            // 
-            this.btnModificaMedia.Location = new System.Drawing.Point(6, 190);
-            this.btnModificaMedia.Name = "btnModificaMedia";
-            this.btnModificaMedia.Size = new System.Drawing.Size(188, 23);
-            this.btnModificaMedia.TabIndex = 13;
-            this.btnModificaMedia.Text = "Modifica Media selezionato";
-            this.btnModificaMedia.UseVisualStyleBackColor = true;
-            this.btnModificaMedia.Click += new System.EventHandler(this.btnModificaMedia_Click);
-            // 
-            // btnSalva
-            // 
-            this.btnSalva.Location = new System.Drawing.Point(6, 219);
-            this.btnSalva.Name = "btnSalva";
-            this.btnSalva.Size = new System.Drawing.Size(78, 23);
-            this.btnSalva.TabIndex = 14;
-            this.btnSalva.Text = "Salva";
-            this.btnSalva.UseVisualStyleBackColor = true;
-            this.btnSalva.Visible = false;
-            this.btnSalva.Click += new System.EventHandler(this.btnSalva_Click);
-            // 
-            // btnAnnulla
-            // 
-            this.btnAnnulla.Location = new System.Drawing.Point(116, 219);
-            this.btnAnnulla.Name = "btnAnnulla";
-            this.btnAnnulla.Size = new System.Drawing.Size(78, 23);
-            this.btnAnnulla.TabIndex = 15;
-            this.btnAnnulla.Text = "Annulla";
-            this.btnAnnulla.UseVisualStyleBackColor = true;
-            this.btnAnnulla.Visible = false;
-            this.btnAnnulla.Click += new System.EventHandler(this.btnAnnulla_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(116, 220);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 23);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Annulla";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Visible = false;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(6, 220);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(78, 23);
-            this.button2.TabIndex = 27;
-            this.button2.Text = "Salva";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Visible = false;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(6, 191);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(188, 23);
-            this.button3.TabIndex = 26;
-            this.button3.Text = "Modifica Socio selezionato";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(6, 162);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(188, 23);
-            this.button4.TabIndex = 25;
-            this.button4.Text = "Cancella Socio selezionato";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnCancellaSocio.Location = new System.Drawing.Point(6, 162);
+            this.btnCancellaSocio.Name = "btnCancellaSocio";
+            this.btnCancellaSocio.Size = new System.Drawing.Size(188, 23);
+            this.btnCancellaSocio.TabIndex = 25;
+            this.btnCancellaSocio.Text = "Cancella Socio selezionato";
+            this.btnCancellaSocio.UseVisualStyleBackColor = true;
+            this.btnCancellaSocio.Click += new System.EventHandler(this.btnCancellaSocio_Click);
             // 
             // txtNome
             // 
@@ -450,19 +432,42 @@
             this.btnInserisciSocio.UseVisualStyleBackColor = true;
             this.btnInserisciSocio.Click += new System.EventHandler(this.btnInserisciSocio_Click);
             // 
-            // txtEmail
+            // tpOperazioni
             // 
-            this.txtEmail.Location = new System.Drawing.Point(68, 72);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(126, 20);
-            this.txtEmail.TabIndex = 29;
+            this.tpOperazioni.Controls.Add(this.dgvOperazioni);
+            this.tpOperazioni.Controls.Add(this.gbOperazioni);
+            this.tpOperazioni.Location = new System.Drawing.Point(4, 22);
+            this.tpOperazioni.Name = "tpOperazioni";
+            this.tpOperazioni.Padding = new System.Windows.Forms.Padding(3);
+            this.tpOperazioni.Size = new System.Drawing.Size(792, 424);
+            this.tpOperazioni.TabIndex = 2;
+            this.tpOperazioni.Text = "Operazioni";
+            this.tpOperazioni.UseVisualStyleBackColor = true;
             // 
-            // txtTelefono
+            // dgvOperazioni
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(68, 95);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(126, 20);
-            this.txtTelefono.TabIndex = 30;
+            this.dgvOperazioni.AllowUserToAddRows = false;
+            this.dgvOperazioni.AllowUserToDeleteRows = false;
+            this.dgvOperazioni.AllowUserToOrderColumns = true;
+            this.dgvOperazioni.AllowUserToResizeColumns = false;
+            this.dgvOperazioni.AllowUserToResizeRows = false;
+            this.dgvOperazioni.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvOperazioni.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvOperazioni.Location = new System.Drawing.Point(3, 3);
+            this.dgvOperazioni.Name = "dgvOperazioni";
+            this.dgvOperazioni.ReadOnly = true;
+            this.dgvOperazioni.Size = new System.Drawing.Size(586, 418);
+            this.dgvOperazioni.TabIndex = 0;
+            // 
+            // gbOperazioni
+            // 
+            this.gbOperazioni.Dock = System.Windows.Forms.DockStyle.Right;
+            this.gbOperazioni.Location = new System.Drawing.Point(589, 3);
+            this.gbOperazioni.Name = "gbOperazioni";
+            this.gbOperazioni.Size = new System.Drawing.Size(200, 418);
+            this.gbOperazioni.TabIndex = 1;
+            this.gbOperazioni.TabStop = false;
+            this.gbOperazioni.Text = "Comandi";
             // 
             // FrmMain
             // 
@@ -513,10 +518,10 @@
         private System.Windows.Forms.Button btnModificaMedia;
         private System.Windows.Forms.Button btnAnnulla;
         private System.Windows.Forms.Button btnSalva;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnAnnullaS;
+        private System.Windows.Forms.Button btnSalvaS;
+        private System.Windows.Forms.Button btnModificaSocio;
+        private System.Windows.Forms.Button btnCancellaSocio;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtCognome;
         private System.Windows.Forms.Label lblTelefono;

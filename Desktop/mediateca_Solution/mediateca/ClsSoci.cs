@@ -17,7 +17,7 @@ namespace mediateca
     }
     internal class ClsSoci
     {
-        static Socio[] soci = new Socio[50];
+        public static Socio[] soci = new Socio[50];
         static string[] datiSoci = new string[]
         {
             "s1,Rossi,Mario,mario@rossi.it,1111111111",
@@ -94,6 +94,34 @@ namespace mediateca
             m.telefono = telefono;
             soci[nSoci] = m;
             nSoci++;
+
+            visualizzaTabellaSoci(dgv);
+        }
+        internal static void cancellaSocio(int index, DataGridView dgv)
+        {
+            Socio[] newSoci = new Socio[50];
+            int j = 0;
+
+            for (int i = 0; i < index; i++)
+            {
+                newSoci[j++] = soci[i];
+            }
+
+            for (int i = index + 1; i < nSoci; i++)
+            {
+                newSoci[j++] = soci[i];
+            }
+
+            soci = newSoci;
+            nSoci--;
+            visualizzaTabellaSoci(dgv);
+        }
+        internal static void modificaSocio(int index, string cognome, string nome, string email, string telefono, DataGridView dgv)
+        {
+            soci[index].cognome = cognome;
+            soci[index].nome = nome;
+            soci[index].email = email;
+            soci[index].telefono = telefono;
 
             visualizzaTabellaSoci(dgv);
         }

@@ -94,5 +94,55 @@ namespace mediateca
                 MessageBox.Show("Compila tutti i campi!");
             }
         }
+        private void btnCancellaSocio_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Confermi di voler cancellare il media selezionato?", "ATTENZIONE", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
+                == DialogResult.Yes)
+            {
+                ClsSoci.cancellaSocio(dgvSoci.SelectedRows[0].Index, dgvSoci);
+            }
+        }
+        private void btnModificaSocio_Click(object sender, EventArgs e)
+        {
+            Socio mediaSelezionato = ClsSoci.soci[dgvSoci.SelectedRows[0].Index];
+            txtCognome.Text = mediaSelezionato.cognome;
+            txtNome.Text = mediaSelezionato.nome;
+            txtEmail.Text = mediaSelezionato.email;
+            txtTelefono.Text = mediaSelezionato.telefono;
+            btnInserisciSocio.Enabled = false;
+            btnCancellaSocio.Enabled = false;
+            btnModificaSocio.Enabled = false;
+            btnSalvaS.Visible = true;
+            btnAnnullaS.Visible = true;
+        }
+        private void btnSalvaS_Click(object sender, EventArgs e)
+        {
+            if (txtCognome.Text != "" && txtNome.Text != "" && txtEmail.Text != "" && txtTelefono.Text != "")
+            {
+                ClsSoci.modificaSocio(dgvSoci.SelectedRows[0].Index, txtCognome.Text, txtNome.Text, txtEmail.Text, txtTelefono.Text, dgvSoci);
+                resetCampiMediaS();
+
+            }
+            else
+            {
+                MessageBox.Show("Compila tutti i campi!");
+            }
+        }
+        private void resetCampiMediaS()
+        {
+            txtCognome.Text = "";
+            txtNome.Text = "";
+            txtEmail.Text = "";
+            txtTelefono.Text = "";
+            btnInserisciSocio.Enabled = true;
+            btnCancellaSocio.Enabled = true;
+            btnModificaSocio.Enabled = true;
+            btnSalvaS.Visible = false;
+            btnAnnullaS.Visible = false;
+        }
+        private void btnAnnullaS_Click(object sender, EventArgs e)
+        {
+            resetCampiMediaS();
+        }
     }
 }
