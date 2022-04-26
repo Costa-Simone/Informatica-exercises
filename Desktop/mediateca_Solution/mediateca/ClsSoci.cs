@@ -43,6 +43,8 @@ namespace mediateca
         }
         private static void caricaDati(DataGridView dgv)
         {
+            dgv.Rows.Clear();
+
             for (int i = 0; i < nSoci; i++)
             {
                 dgv.Rows.Add();
@@ -78,6 +80,22 @@ namespace mediateca
             }
 
             nSoci = datiSoci.Length;
+        }
+        internal static void inserisciSocio(string cognome, string nome, string email, string telefono, DataGridView dgv)
+        {
+            string lastCode = soci[nSoci - 1].codSocio.Remove(0, 1);
+            int codSocio = int.Parse(lastCode) + 1;
+            Socio m = new Socio();
+
+            m.codSocio = "m" + codSocio;
+            m.cognome = cognome;
+            m.nome = nome;
+            m.email = email;
+            m.telefono = telefono;
+            soci[nSoci] = m;
+            nSoci++;
+
+            visualizzaTabellaSoci(dgv);
         }
     }
 }
