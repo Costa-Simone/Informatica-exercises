@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{856A6CA5-E740-4C53-8F8B-B800197E7E72}</ProjectGuid>
+    <ProjectGuid>{403128D4-BBE6-44DC-9127-C75C761D6313}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>mediateca</RootNamespace>
-    <AssemblyName>mediateca</AssemblyName>
+    <RootNamespace>Mediateca</RootNamespace>
+    <AssemblyName>Mediateca</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,16 +49,16 @@
     <Compile Include="ClsMedia.cs" />
     <Compile Include="ClsOperazioni.cs" />
     <Compile Include="ClsSoci.cs" />
-    <Compile Include="FrmMain.cs">
+    <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMain.Designer.cs">
-      <DependentUpon>FrmMain.cs</DependentUpon>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmMain.resx">
-      <DependentUpon>FrmMain.cs</DependentUpon>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

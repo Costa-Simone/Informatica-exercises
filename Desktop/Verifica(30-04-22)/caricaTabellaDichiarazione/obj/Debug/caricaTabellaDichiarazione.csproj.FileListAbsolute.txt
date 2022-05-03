@@ -1,0 +1,49 @@
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\caricaTabellaDichiarazione\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe.config
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\caricaTabellaDichiarazione\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csprojResolveAssemblyReference.cache
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\caricaTabellaDichiarazione\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Form1.resources
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\caricaTabellaDichiarazione\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Properties.Resources.resources
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\caricaTabellaDichiarazione\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csproj.GenerateResource.Cache
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\caricaTabellaDichiarazione\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\caricaTabellaDichiarazione\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\caricaTabellaDichiarazione\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\caricaTabellaDichiarazione\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Marzo 2017\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe.config
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Marzo 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Marzo 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Marzo 2017\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Marzo 2017\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Marzo 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csprojResolveAssemblyReference.cache
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Marzo 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Form1.resources
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Marzo 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Properties.Resources.resources
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Marzo 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csproj.GenerateResource.Cache
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe.config
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csprojResolveAssemblyReference.cache
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Form1.resources
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Properties.Resources.resources
+C:\Users\Barbero\Desktop\Tecnologie Informatiche\terza\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csproj.GenerateResource.Cache
+W:\3B_INF_2016_2017\Informatica\Visuale\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe.config
+W:\3B_INF_2016_2017\Informatica\Visuale\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.exe
+W:\3B_INF_2016_2017\Informatica\Visuale\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Alberto\Desktop\SCUOLA\terza\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe.config
+C:\Users\Alberto\Desktop\SCUOLA\terza\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Alberto\Desktop\SCUOLA\terza\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Alberto\Desktop\SCUOLA\terza\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csprojAssemblyReference.cache
+C:\Users\Alberto\Desktop\SCUOLA\terza\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Form1.resources
+C:\Users\Alberto\Desktop\SCUOLA\terza\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Properties.Resources.resources
+C:\Users\Alberto\Desktop\SCUOLA\terza\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csproj.GenerateResource.cache
+C:\Users\Alberto\Desktop\SCUOLA\terza\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Alberto\Desktop\SCUOLA\terza\Compito Tabelle Aprile 2017\Compito in Classe Aprile 2017\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe.config
+C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csproj.AssemblyReference.cache
+C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Form1.resources
+C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Properties.Resources.resources
+C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csproj.GenerateResource.cache
+C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.pdb

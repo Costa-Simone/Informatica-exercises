@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mediateca", "mediateca\mediateca.csproj", "{856A6CA5-E740-4C53-8F8B-B800197E7E72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediateca", "Mediateca\Mediateca.csproj", "{403128D4-BBE6-44DC-9127-C75C761D6313}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{856A6CA5-E740-4C53-8F8B-B800197E7E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{856A6CA5-E740-4C53-8F8B-B800197E7E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{856A6CA5-E740-4C53-8F8B-B800197E7E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{856A6CA5-E740-4C53-8F8B-B800197E7E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403128D4-BBE6-44DC-9127-C75C761D6313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403128D4-BBE6-44DC-9127-C75C761D6313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403128D4-BBE6-44DC-9127-C75C761D6313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403128D4-BBE6-44DC-9127-C75C761D6313}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {38D6DDE6-EF4E-4DA6-A58A-9E3EC7F7C1CC}
+		SolutionGuid = {B36A132C-5F47-4636-A3A3-1F5D4D195AAE}
 	EndGlobalSection
 EndGlobal

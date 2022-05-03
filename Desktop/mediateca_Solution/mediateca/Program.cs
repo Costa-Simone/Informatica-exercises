@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace mediateca
+namespace Mediateca
 {
-    internal static class Program
+    static class Program
     {
         /// <summary>
         /// Punto di ingresso principale dell'applicazione.
@@ -16,7 +16,7 @@ namespace mediateca
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMain());
+            Application.Run(new FormMain());
         }
     }
 }

@@ -8,10 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace mediateca.Properties
+
+namespace Mediateca.Properties
 {
-
-
     /// <summary>
     ///   Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
     /// </summary>
@@ -44,7 +43,7 @@ namespace mediateca.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("mediateca.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Mediateca.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
