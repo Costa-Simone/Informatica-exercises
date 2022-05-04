@@ -1,0 +1,6 @@
+titolo1;autore1;2005;45
+titolo2;autore1;2005;15
+titolo3;autore2;2025;35
+titolo4;autore1;2005;25
+titolo5;autore3;2015;45
+titolo6;autore2;2005;15

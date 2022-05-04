@@ -1,0 +1,9 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\gestioneBaseFileText_Solution\gestioneBaseFileText\bin\Debug\gestioneBaseFileText.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\gestioneBaseFileText_Solution\gestioneBaseFileText\bin\Debug\gestioneBaseFileText.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\gestioneBaseFileText_Solution\gestioneBaseFileText\bin\Debug\gestioneBaseFileText.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\gestioneBaseFileText_Solution\gestioneBaseFileText\obj\Debug\gestioneBaseFileText.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\gestioneBaseFileText_Solution\gestioneBaseFileText\obj\Debug\gestioneBaseFileText.frmMain.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\gestioneBaseFileText_Solution\gestioneBaseFileText\obj\Debug\gestioneBaseFileText.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\gestioneBaseFileText_Solution\gestioneBaseFileText\obj\Debug\gestioneBaseFileText.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\gestioneBaseFileText_Solution\gestioneBaseFileText\obj\Debug\gestioneBaseFileText.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\gestioneBaseFileText_Solution\gestioneBaseFileText\obj\Debug\gestioneBaseFileText.pdb
