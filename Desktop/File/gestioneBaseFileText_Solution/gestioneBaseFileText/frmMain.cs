@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO; //NOTA BENE
+using Microsoft.VisualBasic;
 
 namespace gestioneBaseFileText
 {
@@ -20,6 +21,59 @@ namespace gestioneBaseFileText
         private void frmMain_Load(object sender, EventArgs e)
         {
             settaDgv(dgvLibri);
+            caricaCmbAutori("libri.txt", cmbAutori);
+        }
+        private void caricaCmbAutori(string nf, ComboBox cmb)
+        {
+            StreamReader sr = new StreamReader(nf);
+            string[] autori = new string[10], v = new string[4];
+            string libro;
+            int n = 0;
+
+            while (sr.Peek() > -1)
+            {
+                libro = sr.ReadLine();
+                v = libro.Split(';');
+                autori[n++] = v[1];
+            }
+
+            ordinaAutori(autori, n);
+
+            cmb.Items.Add(autori[0]);
+
+            for (int i = 1; i < n; i++)
+            {
+                if (autori[i] != autori[i - 1])
+                {
+                    cmb.Items.Add(autori[i]);
+                }
+            }
+
+            sr.Close();
+        }
+        private void ordinaAutori(string[] autori, int n)
+        {
+            int PosMin;
+
+            for (int i = 0; i <= n - 2; i++)
+            {
+                PosMin = i;
+
+                for (int j = i + 1; j <= n - 1; j++)
+                {
+                    if (string.Compare(autori[PosMin], autori[j]) > 0)
+                    {
+                        PosMin = j;
+                    }
+                }
+
+                if (PosMin != i)
+                {
+                    string aus = autori[i];
+                    autori[i] = autori[PosMin];
+                    autori[PosMin] = aus;
+                }
+            }
         }
         private void settaDgv(DataGridView dgv)
         {
@@ -85,6 +139,74 @@ namespace gestioneBaseFileText
             }
 
             sw.Close();
+        }
+        private void btnCercareLibriAutore_Click(object sender, EventArgs e)
+        {
+            string autore = Interaction.InputBox("Inserisci l'autore da cercare");
+
+            cercaLibriAutore("libri.txt", autore);
+        }
+        private void cercaLibriAutore(string nf, string autore)
+        {
+            StreamReader sr = new StreamReader(nf);
+            string libro, output = "";
+            string[] v = new string[4];
+
+            while (sr.Peek() > -1)
+            {
+                libro = sr.ReadLine();
+                v = libro.Split(';');
+
+                if (v[1] == autore)
+                {
+                    output += v[0] + "\n";
+                }
+            }
+
+            MessageBox.Show(output);
+            sr.Close();
+        }
+        private void btnCercareAutoriInputCombo_Click(object sender, EventArgs e)
+        {
+            string autore = cmbAutori.SelectedItem.ToString();
+            StreamReader sr = new StreamReader("libri.txt");
+            string libro, output = "";
+            string[] v = new string[4];
+
+            while (sr.Peek() > -1)
+            {
+                libro = sr.ReadLine();
+                v = libro.Split(';');
+
+                if (v[1] == autore)
+                {
+                    output += v[0] + "\n";
+                }
+            }
+
+            MessageBox.Show(output);
+            sr.Close();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string titolo = Interaction.InputBox("Inserisci l'autore da cercare");
+
+            cercaLibriTitolo("libri.txt", titolo);
+        }
+        private void cercaLibriTitolo(string nf, string titolo)
+        {
+            StreamReader sr = new StreamReader(nf);
+            string libro;
+            string[] v = new string[4];
+
+            while (sr.Peek() > -1 && v[0] != titolo)
+            {
+                libro = sr.ReadLine();
+                v = libro.Split(';');
+            }
+
+            MessageBox.Show(v[1] + " " + v[2] + " " + v[3]);
+            sr.Close();
         }
     }
 }
