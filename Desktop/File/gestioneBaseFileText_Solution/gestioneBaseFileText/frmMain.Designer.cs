@@ -35,6 +35,7 @@
             this.btnCercareAutoriInputCombo = new System.Windows.Forms.Button();
             this.cmbAutori = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnFileLibriAnno = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibri)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,11 +106,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnFileLibriAnno
+            // 
+            this.btnFileLibriAnno.Location = new System.Drawing.Point(12, 281);
+            this.btnFileLibriAnno.Name = "btnFileLibriAnno";
+            this.btnFileLibriAnno.Size = new System.Drawing.Size(96, 66);
+            this.btnFileLibriAnno.TabIndex = 7;
+            this.btnFileLibriAnno.Text = "CREARE FILE CON LIBRI SUDDIVISI PER ANNO";
+            this.btnFileLibriAnno.UseVisualStyleBackColor = true;
+            this.btnFileLibriAnno.Click += new System.EventHandler(this.btnFileLibriAnno_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(511, 349);
+            this.ClientSize = new System.Drawing.Size(511, 359);
+            this.Controls.Add(this.btnFileLibriAnno);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cmbAutori);
             this.Controls.Add(this.btnCercareAutoriInputCombo);
@@ -134,6 +146,7 @@
         private System.Windows.Forms.Button btnCercareAutoriInputCombo;
         private System.Windows.Forms.ComboBox cmbAutori;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFileLibriAnno;
     }
 }
 

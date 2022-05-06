@@ -208,5 +208,64 @@ namespace gestioneBaseFileText
             MessageBox.Show(v[1] + " " + v[2] + " " + v[3]);
             sr.Close();
         }
+        private void btnFileLibriAnno_Click(object sender, EventArgs e)
+        {
+            StreamReader sr = new StreamReader("libri.txt");
+            string[] v = new string[4], libri = new string[10];
+            int[] anno = new int[10];
+            string libro, s = "";
+            int n = 0;
+
+            while (sr.Peek() > -1)
+            {
+                libro = sr.ReadLine();
+                v = libro.Split(';');
+                anno[n] = int.Parse(v[2]);
+                libri[n++] = v[0];
+            }
+
+            ordinaLibroAnno(anno, libri, n);
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                StreamWriter sw = new StreamWriter(anno[0].ToString() + ".txt", false);
+                s += libri[i] + "\n";
+
+                if (anno[i] != anno[i + 1])
+                {
+                    sw.WriteLine(s);
+                    sw.Close();
+                    s = "";
+                }
+            }
+        }
+        private void ordinaLibroAnno(int[] anno, string[] libri, int n)
+        {
+            int PosMin;
+
+            for (int i = 0; i <= n - 2; i++)
+            {
+                PosMin = i;
+
+                for (int j = i + 1; j <= n - 1; j++)
+                {
+                    if (anno[PosMin] > anno[j])
+                    {
+                        PosMin = j;
+                    }
+                }
+
+                if (PosMin != i)
+                {
+                    int aus = anno[i];
+                    anno[i] = anno[PosMin];
+                    anno[PosMin] = aus;
+
+                    string ausS = libri[i];
+                    libri[i] = libri[PosMin];
+                    libri[PosMin] = ausS;
+                }
+            }
+        }
     }
 }
