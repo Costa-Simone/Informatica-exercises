@@ -47,3 +47,13 @@ C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\obj\Deb
 C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csproj.CoreCompileInputs.cache
 C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.exe
 C:\Users\Windows\Desktop\CostaSimone_30_04_22\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Tabelle\Verifica(30-04-22)\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe.config
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Tabelle\Verifica(30-04-22)\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Tabelle\Verifica(30-04-22)\caricaTabellaDichiarazione\bin\Debug\caricaTabellaDichiarazione.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Tabelle\Verifica(30-04-22)\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Tabelle\Verifica(30-04-22)\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Form1.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Tabelle\Verifica(30-04-22)\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.Properties.Resources.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Tabelle\Verifica(30-04-22)\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csproj.GenerateResource.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Tabelle\Verifica(30-04-22)\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Tabelle\Verifica(30-04-22)\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\Tabelle\Verifica(30-04-22)\caricaTabellaDichiarazione\obj\Debug\caricaTabellaDichiarazione.pdb

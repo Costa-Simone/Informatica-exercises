@@ -21,7 +21,8 @@ namespace caricaTabellaDichiarazione
             public string codCantante; //chiave primaria
             public string nominativo;
             public string tipo; //"solista" "gruppo"
-            public string nazione; 
+            public string nazione;
+            public int totVenduti;
         }
         cantante[] cantanti = new cantante[10];
         public struct canzone
@@ -52,14 +53,14 @@ namespace caricaTabellaDichiarazione
                 cantanti[i].tipo = recCantante[2];
                 cantanti[i].nazione = recCantante[3];
             }
-            string[] canz = new string[] {"Tit1 pop C03 1200",
+            string[] canz = new string[] {"Tit1 pop C03 0",
                                           "Tit7 rock C14 3600",
                                           "Tit9 pop C11 2000",
                                           "Tit56 rap C11 1500",
                                           "Tit78 pop C10 3400",
                                           "Tit34 rap C01 200",
-                                          "Tit2 pop C03 1600",
-                                          "Tit22 pop C03 800",
+                                          "Tit2 pop C03 0",
+                                          "Tit22 pop C03 200",
                                           "Tit3 rock C10 2300",
                                           "Tit11 pop C14 1200",
                                           "Tit12 rock C11 1000",
@@ -78,7 +79,6 @@ namespace caricaTabellaDichiarazione
             }
             settaDgv(dgvClassifica);
         }
-
         private void settaDgv(DataGridView dgv)
         {
             dgv.ColumnCount = 2;
@@ -87,27 +87,17 @@ namespace caricaTabellaDichiarazione
             dgv.Columns[0].HeaderText = "Cantante";
             dgv.Columns[1].HeaderText = "Venduti";
         }
-
         //Visualizzare in una griglia la classifica dei cantanti in base al venduto totale delle loro canzoni. 
         private void btnEsercizio_Click(object sender, EventArgs e)
         {
             dgvClassifica.Rows.Clear();
+            ordinaCantantiCod(cantanti);
             ordinaCanzoniCantante(canzoni);
-            double[] vendutiTot = new double[nCantanti];
-            rotturaChiaveVendutiCantante(canzoni, vendutiTot);
-            ordinaVenduti(vendutiTot, cantanti);
-            stampaClassifica(vendutiTot, cantanti, dgvClassifica);
+            rotturaChiaveVendutiCantante(canzoni, cantanti);
+            ordinaVenduti(cantanti);
+            stampaClassifica(cantanti, dgvClassifica);
         }
-        private void stampaClassifica(double[] vendutiTot, cantante[] cantanti, DataGridView dgv)
-        {
-            for (int i = 0; i < nCantanti; i++)
-            {
-                dgv.Rows.Add();
-                dgv.Rows[i].Cells[0].Value = cantanti[i].nominativo;
-                dgv.Rows[i].Cells[1].Value = vendutiTot[i];
-            }
-        }
-        private void ordinaVenduti(double[] vendutiTot, cantante[] cantanti)
+        private void ordinaCantantiCod(cantante[] cantanti)
         {
             int PosMin;
 
@@ -117,7 +107,7 @@ namespace caricaTabellaDichiarazione
 
                 for (int j = i + 1; j <= nCantanti - 1; j++)
                 {
-                    if (vendutiTot[PosMin] < vendutiTot[j])
+                    if (string.Compare(cantanti[PosMin].codCantante, cantanti[j].codCantante) > 0)
                     {
                         PosMin = j;
                     }
@@ -128,17 +118,45 @@ namespace caricaTabellaDichiarazione
                     cantante aus = cantanti[i];
                     cantanti[i] = cantanti[PosMin];
                     cantanti[PosMin] = aus;
-
-                    double ausD = vendutiTot[i];
-                    vendutiTot[i] = vendutiTot[PosMin];
-                    vendutiTot[PosMin] = ausD;
                 }
             }
         }
-        private void rotturaChiaveVendutiCantante(canzone[] canzoni, double[] vendutiTot)
+        private void stampaClassifica(cantante[] cantanti, DataGridView dgv)
         {
-            int k = 0;
-            double cont = 0;
+            for (int i = 0; i < nCantanti; i++)
+            {
+                dgv.Rows.Add();
+                dgv.Rows[i].Cells[0].Value = cantanti[i].nominativo;
+                dgv.Rows[i].Cells[1].Value = cantanti[i].totVenduti;
+            }
+        }
+        private void ordinaVenduti(cantante[] cantanti)
+        {
+            int PosMin;
+
+            for (int i = 0; i <= nCantanti - 2; i++)
+            {
+                PosMin = i;
+
+                for (int j = i + 1; j <= nCantanti - 1; j++)
+                {
+                    if (cantanti[PosMin].totVenduti < cantanti[j].totVenduti)
+                    {
+                        PosMin = j;
+                    }
+                }
+
+                if (PosMin != i)
+                {
+                    cantante aus = cantanti[i];
+                    cantanti[i] = cantanti[PosMin];
+                    cantanti[PosMin] = aus;
+                }
+            }
+        }
+        private void rotturaChiaveVendutiCantante(canzone[] canzoni, cantante[] cantanti)
+        {
+            int cont = 0;
 
             for (int i = 0; i < nCanzoni; i++)
             {
@@ -146,36 +164,44 @@ namespace caricaTabellaDichiarazione
 
                 if (canzoni[i].codCantante != canzoni[i + 1].codCantante)
                 {
-                    vendutiTot[k] = cont;
-                    cont = 0;
+                    int posiz = cercaCantante(canzoni[i].codCantante);
 
-                    if (k < vendutiTot.Length - 1)
-                    {
-                        k++;
-                    }
+                    cantanti[posiz].totVenduti = cont;
+                    cont = 0;
                 }
             }
+        }
+        private int cercaCantante(string codCantante)
+        {
+            int i = 0;
+
+            while (cantanti[i].codCantante != codCantante)
+            {
+                i++;
+            }
+
+            return i;
         }
         private void btnClassificaParimerito_Click(object sender, EventArgs e)
         {
             dgvClassifica.Rows.Clear();
             ordinaCanzoniCantante(canzoni);
             double[] vendutiTot = new double[nCantanti];
-            rotturaChiaveVendutiCantante(canzoni, vendutiTot);
-            ordinaVenduti(vendutiTot, cantanti);
-            stampaClassificaParimerito(vendutiTot, cantanti, dgvClassifica);
+            rotturaChiaveVendutiCantante(canzoni, cantanti);
+            ordinaVenduti(cantanti);
+            stampaClassificaParimerito(cantanti, dgvClassifica);
         }
-        private void stampaClassificaParimerito(double[] vendutiTot, cantante[] cantanti, DataGridView dgv)
+        private void stampaClassificaParimerito(cantante[] cantanti, DataGridView dgv)
         {
             int j = 0;
 
             dgv.Rows.Add();
             dgv.Rows[j].Cells[0].Value = cantanti[0].nominativo;
-            dgv.Rows[j].Cells[1].Value = vendutiTot[0];
+            dgv.Rows[j].Cells[1].Value = cantanti[0].totVenduti;
 
             for (int i = 1; i < nCantanti; i++)
             {
-                if (vendutiTot[i] == vendutiTot[i - 1])
+                if (cantanti[i].totVenduti == cantanti[i - 1].totVenduti)
                 {
                     dgv.Rows[j].Cells[0].Value += ", " + cantanti[i].nominativo;
                 }
@@ -184,7 +210,7 @@ namespace caricaTabellaDichiarazione
                     dgv.Rows.Add();
                     j++;
                     dgv.Rows[j].Cells[0].Value = cantanti[i].nominativo;
-                    dgv.Rows[j].Cells[1].Value = vendutiTot[i];
+                    dgv.Rows[j].Cells[1].Value = cantanti[i].totVenduti;
                 }
             }
         }
