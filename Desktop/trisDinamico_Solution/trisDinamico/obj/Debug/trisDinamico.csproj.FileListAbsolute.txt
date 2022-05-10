@@ -1,0 +1,10 @@
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\trisDinamico_Solution\trisDinamico\bin\Debug\trisDinamico.exe.config
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\trisDinamico_Solution\trisDinamico\bin\Debug\trisDinamico.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\trisDinamico_Solution\trisDinamico\bin\Debug\trisDinamico.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\trisDinamico_Solution\trisDinamico\obj\Debug\trisDinamico.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\trisDinamico_Solution\trisDinamico\obj\Debug\trisDinamico.FrmMain.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\trisDinamico_Solution\trisDinamico\obj\Debug\trisDinamico.Properties.Resources.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\trisDinamico_Solution\trisDinamico\obj\Debug\trisDinamico.csproj.GenerateResource.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\trisDinamico_Solution\trisDinamico\obj\Debug\trisDinamico.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\trisDinamico_Solution\trisDinamico\obj\Debug\trisDinamico.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\trisDinamico_Solution\trisDinamico\obj\Debug\trisDinamico.pdb
