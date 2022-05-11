@@ -224,17 +224,21 @@ namespace gestioneBaseFileText
                 libri[n++] = v[0];
             }
 
+            sr.Close();
             ordinaLibroAnno(anno, libri, n);
+            Array.Resize(ref anno, anno.Length + 1);
 
-            for (int i = 0; i < n - 1; i++)
+            for (int i = 0; i < n; i++)
             {
-                StreamWriter sw = new StreamWriter(anno[0].ToString() + ".txt", false);
                 s += libri[i] + "\n";
 
                 if (anno[i] != anno[i + 1])
                 {
+                    StreamWriter sw = new StreamWriter(anno[i].ToString() + ".txt", false);
+
                     sw.WriteLine(s);
                     sw.Close();
+
                     s = "";
                 }
             }
@@ -264,6 +268,69 @@ namespace gestioneBaseFileText
                     string ausS = libri[i];
                     libri[i] = libri[PosMin];
                     libri[PosMin] = ausS;
+                }
+            }
+        }
+        private void btnDividiLibriAutore_Click(object sender, EventArgs e)
+        {
+            StreamReader sr = new StreamReader("libri.txt");
+            string[] v = new string[4], libri = new string[10];
+            string[] autori = new string[10];
+            string libro, s = "";
+            int n = 0;
+
+            while (sr.Peek() > -1)
+            {
+                libro = sr.ReadLine();
+                v = libro.Split(';');
+                autori[n] = v[1];
+                libri[n++] = v[0];
+            }
+
+            sr.Close();
+            ordinaLibroAutore(autori, libri, n);
+            Array.Resize(ref autori, autori.Length + 1);
+
+            for (int i = 0; i < n; i++)
+            {
+                s += libri[i] + "\n";
+
+                if (autori[i] != autori[i + 1])
+                {
+                    StreamWriter sw = new StreamWriter(autori[i].ToString() + ".txt", false);
+
+                    sw.WriteLine(s);
+                    sw.Close();
+
+                    s = "";
+                }
+            }
+        }
+        private void ordinaLibroAutore(string[] autori, string[] libri, int n)
+        {
+            int PosMin;
+
+            for (int i = 0; i <= n - 2; i++)
+            {
+                PosMin = i;
+
+                for (int j = i + 1; j <= n - 1; j++)
+                {
+                    if (string.Compare(autori[PosMin], autori[j]) > 0)
+                    {
+                        PosMin = j;
+                    }
+                }
+
+                if (PosMin != i)
+                {
+                    string aus = autori[i];
+                    autori[i] = autori[PosMin];
+                    autori[PosMin] = aus;
+
+                    aus = libri[i];
+                    libri[i] = libri[PosMin];
+                    libri[PosMin] = aus;
                 }
             }
         }
