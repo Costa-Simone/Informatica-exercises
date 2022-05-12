@@ -21,7 +21,19 @@ namespace gestioneBaseFileText
         private void frmMain_Load(object sender, EventArgs e)
         {
             settaDgv(dgvLibri);
+            settaDgvAutori(dgvAutori);
             caricaCmbAutori("libri.txt", cmbAutori);
+        }
+        private void settaDgvAutori(DataGridView dgv)
+        {
+            dgv.ColumnCount = 4;
+            dgv.Columns[0].HeaderText = "Codice";
+            dgv.Columns[1].HeaderText = "Cognome";
+            dgv.Columns[2].HeaderText = "Nome";
+            dgv.Columns[3].HeaderText = "Nazione";
+            dgv.AutoResizeColumns();
+            dgv.RowHeadersVisible = false;
+            dgv.ScrollBars = ScrollBars.Vertical;
         }
         private void caricaCmbAutori(string nf, ComboBox cmb)
         {
@@ -102,6 +114,23 @@ namespace gestioneBaseFileText
 
                 i++;
             }
+
+            sr.Close();
+
+            i = 0;
+            sr = new StreamReader("autori.txt");
+
+            while (sr.Peek() > -1) //finche' non finisco file
+            {
+                s = sr.ReadLine(); //legge una linea del file
+                v = s.Split(';');
+
+                scriviSuDgv(i, v, dgvAutori);
+
+                i++;
+            }
+
+            sr.Close();
         }
         private void scriviSuDgv(int i, string[] v, DataGridView dgv)
         {
@@ -333,6 +362,72 @@ namespace gestioneBaseFileText
                     libri[PosMin] = aus;
                 }
             }
+        }
+        private void btnContaLibriAutore_Click(object sender, EventArgs e)
+        {
+            string autore = cmbAutori.SelectedItem.ToString();
+
+            MessageBox.Show("L'autore " + autore + " ha pubblicato " + contaLibriAutore("libri.txt", autore).ToString() + " libri");
+        }
+        private int contaLibriAutore(string nf, string autore)
+        {
+            int cont = 0;
+
+            foreach (string libro in System.IO.File.ReadLines(nf))
+            {
+                string[] campi = new string[4];
+
+                campi = libro.Split(';');
+
+                if (campi[1] == autore)
+                {
+                    cont++;
+                }
+            }
+
+            return cont;
+        }
+        private void btnLibriNazione_Click(object sender, EventArgs e)
+        {
+            string nazione = Interaction.InputBox("Inserisci la nazione");
+
+            cercaLibriNazione("autori.txt", "libri.txt", nazione);
+        }
+        private void cercaLibriNazione(string nfAutori, string nfLibri, string nazione)
+        {
+            string output = "";
+
+            foreach (string autore in System.IO.File.ReadLines(nfLibri))
+            {
+                string[] campi = new string[4];
+
+                campi = autore.Split(';');
+
+                if (campi[3] == nazione)
+                {
+                    output += cercaLibriAutoreCodice(nfLibri, campi[0]);
+                }
+            }
+
+            MessageBox.Show(output);
+        }
+        private string cercaLibriAutoreCodice(string nf, string codice)
+        {
+            string output = "";
+
+            foreach (string libro in File.ReadLines(nf))
+            {
+                string[] campi = new string[4];
+
+                campi = libro.Split(';');
+
+                if (campi[1] == codice)
+                {
+                    output += campi[1] + "\n";
+                }
+            }
+
+            return output;
         }
     }
 }

@@ -37,7 +37,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnFileLibriAnno = new System.Windows.Forms.Button();
             this.btnDividiLibriAutore = new System.Windows.Forms.Button();
+            this.btnContaLibriAutore = new System.Windows.Forms.Button();
+            this.btnLibriNazione = new System.Windows.Forms.Button();
+            this.dgvAutori = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibri)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAutori)).BeginInit();
             this.SuspendLayout();
             // 
             // btnLeggiDaFile
@@ -92,7 +96,7 @@
             // 
             this.cmbAutori.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbAutori.FormattingEnabled = true;
-            this.cmbAutori.Location = new System.Drawing.Point(114, 180);
+            this.cmbAutori.Location = new System.Drawing.Point(114, 25);
             this.cmbAutori.Name = "cmbAutori";
             this.cmbAutori.Size = new System.Drawing.Size(134, 21);
             this.cmbAutori.TabIndex = 5;
@@ -127,11 +131,42 @@
             this.btnDividiLibriAutore.UseVisualStyleBackColor = true;
             this.btnDividiLibriAutore.Click += new System.EventHandler(this.btnDividiLibriAutore_Click);
             // 
+            // btnContaLibriAutore
+            // 
+            this.btnContaLibriAutore.Location = new System.Drawing.Point(216, 281);
+            this.btnContaLibriAutore.Name = "btnContaLibriAutore";
+            this.btnContaLibriAutore.Size = new System.Drawing.Size(96, 66);
+            this.btnContaLibriAutore.TabIndex = 9;
+            this.btnContaLibriAutore.Text = "CONTA I LIBRI DI UN AUTORE IN INPUT CON COMBOBOX\r\n";
+            this.btnContaLibriAutore.UseVisualStyleBackColor = true;
+            this.btnContaLibriAutore.Click += new System.EventHandler(this.btnContaLibriAutore_Click);
+            // 
+            // btnLibriNazione
+            // 
+            this.btnLibriNazione.Location = new System.Drawing.Point(771, 26);
+            this.btnLibriNazione.Name = "btnLibriNazione";
+            this.btnLibriNazione.Size = new System.Drawing.Size(96, 85);
+            this.btnLibriNazione.TabIndex = 10;
+            this.btnLibriNazione.Text = "CERCA LIBRI SCRITTI DA AUTORI NAZIONE IN INPUT";
+            this.btnLibriNazione.UseVisualStyleBackColor = true;
+            this.btnLibriNazione.Click += new System.EventHandler(this.btnLibriNazione_Click);
+            // 
+            // dgvAutori
+            // 
+            this.dgvAutori.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAutori.Location = new System.Drawing.Point(505, 12);
+            this.dgvAutori.Name = "dgvAutori";
+            this.dgvAutori.Size = new System.Drawing.Size(260, 247);
+            this.dgvAutori.TabIndex = 11;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(511, 363);
+            this.ClientSize = new System.Drawing.Size(876, 363);
+            this.Controls.Add(this.dgvAutori);
+            this.Controls.Add(this.btnLibriNazione);
+            this.Controls.Add(this.btnContaLibriAutore);
             this.Controls.Add(this.btnDividiLibriAutore);
             this.Controls.Add(this.btnFileLibriAnno);
             this.Controls.Add(this.button1);
@@ -145,6 +180,7 @@
             this.Text = "Gestione base file Libri.txt";
             this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibri)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAutori)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -160,6 +196,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnFileLibriAnno;
         private System.Windows.Forms.Button btnDividiLibriAutore;
+        private System.Windows.Forms.Button btnContaLibriAutore;
+        private System.Windows.Forms.Button btnLibriNazione;
+        private System.Windows.Forms.DataGridView dgvAutori;
     }
 }
 

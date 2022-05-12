@@ -1,0 +1,4 @@
+A01;Migori;Andrea;ITA
+A02;Noto;Serena;FRA
+A03;Pelisseri;Samuele;ITA
+A04;Movsesian;Aram;UCR
