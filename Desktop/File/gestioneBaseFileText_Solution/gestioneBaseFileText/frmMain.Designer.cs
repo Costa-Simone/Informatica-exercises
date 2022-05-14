@@ -40,6 +40,8 @@
             this.btnContaLibriAutore = new System.Windows.Forms.Button();
             this.btnLibriNazione = new System.Windows.Forms.Button();
             this.dgvAutori = new System.Windows.Forms.DataGridView();
+            this.btnAutorePiuLibri = new System.Windows.Forms.Button();
+            this.btnAutoreNessunLibro = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibri)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAutori)).BeginInit();
             this.SuspendLayout();
@@ -143,7 +145,7 @@
             // 
             // btnLibriNazione
             // 
-            this.btnLibriNazione.Location = new System.Drawing.Point(771, 26);
+            this.btnLibriNazione.Location = new System.Drawing.Point(792, 26);
             this.btnLibriNazione.Name = "btnLibriNazione";
             this.btnLibriNazione.Size = new System.Drawing.Size(96, 85);
             this.btnLibriNazione.TabIndex = 10;
@@ -159,11 +161,33 @@
             this.dgvAutori.Size = new System.Drawing.Size(260, 247);
             this.dgvAutori.TabIndex = 11;
             // 
+            // btnAutorePiuLibri
+            // 
+            this.btnAutorePiuLibri.Location = new System.Drawing.Point(792, 117);
+            this.btnAutorePiuLibri.Name = "btnAutorePiuLibri";
+            this.btnAutorePiuLibri.Size = new System.Drawing.Size(96, 52);
+            this.btnAutorePiuLibri.TabIndex = 12;
+            this.btnAutorePiuLibri.Text = "CERCARE NOME AUTORE CON PIU LIBRI\r\n\r\n\r\n";
+            this.btnAutorePiuLibri.UseVisualStyleBackColor = true;
+            this.btnAutorePiuLibri.Click += new System.EventHandler(this.btnAutorePiuLibri_Click);
+            // 
+            // btnAutoreNessunLibro
+            // 
+            this.btnAutoreNessunLibro.Location = new System.Drawing.Point(792, 175);
+            this.btnAutoreNessunLibro.Name = "btnAutoreNessunLibro";
+            this.btnAutoreNessunLibro.Size = new System.Drawing.Size(96, 63);
+            this.btnAutoreNessunLibro.TabIndex = 13;
+            this.btnAutoreNessunLibro.Text = "CERCARE NOME AUTORE CON NESSUN LIBRO\r\n\r\n\r\n\r\n";
+            this.btnAutoreNessunLibro.UseVisualStyleBackColor = true;
+            this.btnAutoreNessunLibro.Click += new System.EventHandler(this.btnAutoreNessunLibro_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(876, 363);
+            this.ClientSize = new System.Drawing.Size(900, 363);
+            this.Controls.Add(this.btnAutoreNessunLibro);
+            this.Controls.Add(this.btnAutorePiuLibri);
             this.Controls.Add(this.dgvAutori);
             this.Controls.Add(this.btnLibriNazione);
             this.Controls.Add(this.btnContaLibriAutore);
@@ -199,6 +223,8 @@
         private System.Windows.Forms.Button btnContaLibriAutore;
         private System.Windows.Forms.Button btnLibriNazione;
         private System.Windows.Forms.DataGridView dgvAutori;
+        private System.Windows.Forms.Button btnAutorePiuLibri;
+        private System.Windows.Forms.Button btnAutoreNessunLibro;
     }
 }
 

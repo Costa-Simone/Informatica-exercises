@@ -397,7 +397,7 @@ namespace gestioneBaseFileText
         {
             string output = "";
 
-            foreach (string autore in System.IO.File.ReadLines(nfLibri))
+            foreach (string autore in System.IO.File.ReadLines(nfAutori))
             {
                 string[] campi = new string[4];
 
@@ -423,11 +423,145 @@ namespace gestioneBaseFileText
 
                 if (campi[1] == codice)
                 {
-                    output += campi[1] + "\n";
+                    output += campi[0] + "\n";
                 }
             }
 
             return output;
+        }
+        private void btnAutorePiuLibri_Click(object sender, EventArgs e)
+        {
+            string[] autori = new string[100], libriCodAuto = new string[100];
+            int nAutori = 0, nLibri = 0, cont = 0, contMax = -1;
+            string AutoTop = "";
+
+            foreach (string riga in File.ReadLines("autori.txt"))
+            {
+                string[] campi = new string[4];
+
+                campi = riga.Split(';');
+                autori[nAutori++] = campi[0];
+            }
+
+            foreach (string riga in File.ReadLines("libri.txt"))
+            {
+                string[] campi = new string[4];
+
+                campi = riga.Split(';');
+                libriCodAuto[nLibri++] = campi[1];
+            }
+
+            libriCodAuto[nLibri] = "ZZ";
+
+            ordinaLibriCodAuto(libriCodAuto, nLibri);
+
+            for (int i = 0; i < nLibri; i++)
+            {
+                cont++;
+
+                if (libriCodAuto[i] != libriCodAuto[i + 1])
+                {
+                    if (cont > contMax)
+                    {
+                        contMax = cont;
+                        AutoTop = libriCodAuto[i];
+                    }
+
+                    cont = 0;
+                }
+            }
+
+            MessageBox.Show("L'autore con piu' libri e' " + cercaAutoreCod(AutoTop, "autori.txt") + " con " + contMax + " libri");
+        }
+        private string cercaAutoreCod(string autoTop, string nf)
+        {
+            StreamReader sr = new StreamReader(nf);
+            bool esci = false;
+            string[] campi = new string[4];
+
+            do
+            {
+                campi = sr.ReadLine().Split(';');
+
+                if (campi[0] == autoTop)
+                {
+                    esci = true;
+                }
+            } while (!esci);
+
+            sr.Close();
+
+            return campi[1];
+        }
+        private void ordinaLibriCodAuto(string[] libriCodAuto, int nLibri)
+        {
+            int PosMin;
+
+            for (int i = 0; i <= nLibri - 2; i++)
+            {
+                PosMin = i;
+
+                for (int j = i + 1; j <= nLibri - 1; j++)
+                {
+                    if (string.Compare(libriCodAuto[PosMin], libriCodAuto[j]) > 0)
+                    {
+                        PosMin = j;
+                    }
+                }
+
+                if (PosMin != i)
+                {
+                    string aus = libriCodAuto[i];
+                    libriCodAuto[i] = libriCodAuto[PosMin];
+                    libriCodAuto[PosMin] = aus;
+                }
+            }
+        }
+        private void btnAutoreNessunLibro_Click(object sender, EventArgs e)
+        {
+            string[] autori = new string[100], libriCodAuto = new string[100];
+            int nAutori = 0, nLibri = 0;
+            string nessunLibro = "";
+
+            foreach (string riga in File.ReadLines("autori.txt"))
+            {
+                string[] campi = new string[4];
+
+                campi = riga.Split(';');
+                autori[nAutori++] = campi[0];
+            }
+
+            foreach (string riga in File.ReadLines("libri.txt"))
+            {
+                string[] campi = new string[4];
+
+                campi = riga.Split(';');
+                libriCodAuto[nLibri++] = campi[1];
+            }
+
+            libriCodAuto[nLibri] = "ZZ";
+
+            ordinaLibriCodAuto(libriCodAuto, nLibri);
+
+            int j = 0;
+
+            for (int i = 0; i < nAutori; i++)
+            {
+                int cont = 0;
+
+                while (libriCodAuto[j] == autori[i] && j < nLibri)
+                {
+                    cont++;
+                    j++;
+                }
+
+                if (cont == 0)
+                {
+                    nessunLibro += cercaAutoreCod(autori[i], "autori.txt") + " ";
+                }
+            }
+
+            MessageBox.Show("Gli autori con nessun libro sono: " + nessunLibro);
         }
     }
 }
