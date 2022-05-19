@@ -1,6 +1,0 @@
-titolo1;A02;2005;45
-titolo2;A02;2005;15
-titolo3;A01;2025;35
-titolo4;A02;2005;25
-titolo5;A01;2025;45
-titolo6;A01;2005;15

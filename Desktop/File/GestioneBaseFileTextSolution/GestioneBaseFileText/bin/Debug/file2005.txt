@@ -1,0 +1,5 @@
+titolo1;autore1;2005;45
+titolo2;Pelisseri;2005;88
+titolo4;Migori;2005;88
+titolo5;Migori;2005;45
+titolo7;autore1;2005;15
