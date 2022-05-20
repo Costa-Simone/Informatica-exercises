@@ -16,3 +16,13 @@ E:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileTe
 E:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.csproj.GenerateResource.cache
 E:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.exe
 E:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.pdb
+D:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\bin\Debug\GestioneBaseFileText.exe.config
+D:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\bin\Debug\GestioneBaseFileText.exe
+D:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\bin\Debug\GestioneBaseFileText.pdb
+D:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.csproj.AssemblyReference.cache
+D:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.frmMain.resources
+D:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.Properties.Resources.resources
+D:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.csproj.GenerateResource.cache
+D:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.exe
+D:\INFORMATICA\VisualStudio\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.pdb

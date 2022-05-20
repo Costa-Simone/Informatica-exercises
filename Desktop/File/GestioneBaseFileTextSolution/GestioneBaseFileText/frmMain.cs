@@ -20,6 +20,18 @@ namespace GestioneBaseFileText
             public string codAutore;
         }
 
+        public struct autore
+        {
+            public string codAutore;
+            public string nazione;
+        }
+
+        public struct editore
+        {
+            public string codEditore;
+            public string nazione;
+        }
+
         public frmMain()
         {
             InitializeComponent();
@@ -700,6 +712,162 @@ namespace GestioneBaseFileText
                 MessageBox.Show("FILE CREATO");
                
            
+        }
+
+        private void btnConteggioLibriEditoreAutoristessaNazInput_Click(object sender, EventArgs e)
+        {
+            autore[] autori = new autore[100];
+            editore[] editori = new editore[100];
+            string nazione = Interaction.InputBox("Inserisci la nazione");
+            int nAutori=creazioneTabellaAutori("Autori.txt", autori);
+            int nEditori = creazioneTabellaEditori("Editori.txt", editori);
+            ordinamentoAutori(autori, nAutori);
+            ordinamentoEditori(editori, nEditori);
+            contaLibriAutoreEditore("Libri.txt", autori, nAutori, editori, nEditori, nazione);
+            
+        }
+
+        private void ordinamentoEditori(editore[] t, int n)
+        {
+            int posmin;
+            editore temp;
+
+            for (int i = 0; i <= n - 2; i++)
+            {
+                posmin = i;
+                for (int j = i + 1; j <= n - 1; j++)
+                    if (String.Compare(t[posmin].codEditore,
+                        t[j].codEditore) > 0)
+                        posmin = j;
+                if (posmin != i)
+                {
+                    temp = t[i];
+                    t[i] = t[posmin];
+                    t[posmin] = temp;
+                }
+            }
+        }
+
+        private void ordinamentoAutori(autore[] t, int n)
+        {
+            int posmin;
+            autore temp;
+
+            for (int i = 0; i <= n - 2; i++)
+            {
+                posmin = i;
+                for (int j = i + 1; j <= n - 1; j++)
+                    if (String.Compare(t[posmin].codAutore,
+                        t[j].codAutore) > 0)
+                        posmin = j;
+                if (posmin != i)
+                {
+                    temp = t[i];
+                    t[i] = t[posmin];
+                    t[posmin] = temp;
+                }
+            }
+        }
+
+        private void contaLibriAutoreEditore(string nf, autore[] autori, int nAutori, editore[] editori, int nEditori, string nazione)
+        {
+            string[] campi = new string[4];
+            string codAuto;
+            string codEdit="";
+            string trovNazAutore, trovNazEditore;
+            int cnt = 0;
+
+            foreach (string Libro in File.ReadLines(nf))
+            {
+                campi = Libro.Split(';');
+                codAuto = campi[1];
+                codEdit = campi[3];
+                trovNazAutore= ricercaNazione(codAuto, autori, nAutori, nazione);
+                trovNazEditore = ricercaNazioneTabEditori(codEdit, editori, nEditori, nazione);
+                if (trovNazAutore == nazione && trovNazEditore==nazione)
+                {
+                   cnt++;
+                }    
+            }
+            MessageBox.Show("Il conteggio dei libri e' " + cnt);
+        }
+
+        private string ricercaNazioneTabEditori(string codEdit, editore[] t, int n, string nazione)
+        {
+            int i = 0;
+            bool superato = false, trovato = false;
+            string naz = "";
+            while (!superato && i <= n - 1 && !trovato)
+            {
+                if (t[i].codEditore == codEdit)
+                {
+                    naz = t[i].nazione;
+                    trovato = true;
+                }
+                else
+                {
+                    if (String.Compare(t[i].codEditore, codEdit) > 0)
+                        superato = true;
+                    else
+                        i++;
+                }
+            }
+           
+           return naz;
+        }
+
+        private string ricercaNazione(string codAuto, autore[] t, int n, string nazione)
+        {
+            int i = 0;
+            bool superato = false, trovato = false;
+            string naz="";
+            while (!superato && i <= n - 1 && !trovato)
+            {
+                if (t[i].codAutore == codAuto)
+                {
+                   naz = t[i].nazione;
+                    trovato = true;
+                }
+                else
+                {
+                    if (String.Compare(t[i].codAutore, codAuto) > 0)
+                        superato = true;
+                    else
+                        i++;
+                }
+            }
+            return naz;
+
+        }
+
+        private int creazioneTabellaEditori(string nf, editore[] t)
+        {
+            string[] campi = new string[4];
+            int i = 0;
+
+            foreach (string Libro in File.ReadLines(nf))
+            {
+                campi = Libro.Split(';');
+                t[i].nazione = campi[3];
+                t[i].codEditore = campi[0];
+                i++;
+            }
+            return i;
+        }
+
+        private int  creazioneTabellaAutori(string nf, autore[] t)
+        {
+            string[] campi = new string[4];
+            int i = 0;
+
+            foreach (string Libro in File.ReadLines(nf))
+            {
+                campi = Libro.Split(';');
+                t[i].nazione = campi[3];
+                t[i].codAutore = campi[0];
+                i++;
+            }
+            return i;
         }
     }
 }
