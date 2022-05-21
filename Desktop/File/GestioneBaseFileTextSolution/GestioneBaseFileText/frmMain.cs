@@ -19,24 +19,20 @@ namespace GestioneBaseFileText
             public string codEditore;
             public string codAutore;
         }
-
         public struct autore
         {
             public string codAutore;
             public string nazione;
         }
-
         public struct editore
         {
             public string codEditore;
             public string nazione;
         }
-
         public frmMain()
         {
             InitializeComponent();
         }
-
         private void frmMain_Load(object sender, EventArgs e)
         {
             settaDgvLibri(dgvLibri);
@@ -45,7 +41,6 @@ namespace GestioneBaseFileText
             settaDgvEditori(dgvEditori);
             caricaCmbEditori("Editori.txt", cmbEditori);
         }
-
         private void caricaCmbEditori(string nf, ComboBox cmb)
         {
             int n = 0;
@@ -62,7 +57,6 @@ namespace GestioneBaseFileText
             sr.Close();
            
         }
-
         private void settaDgvEditori(DataGridView dgv)
         {
             dgv.ColumnCount = 4;
@@ -72,7 +66,6 @@ namespace GestioneBaseFileText
             dgv.Columns[3].HeaderText = "NAZIONE";
             dgv.AutoResizeColumns();
         }
-
         private void settaDgvAutori(DataGridView dgv)
         {
             dgv.ColumnCount = 4;
@@ -82,7 +75,6 @@ namespace GestioneBaseFileText
             dgv.Columns[3].HeaderText = "NAZIONE";
             dgv.AutoResizeColumns();
         }
-
         private void caricaCmbAutori(string nf, ComboBox cmb)
         {
             string[] autori = new string[10];
@@ -101,7 +93,6 @@ namespace GestioneBaseFileText
             ordinaAutori(autori, n);
             caricaComboAutori(autori, n, cmb);
         }
-
         private void caricaComboAutori(string[] autori, int n, ComboBox cmb)
         {
             for (int i = 0; i < n; i++)
@@ -110,7 +101,6 @@ namespace GestioneBaseFileText
                     cmb.Items.Add(autori[i]);
             }
         }
-
         private void ordinaAutori(string[] autori, int nAutori)
         {
             int posmin;
@@ -130,7 +120,6 @@ namespace GestioneBaseFileText
                 }
             }
         }
-
         private void settaDgvLibri(DataGridView dgv)
         {
             dgv.ColumnCount = 4;
@@ -140,14 +129,12 @@ namespace GestioneBaseFileText
             dgv.Columns[3].HeaderText = "EDITORE";
             dgv.AutoResizeColumns();
         }
-
         private void btnLeggiDaFile_Click(object sender, EventArgs e)
         {
             caricaFile("Libri.txt", dgvLibri);
             caricaFile("Autori.txt", dgvAutori);
             caricaFile("Editori.txt", dgvEditori);
         }
-
         private void caricaFile(string nf, DataGridView dgv)
         {
             StreamReader sr = new StreamReader(nf);
@@ -165,7 +152,6 @@ namespace GestioneBaseFileText
             }
             sr.Close();
         }
-
         private void scriviSuDgv(int i, string[] v, DataGridView dgv)
         {
             dgv.Rows.Add();
@@ -174,7 +160,6 @@ namespace GestioneBaseFileText
             dgv.Rows[i].Cells[2].Value = v[2];
             dgv.Rows[i].Cells[3].Value = v[3];
         }
-
         private void btnScriviSuFile_Click(object sender, EventArgs e)
         {
             StreamWriter sw = new StreamWriter("Libri.txt", false);
@@ -196,13 +181,11 @@ namespace GestioneBaseFileText
             sw.Close();
             MessageBox.Show("File salvato");
         }
-
         private void btnCercaLibriAutoreInput_Click(object sender, EventArgs e)
         {
             string autore = Interaction.InputBox("Inserisci l'autore da cercare");
             cercaLibriAutoreInput("Libri.txt", autore);
         }
-
         private void cercaLibriAutoreInput(string nf, string autore)
         {
             string libro;
@@ -222,19 +205,16 @@ namespace GestioneBaseFileText
             else
                 MessageBox.Show(output);
         }
-
         private void btnCercaLibriAutoreCombo_Click(object sender, EventArgs e)
         {
             string autore = cmbAutori.SelectedItem.ToString();
             cercaLibriAutoreInput("Libri.txt", autore);
         }
-
         private void btnCercaLibroTitolo_Click(object sender, EventArgs e)
         {
             string titolo = Interaction.InputBox("Inserisci il titolo da cercare");
             cercaLibroTitoloInput("Libri.txt", titolo);
         }
-
         private void cercaLibroTitoloInput(string nf, string titolo)
         {
             //suppogo titoli tutti diversi
@@ -256,7 +236,6 @@ namespace GestioneBaseFileText
             if (!trovato)
                 MessageBox.Show("Titolo non trovato");
         }
-
         private void btnDividiFile_Click(object sender, EventArgs e)
         {
             //divido i libri in 2 file chiamati file2005.txt
@@ -279,7 +258,6 @@ namespace GestioneBaseFileText
             sw2025.Close();
             sr.Close();
         }
-
         private void btnDidiviLibriAutore_Click(object sender, EventArgs e)
         {
             //divido i libri in + file chiamati file_nomeAutore.txt
@@ -300,7 +278,6 @@ namespace GestioneBaseFileText
             int n = singoliAutori(autori, i, singoli);
             dividiFileAutore(singoli, n);
         }
-
         private void dividiFileAutore(string[] singoli, int n)
         {
             string nf;
@@ -321,7 +298,6 @@ namespace GestioneBaseFileText
                 sr.Close();
             }
         }
-
         private int singoliAutori(string[] autori, int n, string[] singoli)
         {
             int j = 0;
@@ -333,7 +309,6 @@ namespace GestioneBaseFileText
             }
             return j;
         }
-
         private void btnContaLibriAutore_Click(object sender, EventArgs e)
         {
             string autore = cmbAutori.SelectedItem.ToString();
@@ -343,7 +318,6 @@ namespace GestioneBaseFileText
                 contaLibriAutore("Libri.txt", autore).ToString() +
                 " libri");
         }
-
         private int contaLibriAutore(string nf, string autore)
         {
             int cont = 0;
@@ -359,14 +333,12 @@ namespace GestioneBaseFileText
             sr.Close();
             return cont;
         }
-
         private void btnLibriNazione_Click(object sender, EventArgs e)
         {
             string nazione = Interaction.InputBox
                 ("Inserisci la nazione");
             cercaLibriNazione("Autori.txt", "Libri.txt", nazione);
         }
-
         private void cercaLibriNazione(string autori, string libri, string nazione)
         {
             string[] campi = new string[4];
@@ -383,7 +355,6 @@ namespace GestioneBaseFileText
             else
                 MessageBox.Show(output);
         }
-
         private string cercaLibriAutoreCodice(string libri, string codice)
         {
             string[] campi = new string[4];
@@ -397,7 +368,6 @@ namespace GestioneBaseFileText
             }
             return output;
         }
-
         private void btnAutorePiuLibri_Click(object sender, EventArgs e)
         {
             string[] codici = new string[100];
@@ -406,7 +376,6 @@ namespace GestioneBaseFileText
             string codice=cercaAutorePiuLibri(codici, n);
             cercaAutore(codice, "Autori.txt");
         }
-
         private void cercaAutore(string codice, string nf)
         {
             bool trovato = false;
@@ -425,7 +394,6 @@ namespace GestioneBaseFileText
             }
             sr.Close();
         }
-
         private string cercaAutorePiuLibri(string[] codici, int n)
         {
             string codice = "";
@@ -449,7 +417,6 @@ namespace GestioneBaseFileText
             }
             return codice;
         }
-
         private int caricaVetAusCodAutori(string nf, string[] codici)
         {
             int n = 0;
@@ -462,7 +429,6 @@ namespace GestioneBaseFileText
             }
             return n;
         }
-
         private void btnCercaAutoreSenzaLibri_Click(object sender, EventArgs e)
         {
             string[] codici = new string[100];
@@ -473,7 +439,6 @@ namespace GestioneBaseFileText
             int nAutori = File.ReadAllLines("Autori.txt").Length;
             trovaDifferenzaCodici(singoli, nSingoli, nAutori);
         }
-
         private void trovaDifferenzaCodici(string[] singoli, int nSingoli, int nAutori)
         {
             int i = 0;
@@ -491,7 +456,6 @@ namespace GestioneBaseFileText
             else
                 MessageBox.Show(codice);
         }
-
         private int ricavaCodiciAutori(string[] codici, int n, string[] singoli)
         {
             int j=0;
@@ -503,7 +467,6 @@ namespace GestioneBaseFileText
             }
             return j;
         }
-
         private void btnLibriAutoreEditore_Click(object sender, EventArgs e)
         {
             string nome = Interaction.InputBox
@@ -522,7 +485,6 @@ namespace GestioneBaseFileText
                     cercaLibriAutoreEditore("Libri.txt", codAutore, codEditore);
             }
         }
-
         private void cercaLibriAutoreEditore(string nf, string codAutore, string codEditore)
         {
             string[] campi = new string[4];
@@ -540,7 +502,6 @@ namespace GestioneBaseFileText
             else
                 MessageBox.Show(output);
         }
-
         private string cercaCodice(string nf, string nome)
         {
             string codice = "";
@@ -562,7 +523,6 @@ namespace GestioneBaseFileText
             sr.Close();
             return codice;
         }
-
         private void btnCercaAutoriEditore_Click(object sender, EventArgs e)
         {
             //tabella ausiliaria per caricare
@@ -584,7 +544,6 @@ namespace GestioneBaseFileText
             }
 
         }
-
         private void rotturaTabellaAusiliaria(aus[] t, int n, string codice)
         {
             int i = 0;
@@ -610,7 +569,6 @@ namespace GestioneBaseFileText
             if (!trovato)
                 MessageBox.Show("Nessun autore");
         }
-
         private void ordinaTabellaAusiliaria(aus[] t, int n)
         {
             //ordino in base al campo codEditore
@@ -632,7 +590,6 @@ namespace GestioneBaseFileText
                 }
             }
         }
-
         private int creaTabellaAusiliaria(string nf, aus[] t)
         {
             string[] campi = new string[4];
@@ -647,7 +604,6 @@ namespace GestioneBaseFileText
             }
             return i;
         }
-
         private void btnCreaFileEditore_Click(object sender, EventArgs e)
         {
             string codeditore = cmbEditori.SelectedItem.ToString();
@@ -660,7 +616,6 @@ namespace GestioneBaseFileText
 
             }
         }
-
         private void creaFileLibriEditore(string nf, string codeditore)
         {
             aus[] tabAus= new aus[100]; //tabella ausiliaria
@@ -676,7 +631,6 @@ namespace GestioneBaseFileText
             ordinaTabellaAusiliaria(tabAus, i);
             rotturaTabellaAusiliariaCodeditore(tabAus, i, codeditore);
         }
-
         private void rotturaTabellaAusiliariaCodeditore(aus[] t, int n, string codice)
         {
             int i = 0;
@@ -713,7 +667,6 @@ namespace GestioneBaseFileText
                
            
         }
-
         private void btnConteggioLibriEditoreAutoristessaNazInput_Click(object sender, EventArgs e)
         {
             autore[] autori = new autore[100];
@@ -726,7 +679,6 @@ namespace GestioneBaseFileText
             contaLibriAutoreEditore("Libri.txt", autori, nAutori, editori, nEditori, nazione);
             
         }
-
         private void ordinamentoEditori(editore[] t, int n)
         {
             int posmin;
@@ -747,7 +699,6 @@ namespace GestioneBaseFileText
                 }
             }
         }
-
         private void ordinamentoAutori(autore[] t, int n)
         {
             int posmin;
@@ -768,7 +719,6 @@ namespace GestioneBaseFileText
                 }
             }
         }
-
         private void contaLibriAutoreEditore(string nf, autore[] autori, int nAutori, editore[] editori, int nEditori, string nazione)
         {
             string[] campi = new string[4];
@@ -791,7 +741,6 @@ namespace GestioneBaseFileText
             }
             MessageBox.Show("Il conteggio dei libri e' " + cnt);
         }
-
         private string ricercaNazioneTabEditori(string codEdit, editore[] t, int n, string nazione)
         {
             int i = 0;
@@ -815,7 +764,6 @@ namespace GestioneBaseFileText
            
            return naz;
         }
-
         private string ricercaNazione(string codAuto, autore[] t, int n, string nazione)
         {
             int i = 0;
@@ -839,7 +787,6 @@ namespace GestioneBaseFileText
             return naz;
 
         }
-
         private int creazioneTabellaEditori(string nf, editore[] t)
         {
             string[] campi = new string[4];
@@ -854,7 +801,6 @@ namespace GestioneBaseFileText
             }
             return i;
         }
-
         private int  creazioneTabellaAutori(string nf, autore[] t)
         {
             string[] campi = new string[4];
@@ -868,6 +814,48 @@ namespace GestioneBaseFileText
                 i++;
             }
             return i;
+        }
+        private void btnEliminaLibro_Click(object sender, EventArgs e)
+        {
+            string titolo = Interaction.InputBox("Inserisci titolo del libro da eliminare");
+
+            eliminaLibro("Libri.txt", titolo);
+        }
+        private void eliminaLibro(string nf, string titolo)
+        {
+            StreamWriter nuovo = new StreamWriter("nuovo.txt", false);
+            string[] campi = new string[4];
+            bool trovato = false;
+
+            foreach (string libro in File.ReadLines(nf))
+            {
+                campi = libro.Split(';');
+                
+                if (campi[0] == titolo)
+                {
+                    trovato = true;
+                }
+                else
+                {
+                    nuovo.WriteLine(libro);
+                }
+            }
+
+            nuovo.Close();
+
+            if (!trovato)
+            {
+                MessageBox.Show("Libro non trovato");
+            }
+            else
+            {
+                File.Delete(nf);
+                File.Copy("nuovo.txt", nf);
+                File.Delete("nuovo.txt");
+                MessageBox.Show("Libro eliminato");
+
+                caricaFile("Libri.txt", dgvLibri);
+            }
         }
     }
 }

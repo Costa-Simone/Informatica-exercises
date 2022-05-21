@@ -4,4 +4,3 @@ titolo3;A03;2025;E2
 titolo4;A01;2005;E1
 titolo5;A02;2005;E3
 titolo6;A01;2025;E3
-titolo7;A02;2005;E1
