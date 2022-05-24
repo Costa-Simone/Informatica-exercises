@@ -1,0 +1,7 @@
+m1,La Volpe,Pasolini,Libro,Narrativa,false
+m2,La Farfalla,Manzoni,Libro,Saggio,false
+m3,La Balena,Manzoni,DVD,Avventura,false
+m4,Il Lupo,Verga,DVD,Avventura,true
+m5,La Gallina,Dante,Libro,Narrativa,false
+m6,Il Gallo,Pasolini,CD,Gioco,false
+m7,La Faina,Dante,CD,Gioco,false

@@ -1,0 +1,7 @@
+s1,Rossi,Mario,mario@rossi.it,3246785431
+s2,Brambilla,Lorenzo,lorenzo@brambilla.it,3298765430
+s3,Bianchi,Roberta,roberta@bianchi.it,3476722198
+s4,Ferrero,Luigi,luigi@ferrero.it,3337651239
+s5,Montessori,Maria,maria@montessori.it,3270985632
+s6,Abate,Anna,anna@abate.it,3984560021
+s7,Pautasso,Giuseppe,giuseppe@pautasso.it,3126754492
