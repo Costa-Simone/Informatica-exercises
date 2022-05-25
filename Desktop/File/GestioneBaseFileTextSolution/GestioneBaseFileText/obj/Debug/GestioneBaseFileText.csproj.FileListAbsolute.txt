@@ -35,3 +35,14 @@ C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\Gestio
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.csproj.GenerateResource.cache
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.exe
 C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\bin\Debug\GestioneBaseFileText.exe.config
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\bin\Debug\GestioneBaseFileText.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\bin\Debug\GestioneBaseFileText.pdb
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.frmMain.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.Properties.Resources.resources
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.csproj.GenerateResource.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.exe
+C:\Users\Windows\Documents\GitHub\Informatica-exercises\Desktop\File\GestioneBaseFileTextSolution\GestioneBaseFileText\obj\Debug\GestioneBaseFileText.pdb

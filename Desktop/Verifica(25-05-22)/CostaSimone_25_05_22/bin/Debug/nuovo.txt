@@ -1,0 +1,6 @@
+CD venduti dal Cantante5:
+Il sole, 450
+La collina, 150
+La montagna, 300
+
+totale = 900 copie

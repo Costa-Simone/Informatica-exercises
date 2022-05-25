@@ -857,5 +857,45 @@ namespace GestioneBaseFileText
                 caricaFile("Libri.txt", dgvLibri);
             }
         }
+        private void btnEliminaLibroAutoreEditoreDiNazioneInput_Click(object sender, EventArgs e)
+        {
+            StreamWriter sw = new StreamWriter("nuovo.txt", false);
+            StreamWriter storico = new StreamWriter("storico.txt", false);
+            string naz = Interaction.InputBox("Inserisci la nazione dell'editore");
+
+            foreach (string editore in File.ReadLines("Editori.txt"))
+            {
+                string[] campiE = new string[4];
+
+                campiE = editore.Split(';');
+
+                if (campiE[3] == naz)
+                {
+                    foreach (string libro in File.ReadLines("Libri.txt"))
+                    {
+                        string[] campiA = new string[4];
+
+                        campiA = libro.Split(';');
+
+                        if (campiA[3] != campiE[0])
+                        {
+                            sw.WriteLine(libro);
+                        }
+                        else
+                        {
+                            storico.WriteLine(libro);
+                        }
+                    }
+                }
+            }
+
+            sw.Close();
+            storico.Close();
+            File.Delete("Libri.txt");
+            File.Copy("nuovo.txt", "Libri.txt");
+            File.Delete("nuovo.txt");
+
+            caricaFile("Libri.txt", dgvLibri);
+        }
     }
 }

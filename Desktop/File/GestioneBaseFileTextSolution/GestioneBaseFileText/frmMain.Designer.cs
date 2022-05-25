@@ -49,6 +49,7 @@
             this.cmbEditori = new System.Windows.Forms.ComboBox();
             this.btnConteggioLibriEditoreAutoristessaNazInput = new System.Windows.Forms.Button();
             this.btnEliminaLibro = new System.Windows.Forms.Button();
+            this.btnEliminaLibroAutoreEditoreDiNazioneInput = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibri)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAutori)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEditori)).BeginInit();
@@ -242,7 +243,7 @@
             // btnConteggioLibriEditoreAutoristessaNazInput
             // 
             this.btnConteggioLibriEditoreAutoristessaNazInput.Location = new System.Drawing.Point(635, 288);
-            this.btnConteggioLibriEditoreAutoristessaNazInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnConteggioLibriEditoreAutoristessaNazInput.Margin = new System.Windows.Forms.Padding(2);
             this.btnConteggioLibriEditoreAutoristessaNazInput.Name = "btnConteggioLibriEditoreAutoristessaNazInput";
             this.btnConteggioLibriEditoreAutoristessaNazInput.Size = new System.Drawing.Size(334, 25);
             this.btnConteggioLibriEditoreAutoristessaNazInput.TabIndex = 19;
@@ -260,11 +261,22 @@
             this.btnEliminaLibro.UseVisualStyleBackColor = true;
             this.btnEliminaLibro.Click += new System.EventHandler(this.btnEliminaLibro_Click);
             // 
+            // btnEliminaLibroAutoreEditoreDiNazioneInput
+            // 
+            this.btnEliminaLibroAutoreEditoreDiNazioneInput.Location = new System.Drawing.Point(1009, 221);
+            this.btnEliminaLibroAutoreEditoreDiNazioneInput.Name = "btnEliminaLibroAutoreEditoreDiNazioneInput";
+            this.btnEliminaLibroAutoreEditoreDiNazioneInput.Size = new System.Drawing.Size(354, 23);
+            this.btnEliminaLibroAutoreEditoreDiNazioneInput.TabIndex = 21;
+            this.btnEliminaLibroAutoreEditoreDiNazioneInput.Text = "Elimina libro fatto da autori di un editore di nazione in input";
+            this.btnEliminaLibroAutoreEditoreDiNazioneInput.UseVisualStyleBackColor = true;
+            this.btnEliminaLibroAutoreEditoreDiNazioneInput.Click += new System.EventHandler(this.btnEliminaLibroAutoreEditoreDiNazioneInput_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1387, 380);
+            this.ClientSize = new System.Drawing.Size(1370, 380);
+            this.Controls.Add(this.btnEliminaLibroAutoreEditoreDiNazioneInput);
             this.Controls.Add(this.btnEliminaLibro);
             this.Controls.Add(this.btnConteggioLibriEditoreAutoristessaNazInput);
             this.Controls.Add(this.cmbEditori);
@@ -319,6 +331,7 @@
         private System.Windows.Forms.ComboBox cmbEditori;
         private System.Windows.Forms.Button btnConteggioLibriEditoreAutoristessaNazInput;
         private System.Windows.Forms.Button btnEliminaLibro;
+        private System.Windows.Forms.Button btnEliminaLibroAutoreEditoreDiNazioneInput;
     }
 }
 

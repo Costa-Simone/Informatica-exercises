@@ -1,0 +1,11 @@
+C:\Users\Windows\Desktop\CostaSimone_25_05_22\CostaSimone_25_05_22\bin\Debug\CostaSimone_25_05_22.exe.config
+C:\Users\Windows\Desktop\CostaSimone_25_05_22\CostaSimone_25_05_22\bin\Debug\CostaSimone_25_05_22.exe
+C:\Users\Windows\Desktop\CostaSimone_25_05_22\CostaSimone_25_05_22\bin\Debug\CostaSimone_25_05_22.pdb
+C:\Users\Windows\Desktop\CostaSimone_25_05_22\CostaSimone_25_05_22\obj\Debug\CostaSimone_25_05_22.csproj.AssemblyReference.cache
+C:\Users\Windows\Desktop\CostaSimone_25_05_22\CostaSimone_25_05_22\obj\Debug\CostaSimone_25_05_22.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\Desktop\CostaSimone_25_05_22\CostaSimone_25_05_22\obj\Debug\CostaSimone_25_05_22.FrmMain.resources
+C:\Users\Windows\Desktop\CostaSimone_25_05_22\CostaSimone_25_05_22\obj\Debug\CostaSimone_25_05_22.Properties.Resources.resources
+C:\Users\Windows\Desktop\CostaSimone_25_05_22\CostaSimone_25_05_22\obj\Debug\CostaSimone_25_05_22.csproj.GenerateResource.cache
+C:\Users\Windows\Desktop\CostaSimone_25_05_22\CostaSimone_25_05_22\obj\Debug\CostaSimone_25_05_22.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Desktop\CostaSimone_25_05_22\CostaSimone_25_05_22\obj\Debug\CostaSimone_25_05_22.exe
+C:\Users\Windows\Desktop\CostaSimone_25_05_22\CostaSimone_25_05_22\obj\Debug\CostaSimone_25_05_22.pdb
