@@ -1,0 +1,9 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Ricorsione_Solution\Ricorsione\bin\Debug\Ricorsione.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Ricorsione_Solution\Ricorsione\bin\Debug\Ricorsione.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Ricorsione_Solution\Ricorsione\bin\Debug\Ricorsione.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Ricorsione_Solution\Ricorsione\obj\Debug\Ricorsione.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Ricorsione_Solution\Ricorsione\obj\Debug\Ricorsione.Form1.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Ricorsione_Solution\Ricorsione\obj\Debug\Ricorsione.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Ricorsione_Solution\Ricorsione\obj\Debug\Ricorsione.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Ricorsione_Solution\Ricorsione\obj\Debug\Ricorsione.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Ricorsione_Solution\Ricorsione\obj\Debug\Ricorsione.pdb
