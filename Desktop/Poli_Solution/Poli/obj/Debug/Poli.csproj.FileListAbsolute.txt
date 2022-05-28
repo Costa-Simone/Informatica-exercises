@@ -1,0 +1,9 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Poli_Solution\Poli\bin\Debug\Poli.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Poli_Solution\Poli\bin\Debug\Poli.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Poli_Solution\Poli\bin\Debug\Poli.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Poli_Solution\Poli\obj\Debug\Poli.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Poli_Solution\Poli\obj\Debug\Poli.FrmMain.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Poli_Solution\Poli\obj\Debug\Poli.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Poli_Solution\Poli\obj\Debug\Poli.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Poli_Solution\Poli\obj\Debug\Poli.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Poli_Solution\Poli\obj\Debug\Poli.pdb
