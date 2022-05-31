@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Mediateca
@@ -18,46 +16,13 @@ namespace Mediateca
 
     class ClsOperazioni
     {
-        public static Operazione[] operazioni = new Operazione[50];
-        public static string[] datiOperazioni = new string[]
-        {
-            "o1,m3,s2,20220415,20220510",
-            "o2,m7,s6,20220412,20220511",
-            "o3,m2,s1,20220411,20220509",
-            "o4,m1,s7,20220415,20220511",
-            "o5,m5,s3,20220414,20220512",
-            "o6,m4,s5,20220412,20220512",
-            "o7,m6,s4,20220413,20220509",
-        };
-
         public static int nOperazioni;
+        public static string lastCode;
 
         internal static void caricaOperazioni(DataGridView dgv)
         {
-            caricaTabellaOperazioni();
-            visualizzaTabellaOperazioni(dgv);
-        }
-
-        private static void caricaTabellaOperazioni()
-        {
-            for (int i = 0; i < datiOperazioni.Length; i++)
-            {
-                string[] dati = datiOperazioni[i].Split(',');
-                operazioni[i].codOperazione = dati[0];
-                operazioni[i].codMedia = dati[1];
-                operazioni[i].codSocio = dati[2];
-                operazioni[i].dataPrelievo = DateTime.ParseExact(dati[3], "yyyyMMdd",
-                                System.Globalization.CultureInfo.InvariantCulture);
-                operazioni[i].dataRestituzione = DateTime.ParseExact(dati[4], "yyyyMMdd",
-                                System.Globalization.CultureInfo.InvariantCulture);
-        }
-            nOperazioni = datiOperazioni.Length;
-        }
-
-        private static void visualizzaTabellaOperazioni(DataGridView dgv)
-        {
             settaDgv(dgv);
-            caricaDati(dgv);
+            caricaDatiDaFile(dgv);
         }
 
         private static void settaDgv(DataGridView dgv)
@@ -75,21 +40,24 @@ namespace Mediateca
             dgv.Columns[4].HeaderText = "Data Restituzione";
         }
 
-        private static void caricaDati(DataGridView dgv)
+        private static void caricaDatiDaFile(DataGridView dgv)
         {
-            dgv.Rows.Clear();
-            for (int i = 0; i < nOperazioni; i++)
+            dgv.Rows.Clear(); int i = 0; string[] fields = new string[5];
+            foreach (string row in File.ReadLines("Operazioni.txt"))
             {
-                dgv.Rows.Add();
-                dgv.Rows[i].Cells[0].Value = operazioni[i].codOperazione;
-                dgv.Rows[i].Cells[1].Value = operazioni[i].codMedia;
-                dgv.Rows[i].Cells[2].Value = operazioni[i].codSocio;
-                dgv.Rows[i].Cells[3].Value = operazioni[i].dataPrelievo.ToLongDateString();
-                if (operazioni[i].dataRestituzione == DateTime.MinValue)
+                fields = row.Split(',');
+                i = dgv.Rows.Add();
+                dgv.Rows[i].Cells[0].Value = fields[0];
+                dgv.Rows[i].Cells[1].Value = fields[1];
+                dgv.Rows[i].Cells[2].Value = fields[2];
+                dgv.Rows[i].Cells[3].Value = DateTime.ParseExact(fields[3], "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture).ToShortDateString();
+                if (fields[4] == "")
                     dgv.Rows[i].Cells[4].Value = "";
                 else
-                    dgv.Rows[i].Cells[4].Value = operazioni[i].dataRestituzione.ToLongDateString();
+                    dgv.Rows[i].Cells[4].Value = DateTime.ParseExact(fields[4], "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture).ToShortDateString();
             }
+            lastCode = fields[0];
+            nOperazioni = i + 1;
         }
 
         internal static void caricaComboSoci(ComboBox cmbSocio, DataGridView dgv)
@@ -129,18 +97,20 @@ namespace Mediateca
 
         internal static void inserisciPrestito(string codSocio, string codMedia, DataGridView dgvOperazioni, DataGridView dgvMedia)
         {
-            string lastCode = operazioni[nOperazioni - 1].codOperazione.Remove(0, 1);
+            lastCode = lastCode.Remove(0, 1);
             int newCode = int.Parse(lastCode) + 1;
-            Operazione o = new Operazione();
-            o.codOperazione = "o" + newCode;
-            o.codMedia = codMedia;
-            o.codSocio = codSocio;
-            o.dataPrelievo = DateTime.Now;
-            o.dataRestituzione = DateTime.MinValue;
-            //ClsMedia.assegnaPrestito(codMedia, dgvMedia);
-            operazioni[nOperazioni] = o;
-            nOperazioni++;
-            visualizzaTabellaOperazioni(dgvOperazioni);
+            string newOperazione;
+            newOperazione = "o" + newCode + ",";
+            newOperazione += codMedia + ",";
+            newOperazione += codSocio + ",";
+            newOperazione += DateTime.Now.ToString("dd/MM/yyyy") + ",";
+            newOperazione += "";
+            ClsMedia.assegnaPrestito(codMedia, dgvMedia);
+            using (StreamWriter sw = File.AppendText("Operazioni.txt"))
+            {
+                sw.WriteLine(newOperazione);
+            }
+            caricaDatiDaFile(dgvOperazioni);
         }
 
         internal static void restituisciPrestito(int index, DataGridView dgvOperazioni, DataGridView dgvMedia)
@@ -148,9 +118,21 @@ namespace Mediateca
             string codMedia = dgvOperazioni.Rows[index].Cells[1].Value.ToString();
             if (dgvOperazioni.Rows[index].Cells[4].Value.ToString() == "")
             {
-                operazioni[index].dataRestituzione = DateTime.Now;
-                //ClsMedia.consegnaPrestito(codMedia, dgvMedia);
-                visualizzaTabellaOperazioni(dgvOperazioni);
+                dgvOperazioni.Rows[index].Cells[4].Value = DateTime.Now.ToShortDateString();
+                ClsMedia.consegnaPrestito(codMedia, dgvMedia);
+                string textToWrite = "";
+                foreach (DataGridViewRow row in dgvOperazioni.Rows)
+                {
+                    string op;
+                    op = row.Cells[0].Value + ",";
+                    op += row.Cells[1].Value + ",";
+                    op += row.Cells[2].Value + ",";
+                    op += row.Cells[3].Value + ",";
+                    op += row.Cells[4].Value;
+                    textToWrite += op + "\n";
+                }
+                File.WriteAllText("Operazioni.txt", textToWrite);
+                caricaDatiDaFile(dgvOperazioni);
             }
             else
             {

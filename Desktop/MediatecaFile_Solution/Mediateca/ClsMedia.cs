@@ -116,20 +116,20 @@ namespace Mediateca
             caricaDatiDaFile(dgv);
         }
 
-        //internal static void assegnaPrestito(string codMedia, DataGridView dgv)
-        //{
-        //    int i = 0;
-        //    while (medias[i].codMedia != codMedia) i++;
-        //    medias[i].isInPrestito = true;
-        //    visualizzaFileMedia(dgv);
-        //}
+        internal static void assegnaPrestito(string codMedia, DataGridView dgv)
+        {
+            int i = 0;
+            while (dgv.Rows[i].Cells[0].Value.ToString() != codMedia) i++;
+            dgv.Rows[i].Cells[5].Value = "true";
+            scriviDgvSuFile(dgv, "Media.txt");
+        }
 
-        //internal static void consegnaPrestito(string codMedia, DataGridView dgv)
-        //{
-        //    int i = 0;
-        //    while (medias[i].codMedia != codMedia) i++;
-        //    medias[i].isInPrestito = false;
-        //    visualizzaFileMedia(dgv);
-        //}
+        internal static void consegnaPrestito(string codMedia, DataGridView dgv)
+        {
+            int i = 0;
+            while (dgv.Rows[i].Cells[0].Value.ToString() != codMedia) i++;
+            dgv.Rows[i].Cells[5].Value = "false";
+            scriviDgvSuFile(dgv, "Media.txt");
+        }
     }
 }
