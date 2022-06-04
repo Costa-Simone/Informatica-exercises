@@ -1,0 +1,9 @@
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Prodotti_Solution\Prodotti\obj\Debug\Prodotti.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Prodotti_Solution\Prodotti\obj\Debug\Prodotti.FrmMain.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Prodotti_Solution\Prodotti\obj\Debug\Prodotti.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Prodotti_Solution\Prodotti\obj\Debug\Prodotti.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Prodotti_Solution\Prodotti\bin\Debug\Prodotti.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Prodotti_Solution\Prodotti\bin\Debug\Prodotti.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Prodotti_Solution\Prodotti\bin\Debug\Prodotti.pdb
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Prodotti_Solution\Prodotti\obj\Debug\Prodotti.exe
+C:\Users\s.costa.2235\Documents\GitHub\Informatica-exercises\Desktop\Prodotti_Solution\Prodotti\obj\Debug\Prodotti.pdb
