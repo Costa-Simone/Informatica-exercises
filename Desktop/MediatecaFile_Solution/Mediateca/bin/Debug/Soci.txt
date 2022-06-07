@@ -4,4 +4,3 @@ s4,Ferrero,Luigi,luigi@ferrero.it,3337651239
 s5,Montessori,Maria,maria@montessori.it,3270985632
 s6,Abate,Anna,anna@abate.it,3984560021
 s7,Pautasso,Giuseppe,giuseppe@pautasso.it,3126754492
-s8,yi567uyi,yi5yui,ui5yui,ui5yui

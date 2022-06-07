@@ -8,19 +8,8 @@ using System.IO;
 
 namespace Mediateca
 {
-    public struct Media
-    {
-        public string codMedia;
-        public string titolo;
-        public string autore;
-        public string tipo;
-        public string genere;
-        public bool isInPrestito;
-    }
-
     class ClsMedia
     {
-        public static int nMedia;
         public static string lastCode;
 
         internal static void caricaMedia(DataGridView dgv)
@@ -60,7 +49,6 @@ namespace Mediateca
                 dgv.Rows[i].Cells[5].Value = fields[5];
             }
             lastCode = fields[0];
-            nMedia = i + 1;
         }
 
         internal static void inserisciMedia(string titolo, string autore, string tipo, string genere, DataGridView dgv)
@@ -121,7 +109,7 @@ namespace Mediateca
             int i = 0;
             while (dgv.Rows[i].Cells[0].Value.ToString() != codMedia) i++;
             dgv.Rows[i].Cells[5].Value = "true";
-            scriviDgvSuFile(dgv, "Media.txt");
+            scriviDgvSuFile(dgv,"Media.txt");
         }
 
         internal static void consegnaPrestito(string codMedia, DataGridView dgv)
@@ -129,7 +117,7 @@ namespace Mediateca
             int i = 0;
             while (dgv.Rows[i].Cells[0].Value.ToString() != codMedia) i++;
             dgv.Rows[i].Cells[5].Value = "false";
-            scriviDgvSuFile(dgv, "Media.txt");
+            scriviDgvSuFile(dgv,"Media.txt");
         }
     }
 }

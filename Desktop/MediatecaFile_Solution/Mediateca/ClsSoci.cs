@@ -8,19 +8,8 @@ using System.Windows.Forms;
 
 namespace Mediateca
 {
-    public struct Socio
-    {
-        public string codSocio;
-        public string cognome;
-        public string nome;
-        public string email;
-        public string telefono;
-    }
-
     class ClsSoci
     {
-        
-        public static int nSoci;
         public static string lastCode;
 
         public static void caricaSoci(DataGridView dgv)
@@ -58,7 +47,6 @@ namespace Mediateca
                 dgv.Rows[i].Cells[4].Value = fields[4];
             }
             lastCode = fields[0];
-            nSoci = i + 1;
         }
 
         internal static void inserisciSocio(string cognome, string nome, string email, string telefono, DataGridView dgv)

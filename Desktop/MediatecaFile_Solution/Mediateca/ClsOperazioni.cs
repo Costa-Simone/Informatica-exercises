@@ -1,22 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Mediateca
 {
-    public struct Operazione
-    {
-        public string codOperazione;
-        public string codMedia;
-        public string codSocio;
-        public DateTime dataPrelievo;
-        public DateTime dataRestituzione;
-    }
-
     class ClsOperazioni
     {
-        public static int nOperazioni;
         public static string lastCode;
 
         internal static void caricaOperazioni(DataGridView dgv)
@@ -50,14 +43,15 @@ namespace Mediateca
                 dgv.Rows[i].Cells[0].Value = fields[0];
                 dgv.Rows[i].Cells[1].Value = fields[1];
                 dgv.Rows[i].Cells[2].Value = fields[2];
-                dgv.Rows[i].Cells[3].Value = DateTime.ParseExact(fields[3], "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture).ToShortDateString();
+                dgv.Rows[i].Cells[3].Value = DateTime.ParseExact(fields[3], "dd/MM/yyyy",
+                                System.Globalization.CultureInfo.InvariantCulture).ToShortDateString();
                 if (fields[4] == "")
                     dgv.Rows[i].Cells[4].Value = "";
                 else
-                    dgv.Rows[i].Cells[4].Value = DateTime.ParseExact(fields[4], "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture).ToShortDateString();
+                    dgv.Rows[i].Cells[4].Value = DateTime.ParseExact(fields[4], "dd/MM/yyyy",
+                                System.Globalization.CultureInfo.InvariantCulture).ToShortDateString();
             }
             lastCode = fields[0];
-            nOperazioni = i + 1;
         }
 
         internal static void caricaComboSoci(ComboBox cmbSocio, DataGridView dgv)
@@ -129,9 +123,9 @@ namespace Mediateca
                     op += row.Cells[2].Value + ",";
                     op += row.Cells[3].Value + ",";
                     op += row.Cells[4].Value;
-                    textToWrite += op + "\n";
+                    textToWrite+= op + "\n";
                 }
-                File.WriteAllText("Operazioni.txt", textToWrite);
+                File.WriteAllText("operazioni.txt", textToWrite);
                 caricaDatiDaFile(dgvOperazioni);
             }
             else

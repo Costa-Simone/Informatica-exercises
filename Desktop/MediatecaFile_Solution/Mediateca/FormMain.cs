@@ -198,7 +198,7 @@ namespace Mediateca
                 string codSocio = cmbSocio.SelectedValue.ToString();
                 string codMedia = cmbMedia.SelectedValue.ToString();
                 ClsOperazioni.inserisciPrestito(codSocio, codMedia, dgvOperazioni, dgvMedia);
-                //ClsOperazioni.caricaComboMedia(cmbMedia, ClsMedia.medias, ClsMedia.nMedia);
+                ClsOperazioni.caricaComboMedia(cmbMedia, dgvMedia);
             }
             else
             {
@@ -214,7 +214,7 @@ namespace Mediateca
                 MessageBoxIcon.Warning) == DialogResult.Yes)
             {
                 ClsOperazioni.restituisciPrestito(dgvOperazioni.SelectedRows[0].Index, dgvOperazioni, dgvMedia);
-                //ClsOperazioni.caricaComboMedia(cmbMedia, ClsMedia.medias, ClsMedia.nMedia);
+                ClsOperazioni.caricaComboMedia(cmbMedia, dgvMedia);
             }
         }
     }

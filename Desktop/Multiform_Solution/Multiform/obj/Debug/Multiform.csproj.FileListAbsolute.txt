@@ -1,0 +1,10 @@
+C:\Users\oscar.cambieri\Desktop\Multiform_Solution\Multiform\bin\Debug\Multiform.exe.config
+C:\Users\oscar.cambieri\Desktop\Multiform_Solution\Multiform\bin\Debug\Multiform.exe
+C:\Users\oscar.cambieri\Desktop\Multiform_Solution\Multiform\bin\Debug\Multiform.pdb
+C:\Users\oscar.cambieri\Desktop\Multiform_Solution\Multiform\obj\Debug\Multiform.csprojAssemblyReference.cache
+C:\Users\oscar.cambieri\Desktop\Multiform_Solution\Multiform\obj\Debug\Multiform.FormMain.resources
+C:\Users\oscar.cambieri\Desktop\Multiform_Solution\Multiform\obj\Debug\Multiform.Properties.Resources.resources
+C:\Users\oscar.cambieri\Desktop\Multiform_Solution\Multiform\obj\Debug\Multiform.csproj.GenerateResource.cache
+C:\Users\oscar.cambieri\Desktop\Multiform_Solution\Multiform\obj\Debug\Multiform.exe
+C:\Users\oscar.cambieri\Desktop\Multiform_Solution\Multiform\obj\Debug\Multiform.pdb
+C:\Users\oscar.cambieri\Desktop\Multiform_Solution\Multiform\obj\Debug\Multiform.FormRisultati.resources
