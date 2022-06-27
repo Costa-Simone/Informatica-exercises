@@ -14,7 +14,13 @@ namespace Ex03
         {
             Console.Write("Inserisci l'ora: ");
 
-            float input = float.Parse(Console.ReadLine());
+            string input = Console.ReadLine();
+            string[] campi = input.Split('.');
+            int sec = int.Parse(campi[1]) * 60 + int.Parse(campi[0]) * 60 * 60;
+
+            Console.WriteLine("\nLe " + input + " corrispondono a " + sec + " secondi");
+
+            Console.ReadKey();
         }
     }
 }

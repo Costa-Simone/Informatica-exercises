@@ -1,0 +1,8 @@
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Compiti vacanze (terza)\Ex03_Solution\Ex03\bin\Debug\Ex03.exe.config
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Compiti vacanze (terza)\Ex03_Solution\Ex03\bin\Debug\Ex03.exe
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Compiti vacanze (terza)\Ex03_Solution\Ex03\bin\Debug\Ex03.pdb
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Compiti vacanze (terza)\Ex03_Solution\Ex03\obj\Debug\Ex03.csproj.AssemblyReference.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Compiti vacanze (terza)\Ex03_Solution\Ex03\obj\Debug\Ex03.csproj.SuggestedBindingRedirects.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Compiti vacanze (terza)\Ex03_Solution\Ex03\obj\Debug\Ex03.csproj.CoreCompileInputs.cache
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Compiti vacanze (terza)\Ex03_Solution\Ex03\obj\Debug\Ex03.exe
+C:\Users\valbo\OneDrive\Documenti\GitHub\Informatica-exercises\Compiti vacanze (terza)\Ex03_Solution\Ex03\obj\Debug\Ex03.pdb
