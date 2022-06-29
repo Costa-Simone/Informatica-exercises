@@ -18,11 +18,11 @@ namespace Ex05
 
             string s = Console.ReadLine();
 
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < s.Length; i++)
             {
                 if (s[i] == '1')
                 {
-                    n += Math.Pow(2, i);
+                    n += Math.Pow(2, s.Length - i - 1);
                 }
             }
 
