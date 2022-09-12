@@ -1,0 +1,6 @@
+c1,20000,false
+c2,9500,false
+c3,4500,false
+c4,20000,false
+c6,9000,false
+c7,10000,false

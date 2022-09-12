@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\Esercizio_18_Solution\Esercizio_18\bin\Debug\Esercizio_18.exe.config
+C:\Users\user\Desktop\Esercizio_18_Solution\Esercizio_18\bin\Debug\Esercizio_18.exe
+C:\Users\user\Desktop\Esercizio_18_Solution\Esercizio_18\bin\Debug\Esercizio_18.pdb
+C:\Users\user\Desktop\Esercizio_18_Solution\Esercizio_18\obj\Debug\Esercizio_18.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Esercizio_18_Solution\Esercizio_18\obj\Debug\Esercizio_18.FormMain.resources
+C:\Users\user\Desktop\Esercizio_18_Solution\Esercizio_18\obj\Debug\Esercizio_18.Properties.Resources.resources
+C:\Users\user\Desktop\Esercizio_18_Solution\Esercizio_18\obj\Debug\Esercizio_18.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Esercizio_18_Solution\Esercizio_18\obj\Debug\Esercizio_18.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Esercizio_18_Solution\Esercizio_18\obj\Debug\Esercizio_18.exe
+C:\Users\user\Desktop\Esercizio_18_Solution\Esercizio_18\obj\Debug\Esercizio_18.pdb

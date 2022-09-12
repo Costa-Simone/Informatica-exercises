@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\Esercizio_20_Solution\Esercizio_20\bin\Debug\Esercizio_20.exe.config
+C:\Users\user\Desktop\Esercizio_20_Solution\Esercizio_20\bin\Debug\Esercizio_20.exe
+C:\Users\user\Desktop\Esercizio_20_Solution\Esercizio_20\bin\Debug\Esercizio_20.pdb
+C:\Users\user\Desktop\Esercizio_20_Solution\Esercizio_20\obj\Debug\Esercizio_20.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Esercizio_20_Solution\Esercizio_20\obj\Debug\Esercizio_20.FormMain.resources
+C:\Users\user\Desktop\Esercizio_20_Solution\Esercizio_20\obj\Debug\Esercizio_20.Properties.Resources.resources
+C:\Users\user\Desktop\Esercizio_20_Solution\Esercizio_20\obj\Debug\Esercizio_20.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Esercizio_20_Solution\Esercizio_20\obj\Debug\Esercizio_20.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Esercizio_20_Solution\Esercizio_20\obj\Debug\Esercizio_20.exe
+C:\Users\user\Desktop\Esercizio_20_Solution\Esercizio_20\obj\Debug\Esercizio_20.pdb
