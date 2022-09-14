@@ -1,0 +1,226 @@
+Ordinamento scambio
+
+        internal static void ordinaScambio(int[] a)
+        {
+            int i = -1, aus;
+            bool scambio;
+
+            do
+            {
+                i++;
+                scambio = false;
+
+                for (int j = a.Length - 2; j >= i; j--)
+                {
+                    if (a[j] > a[j + 1])
+                    {
+                        aus = a[j];
+                        a[j] = a[j + 1];
+                        a[j + 1] = aus;
+                        scambio = true;
+                    }
+                }
+            } while (i != a.Length - 2 && scambio);
+        }
+
+Ordinamento selezione
+
+        internal static void ordinaSelezione(int[] a)
+        {
+            int PosMin, aus;
+
+            for (int i = 0; i <= a.Length-2; i++)
+            {
+                PosMin = i;
+
+                for (int j = i + 1; j <= a.Length-1; j++)
+                {
+                    if (a[PosMin] > a[j])
+                    {
+                        PosMin = j;
+                    }
+                }
+
+                if (PosMin != i)
+                {
+                    aus = a[i];
+                    a[i] = a[PosMin];
+                    a[PosMin] = aus;
+                }
+            }
+        }
+
+Ricerca binaria
+
+        public static void ricerca_bin(int[] v, int x)
+        {
+            int sup = 0, inf = v.Length - 1;
+            int meta;
+
+            do
+            {
+                meta = (inf + sup) / 2;
+
+                if(v[meta]!=x)
+                {
+                    if (v[meta] > x)
+                    {
+                        inf = meta - 1;
+                    }
+                    else
+                    {
+                        sup = meta + 1;
+                    }
+                }
+            } while (v[meta]!=x && sup<=inf);
+
+            if(v[meta]==x)
+            {
+                Console.WriteLine("\nElemento trovato in pos: " + meta.ToString());
+            }
+            else
+            {
+                Console.WriteLine("\nElemento non trovato");
+            }
+        }
+
+Ricerca a blocchi
+
+        public static void ricerca_blocchi(int[] a, int x)
+        {
+            bool trovato = false, esci = false;
+            int lb = Convert.ToInt32(Math.Sqrt(a.Length));
+            int i = lb - 1;
+
+            do
+            {
+                if (a[i] == x)
+                {
+                    trovato = true;
+                }
+                else
+                {
+                    if (a[i] > x)
+                    {
+                        i = i + lb;
+                    }
+                    else
+                    {
+                        //esamina blocco
+                        int j = i - lb + 1;
+                        while (a[j] < x && j != i)
+                        {
+                            j++;
+                        }
+
+                        if (a[j] == x)
+                        {
+                            trovato = true;
+                            i = j;
+                        }
+                        else
+                        {
+                            esci = true;
+                        }
+                    }
+                }
+            } while (!trovato && !esci && i < a.Length);
+
+            if (trovato)
+            {
+                Console.WriteLine("\nElemento trovato in posizione: " + i.ToString());
+            }
+            else
+            {
+                if (esci)
+                {
+                    Console.WriteLine("\nElemento non trovato!");
+                }
+                else
+                {
+                    //ultimo blocco
+                    i = i - lb + 1;
+                    while (a[i] < x && i != a.Length)
+                    {
+                        i++;
+                    }
+
+                    if (a[i] == x)
+                    {
+                        Console.WriteLine("\nElemento trovato in posizione: " + i.ToString());
+                    }
+                    else
+                    {
+                        Console.WriteLine("\nElemento non trovato!");
+                    }
+                }
+            }
+        }
+
+Ricerche sequenziali 
+
+        public static void ricerca_seq1(int[] v, int x)
+        {
+            int i = 0;
+
+            while (v[i] != x && i != v.Length - 1)
+                i++;
+            if (v[i] == x)
+                Console.WriteLine("Elemento trovato in pos: " + i.ToString());
+            else
+                Console.WriteLine("Elemento non trovato");
+        }
+
+        public static void ricerca_seq2(int[] v, int x)
+        {
+            bool trovato = false;
+            for (int i = 0; i < v.Length; i++)
+            {
+                if (v[i] == x)
+                {
+                    Console.WriteLine("Elemento trovato in pos: " + i.ToString());
+                    trovato = true;
+                }
+            }
+            if (!trovato)
+                Console.WriteLine("Elemento non trovato");
+
+        }
+
+        public static void ricerca_seq3(int[] v, int x)
+        {
+            int i = 0;
+
+            while (v[i] < x && i != v.Length - 1)
+                i++;
+            if (v[i] == x)
+                Console.WriteLine("Elemento trovato in pos: " + i.ToString());
+            else
+                Console.WriteLine("Elemento non trovato");
+        }
+
+        public static void ricerca_seq4(int[] v, int x)
+        {
+            int i = 0;
+            bool trovato= false;
+            bool superato= false;
+
+            while(!superato && i<=(v.Length))
+            {
+                if(v[i]==x)
+                {
+                    Console.WriteLine("Elemento trovato in pos: " + i.ToString());
+                    trovato = true;
+                    i += 1;
+                }
+                else
+                {
+                    if (v[i] > x)
+                        superato = true;
+                    else
+                        i += 1;
+                }
+            }
+            if(!trovato)
+                Console.WriteLine("Elemento non trovato");
+        }
