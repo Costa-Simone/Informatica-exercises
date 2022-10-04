@@ -35,7 +35,10 @@
             this.apriFinestra1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.apriFinestra2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.esciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.tsslInfo = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnApriFiglia1
@@ -81,14 +84,14 @@
             // apriFinestra1ToolStripMenuItem
             // 
             this.apriFinestra1ToolStripMenuItem.Name = "apriFinestra1ToolStripMenuItem";
-            this.apriFinestra1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.apriFinestra1ToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.apriFinestra1ToolStripMenuItem.Text = "Apri finestra &1";
             this.apriFinestra1ToolStripMenuItem.Click += new System.EventHandler(this.btnApriFiglia1_Click);
             // 
             // apriFinestra2ToolStripMenuItem
             // 
             this.apriFinestra2ToolStripMenuItem.Name = "apriFinestra2ToolStripMenuItem";
-            this.apriFinestra2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.apriFinestra2ToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.apriFinestra2ToolStripMenuItem.Text = "Apri finestra &2";
             this.apriFinestra2ToolStripMenuItem.Click += new System.EventHandler(this.btnApriFiglia2_Click);
             // 
@@ -96,15 +99,31 @@
             // 
             this.esciToolStripMenuItem.Name = "esciToolStripMenuItem";
             this.esciToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.esciToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.esciToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.esciToolStripMenuItem.Text = "&Esci";
             this.esciToolStripMenuItem.Click += new System.EventHandler(this.esciToolStripMenuItem_Click);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsslInfo});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 327);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(756, 22);
+            this.statusStrip1.TabIndex = 5;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // tsslInfo
+            // 
+            this.tsslInfo.Name = "tsslInfo";
+            this.tsslInfo.Size = new System.Drawing.Size(0, 17);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(756, 349);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnApriFiglia2);
             this.Controls.Add(this.btnApriFiglia1);
             this.Controls.Add(this.menuStrip1);
@@ -115,6 +134,8 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,6 +150,8 @@
         private System.Windows.Forms.ToolStripMenuItem apriFinestra1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem apriFinestra2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem esciToolStripMenuItem;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel tsslInfo;
     }
 }
 

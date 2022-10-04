@@ -1,0 +1,9 @@
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex03 OOP01_Solution\Ex03 OOP01\bin\Debug\Ex03 OOP01.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex03 OOP01_Solution\Ex03 OOP01\bin\Debug\Ex03 OOP01.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex03 OOP01_Solution\Ex03 OOP01\bin\Debug\Ex03 OOP01.pdb
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex03 OOP01_Solution\Ex03 OOP01\obj\Debug\Ex03 OOP01.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex03 OOP01_Solution\Ex03 OOP01\obj\Debug\Ex03_OOP01.Form1.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex03 OOP01_Solution\Ex03 OOP01\obj\Debug\Ex03_OOP01.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex03 OOP01_Solution\Ex03 OOP01\obj\Debug\Ex03 OOP01.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex03 OOP01_Solution\Ex03 OOP01\obj\Debug\Ex03 OOP01.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex03 OOP01_Solution\Ex03 OOP01\obj\Debug\Ex03 OOP01.pdb

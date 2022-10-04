@@ -27,6 +27,8 @@ namespace Ex02_FormMDI
             f1.Location = new Point(0, 40);
 
             f1.Show();
+
+            tsslInfo.Text = "Aperta finestra figlia 1";
         }
         private void btnApriFiglia2_Click(object sender, EventArgs e)
         {
@@ -38,6 +40,8 @@ namespace Ex02_FormMDI
             f2.Location = new Point(205, 40);
 
             f2.Show();
+
+            tsslInfo.Text = "Aperta finestra figlia 2";
         }
         private void esciToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -46,6 +50,8 @@ namespace Ex02_FormMDI
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             ModaleEsci form = new ModaleEsci();
+
+            tsslInfo.Text = "";
 
             if (form.ShowDialog() != DialogResult.Yes)
             {
