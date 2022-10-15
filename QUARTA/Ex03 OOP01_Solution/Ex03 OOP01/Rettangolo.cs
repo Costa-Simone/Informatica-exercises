@@ -8,11 +8,33 @@ namespace Ex03_OOP01
 {
     class Rettangolo
     {
-        private int lato1, lato2;
+        private int lato2;
+        private int lato1;
+
+        public int Lato1 // metodo
+        { 
+            get => lato1; 
+            // set => lato1 = value; // Se la set non c'è non posso modificare la variabile dall'esterno
+            set
+            {
+                if (value > 0)
+                {
+                    lato1 = value;
+                }
+                else
+                {
+                    lato1 = 1;
+                }
+            }
+        }
+        public int Lato2
+        {
+            get => lato2;
+        }
 
         public Rettangolo(int lato1, int lato2)
         {
-            this.lato1 = lato1;
+            this.Lato1 = lato1;
             this.lato2 = lato2;
         }
         public Rettangolo(int lato) : this(lato, lato)
@@ -24,7 +46,7 @@ namespace Ex03_OOP01
 
         public int area()
         {
-            return lato1 * lato2;
+            return Lato1 * lato2;
         }
     }
 }
