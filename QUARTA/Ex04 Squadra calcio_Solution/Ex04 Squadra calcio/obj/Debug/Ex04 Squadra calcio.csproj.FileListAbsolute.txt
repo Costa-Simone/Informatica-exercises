@@ -1,0 +1,9 @@
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex04 Squadra calcio_Solution\Ex04 Squadra calcio\bin\Debug\Ex04 Squadra calcio.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex04 Squadra calcio_Solution\Ex04 Squadra calcio\bin\Debug\Ex04 Squadra calcio.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex04 Squadra calcio_Solution\Ex04 Squadra calcio\bin\Debug\Ex04 Squadra calcio.pdb
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex04 Squadra calcio_Solution\Ex04 Squadra calcio\obj\Debug\Ex04 Squadra calcio.csprojAssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex04 Squadra calcio_Solution\Ex04 Squadra calcio\obj\Debug\Ex04_Squadra_calcio.Form1.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex04 Squadra calcio_Solution\Ex04 Squadra calcio\obj\Debug\Ex04_Squadra_calcio.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex04 Squadra calcio_Solution\Ex04 Squadra calcio\obj\Debug\Ex04 Squadra calcio.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex04 Squadra calcio_Solution\Ex04 Squadra calcio\obj\Debug\Ex04 Squadra calcio.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex04 Squadra calcio_Solution\Ex04 Squadra calcio\obj\Debug\Ex04 Squadra calcio.pdb
