@@ -1,0 +1,16 @@
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\bin\Debug\CostaSimone(04-11-22).exe.config
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\bin\Debug\CostaSimone(04-11-22).exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\bin\Debug\CostaSimone(04-11-22).pdb
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone(04-11-22).csproj.AssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone(04-11-22).csproj.SuggestedBindingRedirects.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone_04_11_22_.Figlia1.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone_04_11_22_.Form1.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone_04_11_22_.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone(04-11-22).csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone(04-11-22).csproj.CoreCompileInputs.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone(04-11-22).exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone(04-11-22).pdb
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone_04_11_22_.Figlia2.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone_04_11_22_.ModaleScelta.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone_04_11_22_.ModaleClose.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\CostaSimone(04-11-22)_solution\CostaSimone(04-11-22)\obj\Debug\CostaSimone_04_11_22_.ModaleInfo.resources

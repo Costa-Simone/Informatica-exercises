@@ -1,0 +1,22 @@
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\bin\Debug\Ex11 QueueProntoSoccorso.exe.config
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\bin\Debug\Ex11 QueueProntoSoccorso.exe
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\bin\Debug\Ex11 QueueProntoSoccorso.pdb
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.csproj.AssemblyReference.cache
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.csproj.SuggestedBindingRedirects.cache
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11_QueueProntoSoccorso.Form1.resources
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11_QueueProntoSoccorso.Properties.Resources.resources
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.csproj.GenerateResource.cache
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.csproj.CoreCompileInputs.cache
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.exe
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.pdb
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\bin\Debug\Ex11 QueueProntoSoccorso.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\bin\Debug\Ex11 QueueProntoSoccorso.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\bin\Debug\Ex11 QueueProntoSoccorso.pdb
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.csproj.AssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.csproj.SuggestedBindingRedirects.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11_QueueProntoSoccorso.Form1.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11_QueueProntoSoccorso.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.csproj.CoreCompileInputs.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex11 QueueProntoSoccorso_Solution\Ex11 QueueProntoSoccorso\obj\Debug\Ex11 QueueProntoSoccorso.pdb

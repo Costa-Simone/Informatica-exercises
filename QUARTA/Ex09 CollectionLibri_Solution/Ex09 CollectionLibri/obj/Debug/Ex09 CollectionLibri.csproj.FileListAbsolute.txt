@@ -1,0 +1,9 @@
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex09 CollectionLibri_Solution\Ex09 CollectionLibri\bin\Debug\Ex09 CollectionLibri.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex09 CollectionLibri_Solution\Ex09 CollectionLibri\bin\Debug\Ex09 CollectionLibri.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex09 CollectionLibri_Solution\Ex09 CollectionLibri\bin\Debug\Ex09 CollectionLibri.pdb
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex09 CollectionLibri_Solution\Ex09 CollectionLibri\obj\Debug\Ex09_CollectionLibri.Form1.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex09 CollectionLibri_Solution\Ex09 CollectionLibri\obj\Debug\Ex09_CollectionLibri.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex09 CollectionLibri_Solution\Ex09 CollectionLibri\obj\Debug\Ex09 CollectionLibri.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex09 CollectionLibri_Solution\Ex09 CollectionLibri\obj\Debug\Ex09 CollectionLibri.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex09 CollectionLibri_Solution\Ex09 CollectionLibri\obj\Debug\Ex09 CollectionLibri.pdb
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex09 CollectionLibri_Solution\Ex09 CollectionLibri\obj\Debug\Ex09 CollectionLibri.csprojAssemblyReference.cache

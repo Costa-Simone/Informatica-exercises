@@ -1,0 +1,11 @@
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex12 StackContainer_Solution\Ex12 StackContainer\bin\Debug\Ex12 StackContainer.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex12 StackContainer_Solution\Ex12 StackContainer\bin\Debug\Ex12 StackContainer.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex12 StackContainer_Solution\Ex12 StackContainer\bin\Debug\Ex12 StackContainer.pdb
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex12 StackContainer_Solution\Ex12 StackContainer\obj\Debug\Ex12 StackContainer.csproj.AssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex12 StackContainer_Solution\Ex12 StackContainer\obj\Debug\Ex12 StackContainer.csproj.SuggestedBindingRedirects.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex12 StackContainer_Solution\Ex12 StackContainer\obj\Debug\Ex12_StackContainer.Form1.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex12 StackContainer_Solution\Ex12 StackContainer\obj\Debug\Ex12_StackContainer.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex12 StackContainer_Solution\Ex12 StackContainer\obj\Debug\Ex12 StackContainer.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex12 StackContainer_Solution\Ex12 StackContainer\obj\Debug\Ex12 StackContainer.csproj.CoreCompileInputs.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex12 StackContainer_Solution\Ex12 StackContainer\obj\Debug\Ex12 StackContainer.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex12 StackContainer_Solution\Ex12 StackContainer\obj\Debug\Ex12 StackContainer.pdb

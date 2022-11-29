@@ -1,0 +1,22 @@
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\bin\Debug\Ex10 DictionaryNegozio.exe.config
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\bin\Debug\Ex10 DictionaryNegozio.exe
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\bin\Debug\Ex10 DictionaryNegozio.pdb
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.csproj.AssemblyReference.cache
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.csproj.SuggestedBindingRedirects.cache
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10_DictionaryNegozio.Form1.resources
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10_DictionaryNegozio.Properties.Resources.resources
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.csproj.GenerateResource.cache
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.csproj.CoreCompileInputs.cache
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.exe
+C:\Users\valbo\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.pdb
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\bin\Debug\Ex10 DictionaryNegozio.exe.config
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\bin\Debug\Ex10 DictionaryNegozio.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\bin\Debug\Ex10 DictionaryNegozio.pdb
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.csproj.AssemblyReference.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.csproj.SuggestedBindingRedirects.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10_DictionaryNegozio.Form1.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10_DictionaryNegozio.Properties.Resources.resources
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.csproj.GenerateResource.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.csproj.CoreCompileInputs.cache
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.exe
+C:\Users\s.costa.2235\Documents\GitHub\info-playground-Costa-Simone\Ex10 DictionaryNegozio_Solution\Ex10 DictionaryNegozio\obj\Debug\Ex10 DictionaryNegozio.pdb
